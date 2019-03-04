@@ -2,20 +2,20 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     background-color: #121212 !important;
 }
 
-#hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c{
+#hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c, .vk_cxp, .gb_z{
     background: #121212 !important;
 }
 
-#hdtb, .gb_z, .gb_E {
+#hdtb, .gb_z, .gb_E, .b2hzT, #fbar {
     border-color: #505050 !important;
 }
 
-.gb_z {
-    background: #121212 !important;
+.gb_z, .gb_Eb {
+    color: white !important;
 }
 
 .gb_D, .gb_qb {
-    background: #333 !important
+    background: #1b1b1b !important;
 }
 
 .gb_qb:hover {
@@ -35,7 +35,7 @@ body, g-inner-card, .iKjWAf, .sfbgg {
 }
 
 /*  borders for tables and cards */
-.cv2VAd, .kp-blk { 
+.cv2VAd, .kp-blk, .vk_c, .vk_cxp, #rhs .fIcnad { 
     border-color: #505050 !important;    
 }
 
@@ -81,7 +81,7 @@ body, g-inner-card, .iKjWAf, .sfbgg {
 }
 
 .logo a img {
-    background: white !important;
+    background: #121212 !important;
 }
 
 .ILfuVd {
@@ -120,9 +120,7 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     color: white !important;
 }
 
-
-
-a:link, .u2sJ0e .lA0GG  {
+a:link, .u2sJ0e .lA0GG, #hdtb .hdtb-mitem a  {
     color: #3ea6ff !important;
 }
 
@@ -131,5 +129,5 @@ a:hover, .u2sJ0e .lA0GG:hover {
 }
 
 a:visited {
-    color: rgb(161, 7, 161) !important;
+    color: rgb(201, 69, 201) !important;
 }
