@@ -6,12 +6,22 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     background: #121212 !important;
 }
 
-#hdtb, .gb_z, .gb_E, .b2hzT, #fbar {
+#hdtb, .gb_z, .gb_E, .b2hzT, #fbar, .garHBe {
     border-color: #505050 !important;
 }
 
-.gb_z, .gb_Eb {
+.gb_z, .gb_Eb, .IZACzd, .Ndq8Rb, .piVJ4d, .cwUqwd {
     color: white !important;
+}
+
+.h7xSye {
+    fill: rgba(255, 255, 255, 0.57) !important;
+    border: rgba(255, 255, 255, 0.57) !important;
+}
+
+.h7xSye:hover {
+    fill: rgb(255, 255, 255) !important;
+    border: rgb(255, 255, 255) !important;
 }
 
 .gb_D, .gb_qb {
@@ -63,8 +73,22 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     color: #006621 !important;
 }
 
-.SW5pqf, .EZRelc {
+
+/* MORE text */
+.SW5pqf, .EZRelc, .xXEKkb {
     color: #20ffe0 !important;
+}
+
+.RJ3lSb {
+    color: rgba(255, 255, 255, 0.62) !important;
+}
+
+.HF3S5b {
+    color: rgba(255, 255, 255, 0.26) !important;
+}
+
+.mFI2Qb {
+    color: rgba(255, 255, 255, 0.87) !important;
 }
 
 .XCKyNd {
@@ -120,7 +144,8 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     color: white !important;
 }
 
-a:link, .u2sJ0e .lA0GG, #hdtb .hdtb-mitem a  {
+/* links */
+a:link, .u2sJ0e .lA0GG, #hdtb .hdtb-mitem a, .xXEKkb, #hdtb .hdtb-mitem a  {
     color: #3ea6ff !important;
 }
 
@@ -130,4 +155,8 @@ a:hover, .u2sJ0e .lA0GG:hover {
 
 a:visited {
     color: rgb(201, 69, 201) !important;
+}
+
+#hdtb-tls:hover {
+    color: #222 !important;
 }
