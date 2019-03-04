@@ -23,10 +23,9 @@ if not os.path.exists('Builds'):
 try:
     with ZipFile('Builds/' + filename, 'w') as zf:
         zf.write('manifest.json')  # add manifiest.json to archive
-
         # add icons to archive
-        # for icon in os.listdir('icons'):
-        #     zf.write(f'icons/{icon}')
+        for icon in os.listdir('icons'):
+            zf.write(f'icons/{icon}')
 
         # add css file to archive
         zf.write('style.css')
