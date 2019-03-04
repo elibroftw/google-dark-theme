@@ -14,6 +14,14 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     color: white !important;
 }
 
+.gb_ub:hover {
+    background-color: #363636 !important;
+}
+
+.gb_qb:hover {
+    background-color: #121212 !important;
+}
+
 .h7xSye {
     fill: rgba(255, 255, 255, 0.57) !important;
     border: rgba(255, 255, 255, 0.57) !important;
