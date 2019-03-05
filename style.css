@@ -6,8 +6,12 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     background: #121212 !important;
 }
 
-#hdtb, .gb_z, .gb_E, .b2hzT, #fbar, .garHBe {
+#hdtb, .gb_z, .gb_E, .b2hzT, #fbar, .garHBe, #gb#gb a.gb_c {
     border-color: #505050 !important;
+}
+
+.gb_h:hover .gb_m {
+    background: #505050 !important;
 }
 
 .cF4V5c {
@@ -102,6 +106,17 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     color: #006621 !important;
 }
 
+#rhs_block > div.g.rhsvw.kno-kp.g-blk.mnr-c > div.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div > div.ifM9O > div:nth-child(2) > div.SALvLe.farUxc.mJ2Mod > div > div > div > div > span.w8qArf a  {
+    color: #006621 !important;
+}
+
+.RNNXgb {
+    background-color: black !important;
+}
+
+.gLFyf {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
 
 /* MORE text */
 .SW5pqf, .EZRelc, .xXEKkb {
@@ -165,16 +180,20 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     color: #ededed !important;
 }
 
-/* .w8qArf .fl {
-    color: #006621 !important;
-} */
-
 .mod, #foot #navcnt .cur, .webanswers-webanswers_table__webanswers-table th, .kno-ecr-pt, .C9iYEe {
     color: white !important;
 }
 
 /* links */
 a:link, .u2sJ0e .lA0GG, .xXEKkb  {
+    color: #3ea6ff !important;
+}
+
+.gb_m {
+    color: #3ea6ff !important;
+}
+
+.gb_m:hover {
     color: #3ea6ff !important;
 }
 

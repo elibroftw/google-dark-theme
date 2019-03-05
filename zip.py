@@ -35,5 +35,5 @@ except Exception as e:
         print(e)
         breakpoint()
 
-print('Zip successful')
+print('Build successful')
 # TODO: use web-ext
