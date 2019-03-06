@@ -6,6 +6,7 @@ import json
 with open('manifest.json') as f:
     data = json.load(f)
 
+# versioning: releases.builds
 version = data['version'].split('.')
 version[-1] = str(1 + int(version[-1]))
 version = '.'.join(version)
