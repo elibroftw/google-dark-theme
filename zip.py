@@ -7,7 +7,7 @@ with open('manifest.json') as f:
     data = json.load(f)
 
 version = data['version'].split('.')
-version[3] = str(1 + int(version[3]))
+version[-1] = str(1 + int(version[-1]))
 version = '.'.join(version)
 data['version'] = version
 

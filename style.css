@@ -10,6 +10,28 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     border-color: #505050 !important;
 }
 
+
+.garHBe, .y8Jpof .LrzXr {
+    color: #c6c2c2 !important;
+}
+
+.y8Jpof:hover {
+    background: #363636 !important;
+}
+
+.RNNXgb {
+    border-color: #505050 !important;
+}
+
+.sbhl {
+    background: #1e1e1e !important;
+}
+
+.RNNXgb:hover {
+    border-color: transparent !important;
+    box-shadow: 0 1px 6px 0 rgba(255, 255, 255, 0.28);
+}
+
 .gb_h:hover .gb_m {
     background: #505050 !important;
 }
@@ -62,7 +84,7 @@ body, g-inner-card, .iKjWAf, .sfbgg {
 }
 
 .gb_qb:hover {
-    background: rgb(75, 75, 75) !important;
+    background: #1b1b1b !important;
 }
 
 .minidiv .sfbg {
@@ -116,6 +138,21 @@ body, g-inner-card, .iKjWAf, .sfbgg {
 
 .gLFyf {
     color: rgba(255, 255, 255, 0.87) !important;
+}
+
+
+/* Search bar stuff */
+
+.emcav .RNNXgb {
+    border-color: transparent !important;
+}
+
+.aajZCb {
+    background: black !important;
+    box-shadow: 0 4px 6px 0 rgba(255, 255, 255, 0.28);
+}
+.sbl1 {
+    color: #dbdbdb !important;
 }
 
 /* MORE text */
