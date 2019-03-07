@@ -13,7 +13,7 @@ version = '.'.join(version)
 data['version'] = version
 
 with open('manifest.json', 'w') as fp:
-    json.dump(data, fp)
+    json.dump(data, fp, indent=4)
 
 name = data['short_name']
 filename = name + ' ' + version + '.zip'
