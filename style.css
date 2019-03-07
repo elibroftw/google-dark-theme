@@ -14,6 +14,14 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     color: #c6c2c2 !important;
 }
 
+.rl_item_base {
+    background-color: #121212 !important;
+}
+
+.rl_item_base .title, .CAaTrb, .aXUuyd {
+    color: #c6c2c2 !important;
+}
+
 .y8Jpof:hover {
     background: #363636 !important;
 }
@@ -228,8 +236,26 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     color: white !important;
 }
 
+.orgdxf {
+    background: transparent !important;
+}
+
+.vk_bk {
+    color: white !important;
+}
+
+.BTP3Ac {
+    border-color: white transparent !important;
+    cursor: pointer !important;
+}
+
+/* times places are open */
+td.SKNSIb, .WgFkxc td {
+    color: white !important
+}
+
 /* links */
-a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m {
+a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .GtMhHe, .nRfCwb, .ubF8Rd {
     color: #3ea6ff !important;
 }
 
