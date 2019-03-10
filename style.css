@@ -401,6 +401,10 @@ a.LwS2ce:link {
     border-color: transparent !important;
 }
 
+.MZy1Rb > svg:nth-child(1) {
+    color: #4285f4 !important;
+}
+
 .aajZCb {
     background: black !important;
     box-shadow: 0 4px 6px 0 rgba(255, 255, 255, 0.28);
@@ -540,7 +544,7 @@ option {
 /*  */
 
 /* links */
-a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .GtMhHe, .nRfCwb, .ubF8Rd {
+a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .GtMhHe, .nRfCwb, .ubF8Rd, .w {
     color: #3ea6ff !important;
 }
 
@@ -548,7 +552,7 @@ a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .GtMhHe, .nRfCwb, .ubF8Rd {
     color: #3ea6ff !important;
 }
 
-a:hover, .u2sJ0e .lA0GG:hover {
+a:hover, .u2sJ0e .lA0GG:hover, .w:hover {
     color: #9ed0fc !important;
 }
 
