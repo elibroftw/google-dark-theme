@@ -6,8 +6,56 @@ html {
 
 ::-webkit-scrollbar {
     width: 15px;
-  }
-  
+}
+
+/* Mobile */
+.zGVn2e {
+    border: 1px solid black !important;
+    background: black !important;
+}
+
+.Tg7LZd {
+    background-color: black !important;
+}
+
+.card:not(:empty), .mnr-c:not(:empty), .mnr-c.bUNBRd:not(:empty), .VibNM, .mnr-c.bUNBRd:not(:empty) {
+    background-color: #121212 !important;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.28) !important;
+}
+
+#hdtb-sc {
+    box-shadow: 0px 7px 6px -5px #5C5C5C !important;
+}
+
+.MGqjK {
+    background-color: #505050 !important;
+}
+
+.GNJvt {
+    background-color: #121212 !important;
+    color: #c0c1c5 !important;
+}
+
+.QgXoL {
+    color: #d7dae1 !important;
+}
+
+.s75CSd {
+    color: #c0c0c0 !important;
+}
+
+.footer__language-header {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.lpFMp {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.fbar {
+    background: #121212 !important;
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
     background: #121212;
@@ -50,6 +98,26 @@ body, g-inner-card, .iKjWAf, .sfbgg {
     border-color: #505050 !important;
     box-shadow: none !important;
     /* DO A BETTER BOX SHADOWN */
+}
+
+.afrOIf {
+    background-color: #121212 !important;
+}
+
+.rIKiec {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+#rhs .kp-blk {
+    background-color: #121212 !important;
+}
+
+.Jtu6Td {
+    color: #f9f9f9 !important;
+}
+
+.ZefCve {
+    color: white !important;
 }
 
 /* Dictionary */
@@ -338,7 +406,8 @@ a.LwS2ce:link {
 }
 
 .gb_Vb {
-    background-color: white;
+    /* background-color: white; */
+    filter: invert(100);
 }
 
 .gb_yc {
@@ -556,6 +625,30 @@ a:hover, .u2sJ0e .lA0GG:hover, .w:hover {
     color: #9ed0fc !important;
 }
 
+
+/* Currency */
+.R9zNe, .uWmgv {
+    background-color: #121212 !important;
+}
+
+.Hg3mWc, .yvg0ob span {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.Hg3mWc:focus {
+    color: white !important;
+}
+
+.qUjgX {
+    color: white !important;
+}
+
+.gx4n6c {
+    background: #121212 !important;
+    color: white !important;
+}
+/*  */
 #hdtb .hdtb-mitem a {
     color: #777 !important;
 }
