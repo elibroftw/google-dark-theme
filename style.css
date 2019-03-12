@@ -8,19 +8,70 @@ html {
     width: 15px;
 }
 
+
+/* Sports */
+.tb_view.We6bVe.r-igjunLUox4L4 {
+    background-color: black !important;
+}
+
+.imspo_mt__dt-t, .imspo_mt__pm-inf {
+    color: rgba(254, 254, 254, 0.87) !important;
+}
+
+.imspo_mt__lt-t {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.imspo_mt__cm-s.imspo_mt__ndl-p.imso-medium-font.imspo_mt__match-status, .imspo_mt__lg-st-co, .ellipsisize, .imspo_mt__tt-w {
+    color: white !important;
+}
+
+.imspo_mt__cmd {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.imspo_mt__triangle {
+    filter: invert(100);
+}
+
+.imspo_mt__sc-spc {
+    color: white !important;
+}
+
+.liveresults-sports-immersive__team-seed-or-rank {
+    color: rgba(255, 255, 255, 0.56) !important;
+}
+
+.SXBRcc {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.imso-hov, .oajNTd.imso-hide-loading {
+    background-color: #121212 !important;
+}
+
+.imso-hov:hover, .imso-hov:focus {
+    background-color: #363636 !important;
+}
+
+.AA8jgb {
+    color: gray !important;
+    background: #121212 !important;
+}
+
 /* Mobile */
 .zGVn2e {
     border: 1px solid black !important;
     background: black !important;
 }
 
-.Tg7LZd {
+/* .Tg7LZd {
     background-color: black !important;
-}
+} */
 
 .card:not(:empty), .mnr-c:not(:empty), .mnr-c.bUNBRd:not(:empty), .VibNM, .mnr-c.bUNBRd:not(:empty) {
     background-color: #121212 !important;
-    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.28) !important;
+    /* box-shadow: 0 1px 6px rgba(255, 255, 255, 0.28) !important; */
 }
 
 #hdtb-sc {
@@ -69,6 +120,59 @@ html {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: grey;
+}
+
+/* Reviews Modal */
+.lcorif {
+    background: #121212 !important;
+}
+
+.review-dialog, .zZoSGe, .gLSAk {
+    background: #121212 !important;
+}
+
+.oLMvxj8HcwN__highlighted, .ErsxPb:active {
+    background-color: #363636 !important;
+}
+
+.VUGnzb {
+    color: #777 !important;
+}
+
+#wrl {
+    color: white !important;
+}
+
+#wrl:hover {
+    color: white !important;
+}
+
+.mobile-scrollable, .footer-tile {
+    background-color: #121212 !important;
+}
+
+.user-name {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.user-notice {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.fTKmHE99XE4__star-xl, .fTKmHE99XE4__star-xl span, .fTKmHE99XE4__star-s, .fTKmHE99XE4__star-s span {
+    filter: invert(100) !important;
+}
+
+.rating .rating-star-full {
+    filter: invert(0) !important;
+}
+
+.rating .rating-star {
+    filter: invert(100) !important;
+}
+
+.dkSGpd:hover {
+    color: white !important;
 }
 
 /**/
@@ -483,7 +587,7 @@ a.LwS2ce:link {
 }
 
 /* MORE text */
-.SW5pqf, .EZRelc, .xXEKkb, div.BAyyse:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(2), .lr_dct_more_btn {
+.SW5pqf, .EZRelc, .xXEKkb, div.BAyyse:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(2), .lr_dct_more_btn, .TYiug {
     color: #20ffe0 !important;
 }
 
