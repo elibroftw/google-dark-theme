@@ -253,6 +253,9 @@ body, g-inner-card, .iKjWAf, .sfbgg {
 }
 
 /*  */
+.gb_0b {
+    filter: invert(100) !important;
+}
 
 .w3RMhb .zFsEvf {
     color: #999 !important;
@@ -767,4 +770,11 @@ a:visited {
 
 #hdtb-tls:hover {
     color: #222 !important;
+}
+
+/* Temperature */
+.wob_ds {
+    /* background-color: #363636; */
+    background-color: #1b1b1b !important;
+    border: 1px solid #505050 !important;
 }
