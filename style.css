@@ -739,6 +739,26 @@ option {
 }
 
 /*  */
+i {
+    color: #888 !important;
+}
+
+/* SONGS */
+.Eegi6c {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.rl_container, .rlc__slider, .rlc__slider-page {
+    color: black !important;
+}
+
+.rl_center {
+    border: none !important;
+}
+
+.CNf3nf.wecD1d, .mlo-c {
+    background-color: black !important;
+}
 
 /* links */
 a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .GtMhHe, .nRfCwb, .ubF8Rd, .w {
