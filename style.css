@@ -819,3 +819,32 @@ a:visited {
     background-color: #1b1b1b !important;
     border: 1px solid #505050 !important;
 }
+
+/* Movies */
+.H1ccWd {
+    color: #999 !important;
+}
+
+.kappbar {
+    background: #121212 !important;
+}
+
+.klbar {
+    border-color: white !important;
+}
+
+.kltat, .klfact {
+    color: white !important;
+}
+
+.klitem:hover .kltat, .klitem:hover .klfact {
+    color: black !important;
+}
+
+.lx_ctl .ksb.ab_button, .kxctl-dd {
+    color: #999 !important;
+}
+
+a.ksb.ab_button.kxctl-b:hover {
+    color: #3ea6ff !important;
+}
