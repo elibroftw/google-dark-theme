@@ -5,8 +5,8 @@ from shutil import rmtree
 from contextlib import suppress
 
 
-os.makedirs('Builds', exist_ok=True)
 rmtree('Builds', ignore_errors=True)
+os.makedirs('Builds')
 
 with open('manifest.json') as f:
     data = json.load(f)
