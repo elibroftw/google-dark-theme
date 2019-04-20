@@ -567,7 +567,8 @@ a.LwS2ce:link {
     color: white !important;
 }
 
-.w8qArf .fl, .wUrVib, a.fl {
+.w8qArf .fl, a.fl,
+#rso>div:nth-child(1)>div>div.kp-blk.c14z5c.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(n + 3)>div>div>span.w8qArf>a {
     color: #006621 !important;
 }
 
@@ -579,7 +580,7 @@ a.LwS2ce:link {
     background-color: black !important;
 }
 
-#rhs_block > div.g.rhsvw.kno-kp.g-blk.mnr-c > div.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div > div.ifM9O > div:nth-child(2) > div.SALvLe.farUxc.mJ2Mod > div > div > div > div > span.w8qArf a  {
+#rhs_block>div.g.rhsvw.kno-kp.g-blk.mnr-c>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div>div>div>span.w8qArf a {
     color: #006621 !important;
 }
 
