@@ -68,6 +68,8 @@ html {
     background-color: black !important;
 } */
 
+
+
 .card:not(:empty), .mnr-c:not(:empty), .mnr-c.bUNBRd:not(:empty), .VibNM, .mnr-c.bUNBRd:not(:empty) {
     background-color: #121212 !important;
     /* box-shadow: 0 1px 6px rgba(255, 255, 255, 0.28) !important; */
@@ -568,8 +570,19 @@ a.LwS2ce:link {
 }
 
 .w8qArf .fl, a.fl,
-#rso>div:nth-child(1)>div>div.kp-blk.c14z5c.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(n + 3)>div>div>span.w8qArf>a {
+#rso>div:nth-child(1)>div>div.kp-blk.c14z5c.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(n + 3)>div>div>span.w8qArf>a,
+#rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div:nth-child(n + 5)>div>div>span.w8qArf>a {
     color: #006621 !important;
+}
+/* Compass Icon */
+
+.M5mFPb {
+    content: url("https://image.flaticon.com/icons/svg/149/149975.svg");
+    filter: invert(100);
+}
+
+.O0Trmf {
+    fill: rgba(255, 255, 255, 0.54) !important;
 }
 
 #cwos {
