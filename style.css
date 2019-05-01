@@ -775,7 +775,7 @@ i {
 }
 
 /* links */
-a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .GtMhHe, .nRfCwb, .ubF8Rd, .w, .RJn8N.xXEKkb.ellip, .wUrVib {
+a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .GtMhHe, .nRfCwb, .ubF8Rd, .w, .RJn8N.xXEKkb.ellip, .wUrVib, .L4FTLe .F3hKEb {
     color: #3ea6ff !important;
 }
 
@@ -791,19 +791,24 @@ a:hover, .u2sJ0e .lA0GG:hover, .w:hover {
 /* Currency */
 .R9zNe, .uWmgv {
     background-color: #121212 !important;
+    color: #b3b3b3 !important;
 }
 
-.Hg3mWc, .yvg0ob span {
+.Hg3mWc, .yvg0ob span, span#knowledge-currency__tgt-currency, span#knowledge-currency__tgt-amount {
     background-color: #121212 !important;
     color: white !important;
 }
 
-.Hg3mWc:focus {
-    color: white !important;
+input#knowledge-currency__src-input:focus, select#knowledge-currency__src-selector, select#knowledge-currency__tgt-selector  {
+    color: #70757A !important;
 }
 
 .qUjgX {
-    color: white !important;
+    color: white;
+}
+
+.fw-ch-sel .KWk7r.qUjgX {
+    background-color: black !important;
 }
 
 .gx4n6c {
@@ -811,6 +816,16 @@ a:hover, .u2sJ0e .lA0GG:hover, .w:hover {
     color: white !important;
 }
 /*  */
+
+.hsbst {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.hs-opt-location-tip-container {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+
 #hdtb .hdtb-mitem a {
     color: #777 !important;
 }
@@ -887,4 +902,28 @@ a.ksb.ab_button.kxctl-b:hover {
 
 .fw-price-nc.IsqQVc {
     color: rgba(255, 255, 255, 0.54) !important;
+}
+
+#akp_uid_12 > div > div > div > div > div > div.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div > div.ifM9O > div:nth-child(n) > div.SALvLe > div > div.EfDVh.mod > div > div > span.w8qArf > a {
+    color: white !important;
+}
+
+.OZ8wsd {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.gXgTfd, .DubFFd {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.sSf5xf {
+    color: #999 !important;
+}
+
+.FjdPod {
+    filter: invert(100);
+}
+
+.KMdzJ {
+    color: rgba(255, 255, 255, 0.87);
 }
