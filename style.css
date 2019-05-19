@@ -694,7 +694,7 @@ a.LwS2ce:link {
     background: transparent !important;
 }
 
-.vk_bk, #rso > div:nth-child(1) > div > div.kp-blk.Wnoohf.OJXvsb > div > div.ifM9O > div:nth-child(2) > div > div > div > div > span > div > div > div, #uid_0 > div.r-iRDCA7_WGMRc > div > div > div.ellip.vk_h.lxZILe > span {
+.vk_bk, #rso > div:nth-child(1) > div > div.kp-blk.Wnoohf.OJXvsb > div > div.ifM9O > div:nth-child(2) > div > div > div > div > span > div > div > div, #uid_0 > div.r-iRDCA7_WGMRc > div > div > div.ellip.vk_h.lxZILe > span, #uid_3 > div.r-ibe8TjOdj4pI > div > div > div.ellip.vk_h.lxZILe > span > span {
     color: white !important;
 }
 
@@ -926,4 +926,12 @@ a.ksb.ab_button.kxctl-b:hover {
 
 .KMdzJ {
     color: rgba(255, 255, 255, 0.87);
+}
+
+.dUFb4e {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+a.gb_x.gb_Ub {
+    filter: invert(100);
 }

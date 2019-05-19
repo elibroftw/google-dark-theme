@@ -29,5 +29,5 @@ with ZipFile('Builds/' + filename, 'w') as zf:
         zf.write(f'icons/{icon}')
     zf.write('style.css')  # add css file to archive
 
-print('Build successful')
+print(f'Build successful. Version: {version}')
 # TODO: use web-ext
