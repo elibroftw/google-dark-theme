@@ -727,7 +727,7 @@ td.SKNSIb, .WgFkxc td {
     border-bottom-color: #121212 !important;
 }
 
-.tw-data-text, #tw-source-text-ta {
+.tw-data-text, #tw-source-text-ta, #tw-target-text > span {
     color: #e3e3e3 !important;
 }
 
@@ -934,4 +934,8 @@ a.ksb.ab_button.kxctl-b:hover {
 
 a.gb_x.gb_Ub {
     filter: invert(100);
+}
+
+#Wprf1b {
+    color: #888 !important;
 }
