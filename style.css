@@ -29,10 +29,6 @@ html {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.imspo_mt__triangle {
-    filter: invert(100);
-}
-
 .imspo_mt__sc-spc {
     color: white !important;
 }
@@ -160,7 +156,7 @@ html {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.fTKmHE99XE4__star-xl, .fTKmHE99XE4__star-xl span, .fTKmHE99XE4__star-s, .fTKmHE99XE4__star-s span {
+.fTKmHE99XE4__star-xl, .fTKmHE99XE4__star-xl span, .fTKmHE99XE4__star-s, .fTKmHE99XE4__star-s span, .imspo_mt__triangle {
     filter: invert(100) !important;
 }
 
@@ -920,7 +916,7 @@ a.ksb.ab_button.kxctl-b:hover {
     color: #999 !important;
 }
 
-.FjdPod {
+.FjdPod, .gb_w .gb_x, a.gb_x.gb_Ub {
     filter: invert(100);
 }
 
@@ -930,10 +926,6 @@ a.ksb.ab_button.kxctl-b:hover {
 
 .dUFb4e {
     color: rgba(255, 255, 255, 0.87) !important;
-}
-
-a.gb_x.gb_Ub {
-    filter: invert(100);
 }
 
 #Wprf1b {
