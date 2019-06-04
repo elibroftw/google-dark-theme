@@ -3,9 +3,11 @@ import os
 import json
 from shutil import rmtree
 from contextlib import suppress
+import datetime
 
 
 rmtree('Builds', ignore_errors=True)
+# TODO: use files = glob.glob('/YOUR/PATH/*'); os.remove(f)
 os.makedirs('Builds')
 
 with open('manifest.json') as f:
@@ -29,5 +31,5 @@ with ZipFile('Builds/' + filename, 'w') as zf:
         zf.write(f'icons/{icon}')
     zf.write('style.css')  # add css file to archive
 
-print(f'Build successful. Version: {version}')
-# TODO: use web-ext
+print(f'Build successful. Version: {version}\nTimestamp: {datetime.datetime.now().time()}')
+# TODO: use web-ext?
