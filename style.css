@@ -963,3 +963,31 @@ a.ksb.ab_button.kxctl-b:hover {
 span.act-inactive-stopwatch-icon, span.act-inactive-timer-icon, img.act-icon-dark-gray {
     filter: invert(100);
 }
+
+.cdr_dlg {
+    background-color: #121212 !important;
+}
+
+.cdr_dlg .goog-date-picker {
+    background-color: #5555 !important;
+}
+
+.cdr_highl {
+    background-color: transparent !important;
+}
+
+#cdr_cont > div.cdr_dlg > div.cdr_ttl {
+    color: #aaa !important;
+}
+
+.cdr_mml {
+    color: #999 !important;
+}
+
+.cdr_cls {
+    filter: invert(100);
+}
+
+.cdr_dlg .goog-date-picker-btn {
+    color: white !important;
+}
