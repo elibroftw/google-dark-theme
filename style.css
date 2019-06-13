@@ -738,6 +738,26 @@ td.SKNSIb, .WgFkxc td {
     color: #e3e3e3 !important;
 }
 
+.gt-is, #tw-target, .fp-w.GL3ftd {
+    background-color: #121212 !important;
+}
+
+.language_list_languages.language_list_sl_list.tw-ll-top {
+    background-color: #112211 !important;
+}
+
+.language_list_languages.tw-ll-top::after {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0),rgb(0, 0, 0)) !important;
+}
+
+.language_list_item {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.tw-lp-search {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
 option {
     color: #e3e3e3;
     background: #121212;
