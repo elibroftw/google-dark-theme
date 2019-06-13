@@ -4,7 +4,19 @@ import json
 from shutil import rmtree
 from contextlib import suppress
 import datetime
+from git import Repo
 
+
+def git_push():
+    try:
+        repo = Repo('.git')
+        repo.git.add(update=True)
+        repo.index.commit('updated styles')
+        origin = repo.remote(name='origin')
+        origin.push()
+    except: print('Some error occured while pushing the code')
+    finally: print('Code push from script succeeded')   
+    
 
 rmtree('Builds', ignore_errors=True)
 # TODO: use files = glob.glob('/YOUR/PATH/*'); os.remove(f)
@@ -32,4 +44,6 @@ with ZipFile('Builds/' + filename, 'w') as zf:
     zf.write('style.css')  # add css file to archive
 
 print(f'Build successful. Version: {version}\nTimestamp: {datetime.datetime.now().time()}')
-# TODO: use web-ext?
+# TODO: use web-ext? 
+
+git_push()
