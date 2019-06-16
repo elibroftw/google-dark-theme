@@ -11,7 +11,7 @@ def git_push():
     try:
         repo = Repo('.git')
         repo.git.add(update=True)
-        repo.index.commit('updated styles')
+        repo.index.commit('updated style.css')
         origin = repo.remote(name='origin')
         origin.push()
     except: print('Some error occured while pushing the code')
