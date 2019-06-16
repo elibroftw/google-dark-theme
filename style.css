@@ -1011,3 +1011,7 @@ span.act-inactive-stopwatch-icon, span.act-inactive-timer-icon, img.act-icon-dar
 .cdr_dlg .goog-date-picker-btn {
     color: white !important;
 }
+
+#rhs_block > div > div.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div > div.ifM9O > div:nth-child(2) > div.NFQFxe.viOShc.LKPcQc.mod > div > div > stats-table > div > table > tbody > tr:nth-child(n) > td:nth-child(n) > div {
+    color: white !important;
+}
