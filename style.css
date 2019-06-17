@@ -60,6 +60,23 @@ html {
     background: black !important;
 }
 
+.TCmnBf {
+    color: #c6c8ce !important;
+}
+
+.GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc {
+    background-color: #121212 !important;
+}
+
+.Pg0Rye, .aig-r, .UiY7ub, .CfxQhe {
+    color: white !important;
+}
+
+.yTREwe {
+    background-color: black !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
 /* .Tg7LZd {
     background-color: black !important;
 } */
@@ -596,6 +613,11 @@ a.LwS2ce:link {
 
 /* Search bar stuff */
 
+.Tg7LZd {
+    background-color: black !important;
+    border: none !important;
+}
+
 .RNNXgb, .sbibod {
     background-color: black !important;
     border: 2px solid #505050 !important;
@@ -1015,3 +1037,4 @@ span.act-inactive-stopwatch-icon, span.act-inactive-timer-icon, img.act-icon-dar
 #rhs_block > div > div.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div > div.ifM9O > div:nth-child(2) > div.NFQFxe.viOShc.LKPcQc.mod > div > div > stats-table > div > table > tbody > tr:nth-child(n) > td:nth-child(n) > div {
     color: white !important;
 }
+
