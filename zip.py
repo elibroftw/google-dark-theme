@@ -15,7 +15,7 @@ def git_push():
         origin = repo.remote(name='origin')
         origin.push()
     except: print('Some error occured while pushing the code')
-    finally: print('Code push from script succeeded')   
+    finally: print('Git push from script succeeded')   
     
 
 rmtree('Builds', ignore_errors=True)
