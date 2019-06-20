@@ -77,12 +77,6 @@ html {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-/* .Tg7LZd {
-    background-color: black !important;
-} */
-
-
-
 .card:not(:empty), .mnr-c:not(:empty), .mnr-c.bUNBRd:not(:empty), .VibNM, .mnr-c.bUNBRd:not(:empty) {
     background-color: #121212 !important;
     /* box-shadow: 0 1px 6px rgba(255, 255, 255, 0.28) !important; */
@@ -612,7 +606,7 @@ a.LwS2ce:link {
 /* Search bar stuff */
 
 .Tg7LZd {
-    background-color: black !important;
+    background-color: transparent !important;
     border: none !important;
 }
 
