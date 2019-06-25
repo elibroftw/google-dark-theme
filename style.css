@@ -17,19 +17,11 @@ html {
     color: rgba(254, 254, 254, 0.87) !important;
 }
 
-.imspo_mt__lt-t {
+.imspo_mt__lt-t, .j04ED, .imspo_mt__cmd, .SXBRcc, .footer__language-header, .user-notice, .rIKiec {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.imspo_mt__cm-s.imspo_mt__ndl-p.imso-medium-font.imspo_mt__match-status, .imspo_mt__lg-st-co, .ellipsisize, .imspo_mt__tt-w {
-    color: white !important;
-}
-
-.imspo_mt__cmd {
-    color: rgba(255, 255, 255, 0.54) !important;
-}
-
-.imspo_mt__sc-spc {
+.imspo_mt__cm-s.imspo_mt__ndl-p.imso-medium-font.imspo_mt__match-status, .imspo_mt__lg-st-co, .ellipsisize, .imspo_mt__tt-w, .imspo_mt__sc-spc {
     color: white !important;
 }
 
@@ -37,11 +29,7 @@ html {
     color: rgba(255, 255, 255, 0.56) !important;
 }
 
-.SXBRcc {
-    color: rgba(255, 255, 255, 0.54) !important;
-}
-
-.imso-hov, .oajNTd.imso-hide-loading {
+.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, g-inner-card, .iKjWAf, .sfbgg {
     background-color: #121212 !important;
 }
 
@@ -62,10 +50,6 @@ html {
 
 .TCmnBf {
     color: #c6c8ce !important;
-}
-
-.GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc {
-    background-color: #121212 !important;
 }
 
 .Pg0Rye, .aig-r, .UiY7ub, .CfxQhe {
@@ -103,10 +87,6 @@ html {
     color: #c0c0c0 !important;
 }
 
-.footer__language-header {
-    color: rgba(255, 255, 255, 0.54) !important;
-}
-
 .lpFMp {
     color: rgba(255, 255, 255, 0.87) !important;
 }
@@ -131,11 +111,7 @@ html {
 }
 
 /* Reviews Modal */
-.lcorif {
-    background: #121212 !important;
-}
-
-.review-dialog, .zZoSGe, .gLSAk {
+.lcorif, .review-dialog, .zZoSGe, .gLSAk {
     background: #121212 !important;
 }
 
@@ -147,11 +123,7 @@ html {
     color: #777 !important;
 }
 
-#wrl {
-    color: white !important;
-}
-
-#wrl:hover {
+#wrl, #wrl:hover, .dkSGpd:hover {
     color: white !important;
 }
 
@@ -161,10 +133,6 @@ html {
 
 .user-name {
     color: rgba(255, 255, 255, 0.87) !important;
-}
-
-.user-notice {
-    color: rgba(255, 255, 255, 0.54) !important;
 }
 
 .fTKmHE99XE4__star-xl, .fTKmHE99XE4__star-xl span, .fTKmHE99XE4__star-s, .fTKmHE99XE4__star-s span, .imspo_mt__triangle {
@@ -179,20 +147,11 @@ html {
     filter: invert(100) !important;
 }
 
-.dkSGpd:hover {
-    color: white !important;
-}
-
 .tuHUkb {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-
 /**/
-body, g-inner-card, .iKjWAf, .sfbgg {
-    background-color: #121212 !important;
-}
-
 #hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c, .vk_cxp, .gb_z, .gb_fb{
     background: #121212 !important;
 }
@@ -219,10 +178,6 @@ body, g-inner-card, .iKjWAf, .sfbgg {
 
 .afrOIf {
     background-color: #121212 !important;
-}
-
-.rIKiec {
-    color: rgba(255, 255, 255, 0.54) !important;
 }
 
 #rhs .kp-blk {
