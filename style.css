@@ -498,7 +498,7 @@ a.LwS2ce:link {
 }
 
 .gb_yc {
-    background-color: black !important;
+    background-color: transparent !important;
 }
 
 /*  borders for tables and cards */
@@ -1054,4 +1054,8 @@ a.scCTtb div {
 
 .BlOseb.SkGIjd .KkkQv, .k2Oeod.SkGIjd .S2C1T {
     filter: invert(100);
+}
+
+.lhewOe {
+    color: rgba(255, 255, 255, 0.87) !important;
 }
