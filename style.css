@@ -1073,6 +1073,6 @@ span.wob_t {
     color: #878787 !important
 }
 
-#wob_d > div > div:nth-child(2) > div > div.vk_bk.wob-unit > a:nth-child(3) > span {
+#wob_d > div > div:nth-child(2) > div > div.vk_bk.wob-unit > a:nth-child(n + 2) > span {
     color: #3ea6ff !important
 }
