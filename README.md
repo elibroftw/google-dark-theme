@@ -1,6 +1,4 @@
-<p align="center">
-  <img height="250" src="https://raw.githubusercontent.com/elibroftw/google-dark-theme/master/Resources/Promotional%20Image%201.png" alt="Promotional Image">
-</p>
+# Google Dark Theme
 
 [![Chrome](https://img.shields.io/chrome-web-store/users/ohhpliipfhicocldcakcgpbbcmkjkian.svg?color=blue&label=Chrome&style=for-the-badge)](https://chrome.google.com/webstore/detail/dark-theme-for-google-sea/ohhpliipfhicocldcakcgpbbcmkjkian)
 [![Firefox](https://img.shields.io/amo/users/dark-theme-for-google-searches.svg?label=Firefox&style=for-the-badge)](https://addons.mozilla.org/firefox/addon/dark-theme-for-google-searches/)
