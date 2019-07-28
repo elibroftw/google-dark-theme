@@ -889,6 +889,10 @@ a.ksb.ab_button.kxctl-b:hover {
 }
 
 /* Stocks */
+span.vk_bk, .vk_bk {
+    color: #818181 !important
+}
+
 .vk_bk {
     color: #818181 !important
 }
