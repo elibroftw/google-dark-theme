@@ -160,8 +160,25 @@ html {
     border-color: #505050 !important;
 }
 
+ul.gb_E.gb_w, ul.gb_E.gb_x, ul.gb_E.gb_L {
+    background-color: black !important;
+}
+
+a.gb_F.gb_9f {
+    background-color: #0a0a0a !important;
+    color: #3ea6ff !important;
+}
+
 a.gb_z.gb_oc {
     filter: invert();
+}
+
+.gb_i:hover a {
+    border: 1px solid #868686 !important;
+}
+
+.gb_i:hover .gb_o {
+    background: rgba(0, 0, 0, 0.9) !important;
 }
 
 /* Places */
