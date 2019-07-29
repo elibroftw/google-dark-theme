@@ -160,6 +160,10 @@ html {
     border-color: #505050 !important;
 }
 
+a.gb_z.gb_oc {
+    filter: invert();
+}
+
 /* Places */
 .yyjhs {
     background: #121212 !important;
