@@ -169,7 +169,7 @@ a.gb_F.gb_9f {
     color: #3ea6ff !important;
 }
 
-a.gb_z.gb_oc, a.gb_z.gb_rc {
+a.gb_z.gb_oc, a.gb_z.gb_rc, .gb_sc {
     filter: invert();
 }
 
@@ -1103,5 +1103,9 @@ span.wob_t {
 }
 
 .cUezCb {
-    background-color: #121212;
+    background-color: #121212 !important;
+}
+
+.gb_F, .gb_E {
+    background-color: #1b1b1b !important;
 }
