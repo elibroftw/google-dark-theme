@@ -13,6 +13,7 @@ def git_push():
         repo.git.add(update=True)
         repo.index.commit('updated style.css')
         origin = repo.remote(name='origin')
+        origin.pull()
         origin.push()
     except: print('Some error occured while pushing the code')
     finally: print('Git push from script succeeded')   
