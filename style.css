@@ -8,6 +8,18 @@ html {
     width: 15px;
 }
 
+a.gb_4.gb_ag.gbp1.gb_Te.gb_tb {
+    color: #fff !important;
+}
+
+.gb_na a, .gb_Cc a {
+    color: rgb(62, 166, 255) !important;
+}
+
+a#gb_71 {
+    border-color: #333;
+}
+
 /* Sports */
 .tb_view.We6bVe.r-igjunLUox4L4 {
     background-color: black !important;
@@ -774,7 +786,78 @@ option {
     color: white !important
 }
 
+/* Translate */
+
+.frame {
+    background: #141414 !important;
+}
+
+.source-wrap, .source-input, .orig, .tlid-results-container.results-container, .gt-spell-correct-message, .source-footer-wrap.source-or-target-footer {
+    background-color: #000 !important;
+}
+
+.language_list_sl_list, .language_list_tl_list, .language_list_section, header#gb {
+    background-color: black !important;
+}
+
+.sl-wrap, .tl-wrap, .swap-wrap, .swap.jfk-button, .swap.jfk-button-disabled {
+    background-color: black !important;
+}
+
+.goog-inline-block.jfk-button.jfk-button-standard.jfk-button-collapse-right {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.language-list-toolbar, .language_list_item_wrapper, .language-list-search-box, .language-list {
+    background-color: black !important;
+}
+
+.ls-right-arrow {
+    background-color: black !important;
+}
+
+.jfk-button-img {
+    filter: invert(100);
+}
+
+.gt-spell-correct-message {
+    color: rgba(255, 255, 255, 0.54)
+}
+
+span.tlid-translation.translation, .orig, .language-list-toolbar .language-list-label {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ls-wrap .sl-sugg .goog-inline-block.jfk-button:focus, .ls-wrap .tl-sugg .goog-inline-block.jfk-button:focus, .ls-wrap .sl-more:focus, .ls-wrap .tl-more:focus, .ls-wrap .lang-btn:focus-within, .ls-wrap .swap:focus {
+    color: black !important;
+}
+
+.ft-icon-txt {
+    color: #fff !important;
+}
+
+.gb_Wa.gb_B.gb_Hc {
+    background-color: #141414;
+}
+
+.gb_sb, .gb_Ec.gb_Cc.gb_Kc.gb_Hc, .gb_Cc, .history-top-header, .history-container, .info-bar {
+    background-color: black;
+}
+
+.displaying-saved-page .phrasebook-page, .phrasebook-container, .phrasebook-top-header, .phrasebook-container .nav-bar {
+    background-color: black;
+}
+
+.close-button {
+    filter: invert(100);
+}
+
+.phrasebook-container .empty-placeholder .placeholder-title {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
 /*  */
+
 i {
     color: #888 !important;
 }
