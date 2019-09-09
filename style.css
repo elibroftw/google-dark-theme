@@ -41,7 +41,7 @@ a#gb_71 {
     color: rgba(255, 255, 255, 0.56) !important;
 }
 
-.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, g-inner-card, .iKjWAf, .sfbgg {
+.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, g-inner-card, .iKjWAf, .sfbgg, .jZWadf {
     background-color: #121212 !important;
 }
 
@@ -789,7 +789,7 @@ option {
 /* Translate */
 
 .frame {
-    background: #141414 !important;
+    background: #121212 !important;
 }
 
 .source-wrap, .source-input, .orig, .tlid-results-container.results-container, .gt-spell-correct-message, .source-footer-wrap.source-or-target-footer {
@@ -837,7 +837,7 @@ span.tlid-translation.translation, .orig, .language-list-toolbar .language-list-
 }
 
 .gb_Wa.gb_B.gb_Hc {
-    background-color: #141414;
+    background-color: #121212;
 }
 
 .gb_sb, .gb_Ec.gb_Cc.gb_Kc.gb_Hc, .gb_Cc, .history-top-header, .history-container, .info-bar {
