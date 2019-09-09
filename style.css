@@ -588,23 +588,23 @@ a.LwS2ce:link {
     color: #006621 !important;
 }
 
-.gLFyf, .LWyAN {
+/* Search bar stuff */
+
+.gLFyf, .LWyAN, .q8FTm {
     color: rgba(255, 255, 255, 0.87) !important;
 }
-
-/* Search bar stuff */
 
 .Tg7LZd {
     background-color: transparent !important;
     border: none !important;
 }
 
-.RNNXgb, .sbibod {
+.RNNXgb, .sbibod, .nu4bVe {
     background-color: black !important;
     border: 2px solid #505050 !important;
 }
 
-.RNNXgb:hover, .sbibod:hover {
+.RNNXgb:hover, .sbibod:hover, .nu4bVe:hover {
     border-color: transparent !important;
     box-shadow: 0 1px 6px 0 rgba(255, 255, 255, 0.28);
 }
@@ -1200,4 +1200,9 @@ span.wob_t {
 
 .MUxGbd.v0nnCb.lyLwlc.aLF0Z {
     color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.F9PbJd {
+    background-color: black !important;
+    border-color: #505050 !important;
 }
