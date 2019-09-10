@@ -8,6 +8,18 @@ html {
     width: 15px;
 }
 
+a.gb_4.gb_ag.gbp1.gb_Te.gb_tb {
+    color: #fff !important;
+}
+
+.gb_na a, .gb_Cc a {
+    color: rgb(62, 166, 255) !important;
+}
+
+a#gb_71 {
+    border-color: #333;
+}
+
 /* Sports */
 .tb_view.We6bVe.r-igjunLUox4L4 {
     background-color: black !important;
@@ -29,7 +41,7 @@ html {
     color: rgba(255, 255, 255, 0.56) !important;
 }
 
-.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, g-inner-card, .iKjWAf, .sfbgg {
+.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, g-inner-card, .iKjWAf, .sfbgg, .jZWadf {
     background-color: #121212 !important;
 }
 
@@ -91,7 +103,7 @@ html {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.fbar {
+.fbar, .zRQJhd {
     background: #121212 !important;
 }
 
@@ -119,7 +131,7 @@ html {
     background-color: #363636 !important;
 }
 
-.VUGnzb {
+.VUGnzb, .ELcVZ {
     color: #777 !important;
 }
 
@@ -263,8 +275,12 @@ a.gb_z.gb_oc, a.gb_z.gb_rc, .gb_sc, .gb_z.gb_uc {
     color: #888 !important;
 }
 
-.w3RMhb .zFsEvf {
+.w3RMhb .zFsEvf, .O8U6h {
     color: #999 !important;
+}
+
+.LfUe1b {
+    background-color: #121212 !important;
 }
 
 .w3RMhb:hover, .action-menu-item:hover {
@@ -572,23 +588,23 @@ a.LwS2ce:link {
     color: #006621 !important;
 }
 
-.gLFyf, .LWyAN {
+/* Search bar stuff */
+
+.gLFyf, .LWyAN, .q8FTm {
     color: rgba(255, 255, 255, 0.87) !important;
 }
-
-/* Search bar stuff */
 
 .Tg7LZd {
     background-color: transparent !important;
     border: none !important;
 }
 
-.RNNXgb, .sbibod {
+.RNNXgb, .sbibod, .nu4bVe {
     background-color: black !important;
     border: 2px solid #505050 !important;
 }
 
-.RNNXgb:hover, .sbibod:hover {
+.RNNXgb:hover, .sbibod:hover, .nu4bVe:hover {
     border-color: transparent !important;
     box-shadow: 0 1px 6px 0 rgba(255, 255, 255, 0.28);
 }
@@ -770,7 +786,78 @@ option {
     color: white !important
 }
 
+/* Translate */
+
+.frame {
+    background: #121212 !important;
+}
+
+.source-wrap, .source-input, .orig, .tlid-results-container.results-container, .gt-spell-correct-message, .source-footer-wrap.source-or-target-footer {
+    background-color: #000 !important;
+}
+
+.language_list_sl_list, .language_list_tl_list, .language_list_section, header#gb {
+    background-color: black !important;
+}
+
+.sl-wrap, .tl-wrap, .swap-wrap, .swap.jfk-button, .swap.jfk-button-disabled {
+    background-color: black !important;
+}
+
+.goog-inline-block.jfk-button.jfk-button-standard.jfk-button-collapse-right {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.language-list-toolbar, .language_list_item_wrapper, .language-list-search-box, .language-list {
+    background-color: black !important;
+}
+
+.ls-right-arrow {
+    background-color: black !important;
+}
+
+.jfk-button-img {
+    filter: invert(100);
+}
+
+.gt-spell-correct-message {
+    color: rgba(255, 255, 255, 0.54)
+}
+
+span.tlid-translation.translation, .orig, .language-list-toolbar .language-list-label {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ls-wrap .sl-sugg .goog-inline-block.jfk-button:focus, .ls-wrap .tl-sugg .goog-inline-block.jfk-button:focus, .ls-wrap .sl-more:focus, .ls-wrap .tl-more:focus, .ls-wrap .lang-btn:focus-within, .ls-wrap .swap:focus {
+    color: black !important;
+}
+
+.ft-icon-txt {
+    color: #fff !important;
+}
+
+.gb_Wa.gb_B.gb_Hc {
+    background-color: #121212;
+}
+
+.gb_sb, .gb_Ec.gb_Cc.gb_Kc.gb_Hc, .gb_Cc, .history-top-header, .history-container, .info-bar {
+    background-color: black;
+}
+
+.displaying-saved-page .phrasebook-page, .phrasebook-container, .phrasebook-top-header, .phrasebook-container .nav-bar {
+    background-color: black;
+}
+
+.close-button {
+    filter: invert(100);
+}
+
+.phrasebook-container .empty-placeholder .placeholder-title {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
 /*  */
+
 i {
     color: #888 !important;
 }
@@ -1113,4 +1200,14 @@ span.wob_t {
 
 .MUxGbd.v0nnCb.lyLwlc.aLF0Z {
     color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.F9PbJd {
+    background-color: black !important;
+    border-color: #505050 !important;
+}
+
+/* TIC TAC TOE */
+.dLXLrf .byDAwb, .qLf5y {
+    border-color: rgba(255, 255, 255, 0.54) transparent !important;
 }
