@@ -1215,3 +1215,23 @@ span.wob_t {
 .dLXLrf .byDAwb, .qLf5y {
     border-color: rgba(255, 255, 255, 0.54) transparent !important;
 }
+
+.tsp-lbb, .tsp-lbb .tsp-led {
+    background-color: #121212 !important;
+}
+
+.tsp-lbb .tsp-led {
+    border-color: #505050 !important
+}
+
+.tsp-wi {
+    border-right: 6px solid white !important;
+}
+
+.tsp-hbd:hover {
+    background-color: #222 !important;
+}
+
+.tsp-db {
+    color: white !important;
+}
