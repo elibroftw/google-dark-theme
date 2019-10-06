@@ -43,6 +43,7 @@ with ZipFile('Builds/' + filename, 'w') as zf:
     for icon in os.listdir('icons'):  # add icons to archive
         zf.write(f'icons/{icon}')
     zf.write('style.css')  # add css file to archive
+    # zf.write('background.js')  # add js file to archive
 
 print(f'Build successful. Version: {version}\nTimestamp: {datetime.datetime.now().time()}')
 # TODO: use web-ext? 
