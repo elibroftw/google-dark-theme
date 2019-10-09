@@ -626,9 +626,15 @@ a.LwS2ce:link {
     box-shadow: 0 4px 6px 0 rgba(255, 255, 255, 0.28);
 }
 
-input#gs_htif0, input#lst-ib {
+input#gs_htif0, input#lst-ib, .sbsb_a {
     background: black !important;
 }
+
+
+.sbsb_d {
+    background: #1e1e1e !important;
+}
+
 
 .sbl1, #lst-ib {
     color: #dbdbdb !important;
@@ -639,7 +645,7 @@ input#gs_htif0, input#lst-ib {
 }
 
 /* MORE text */
-.SW5pqf, .EZRelc, div.BAyyse:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(2), .lr_dct_more_btn, .TYiug, .jMtmC {
+.SW5pqf, .EZRelc, div.BAyyse:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(2), .lr_dct_more_btn, .TYiug, .jMtmC, .SRgN7c .FVbHKd {
     color: #20ffe0 !important;
 }
 
@@ -1307,4 +1313,52 @@ span.wob_t {
 
 .gb_P {
     color: black !important;
+}
+
+.Q7Oxbd {
+    color: white !important;
+}
+
+.gQsNRd {
+    color: #666 !important;
+}
+
+.TsZoG, .Pe15xe, .sh-sr__shop-result-header, ._-c-, ._-dX, ._-jD {
+    color: #777 !important;
+}
+
+.SLjOId, .Qnaule {
+    color: #ddd !important
+}
+
+/* Pilot -> Shopping */
+._-gG {
+    color: #ddd !important;
+}
+
+.sh-rso__header {
+    background-color: #121212 !important;
+    color: #ddd !important;
+    border-color: #777 !important
+}
+
+.sg-m__selected {
+    border-color: #999 !important
+}
+
+.sh-mv__media {
+    background-color: #121212 !important
+}
+
+.sg-m__zoom-fab {
+    background-color: #000 !important;
+}
+
+.sh-rso__content {
+    background-color: #121212 !important;
+}
+
+/* Sponsered tag */
+#topstuff .sh-sp__pswtr {
+    background-color: black !important
 }
