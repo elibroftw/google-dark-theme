@@ -1362,3 +1362,15 @@ span.wob_t {
 #topstuff .sh-sp__pswtr {
     background-color: black !important
 }
+
+.gt-lc.gt-lc-mobile .gt-cd {
+    background-color: black !important;
+}
+
+.gt-def-row, .gt-lc.gt-lc-mobile .gt-ex-text, q, .gt-card-ttl-txt {
+    color: #777 !important;
+}
+
+.gt-lc.gt-lc-mobile .gt-def-num {
+    color: rgba(255, 255, 255, 0.38) !important;
+}
