@@ -163,16 +163,20 @@ a#gb_71 {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-/**/
-#hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c, .vk_cxp, a.gb_z.gb_Ha.gb_g, .gb_fb{
+/*App tray?*/
+#hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c, .vk_cxp, a.gb_z.gb_Ha.gb_g, .gb_fb, ul.LVal7b, ul.gb_H.gb_y{
     background: #121212 !important;
+}
+
+.Rq5Gcb {
+    color: #505050 !important;
 }
 
 #hdtb, .gb_E, .b2hzT, #fbar, .garHBe, #gb#gb a.gb_c, .k9uN1c {
     border-color: #505050 !important;
 }
 
-ul.gb_E.gb_w, ul.gb_E.gb_x, ul.gb_E.gb_L {
+ul.gb_E.gb_w, ul.gb_E.gb_x, ul.gb_E.gb_L, .K1u0Zb {
     background-color: black !important;
 }
 
@@ -1430,3 +1434,8 @@ span.wob_t {
 /* #gsr, #gbwa, .Z0LcW, .Ss2Faf, .eJ7tvc, .i29hTd .qLLird {
     color: white !important;
 } */
+
+/* sign in */
+a.gb_1.gb_2.gb_de.gb_pb {
+    color: white !important;
+}
