@@ -164,8 +164,12 @@ a#gb_71 {
 }
 
 /*App tray?*/
-#hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c, .vk_cxp, a.gb_z.gb_Ha.gb_g, .gb_fb, ul.LVal7b, ul.gb_H.gb_y, .LVal7b {
+#hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c {
     background: #121212 !important;
+}
+
+.vk_cxp, a.gb_z.gb_Ha.gb_g, .gb_fb, ul.LVal7b, ul.gb_H.gb_y, .LVal7b {
+    background-color: #121212 !important;;
 }
 
 .Rq5Gcb {
