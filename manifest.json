@@ -15,6 +15,9 @@
             "css": [
                 "style.css"
             ],
+            "js": [
+                "dynamic_content.js"
+            ],
             "matches": [
                 "https://translate.google.com/",
                 "https://www.google.com/webhp*",
@@ -78,7 +81,7 @@
                 "https://www.google.com.pk/",
                 "https://www.google.com.pk/search*"
             ],
-            "run_at": "document_end"
+            "run_at": "document_start"
         }
     ]
 }
