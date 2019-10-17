@@ -159,6 +159,14 @@ a#gb_71 {
     filter: invert(100) !important;
 }
 
+.fTKmHE99XE4__star {
+    filter: invert();
+}
+
+.fTKmHE99XE4__star span {
+    filter: invert();
+}
+
 .tuHUkb {
     color: rgba(255, 255, 255, 0.87) !important;
 }
@@ -474,14 +482,6 @@ a.LwS2ce:link {
 
 .yQOdGb {
     background-color: #121212 !important;
-}
-
-.rl_item_base {
-    background-color: #121212 !important;
-}
-
-.rl_item_base .title, .CAaTrb, .aXUuyd {
-    color: #c6c2c2 !important;
 }
 
 .y8Jpof:hover {
@@ -1456,4 +1456,41 @@ span.wob_t {
 /* sign in */
 a.gb_1.gb_2.gb_de.gb_pb {
     color: white !important;
+}
+
+.hrmSI {
+    color: white !important;
+}
+
+.BTPx6e {
+    color: #999 !important;
+}
+
+.hmHBZd:hover {
+    color: #343434 !important;
+}
+
+.j4Tqqd {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.d2IDkc, .viupMc {
+    color: #919191 !important;
+}
+
+/* Spotify Founders */
+.TZNJBf {
+    background-color: black !important;
+}
+
+.rlc__slider-page, .rlc__slide, .vsQKGc {
+    background-color: #121212 !important;
+}
+
+.rl_item_base {
+    background-color: black !important;
+}
+
+.rl_item_base .title, .CAaTrb, .aXUuyd {
+    color: #c6c2c2 !important;
 }
