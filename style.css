@@ -1,3 +1,4 @@
+/* Invert images */
 /* Scrolll bar */
 
 html {
@@ -903,12 +904,28 @@ i {
     color: black !important;
 }
 
+.rlc__slider-page, .rlc__slide, .vsQKGc, .rlc__slider, .rl_container {
+    background-color: #121212 !important;
+}
+
+.rl_item_base {
+    background-color: black !important;
+}
+
+.rl_item_base .title, .CAaTrb, .aXUuyd {
+    color: #c6c2c2 !important;
+}
+
 .rl_center {
     border: none !important;
 }
 
 .CNf3nf.wecD1d, .mlo-c {
     background-color: black !important;
+}
+
+.ErsxPb, .znKVS {
+    filter: invert();
 }
 
 /* links */
@@ -1479,14 +1496,3 @@ a.gb_1.gb_2.gb_de.gb_pb {
     background-color: black !important;
 }
 
-.rlc__slider-page, .rlc__slide, .vsQKGc {
-    background-color: #121212 !important;
-}
-
-.rl_item_base {
-    background-color: black !important;
-}
-
-.rl_item_base .title, .CAaTrb, .aXUuyd {
-    color: #c6c2c2 !important;
-}
