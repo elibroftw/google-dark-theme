@@ -537,7 +537,7 @@ a.LwS2ce:link {
 }
 
 .gb_D, .gb_qb {
-    background: #121212 !important;
+    background: #1b1b1b !important;
 }
 
 .gb_qb:hover {
@@ -1492,3 +1492,29 @@ a.gb_1.gb_2.gb_de.gb_pb {
     background-color: black !important;
 }
 
+/* Job stuff */
+.C4e63e {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.F3hKEb {
+    color: #3ea6ff !important;
+}
+
+/* Profile picture jobs */
+.gb_xa.gbii, .gb_Sa.gb_D.gb_j.gb_Ta.gb_Bc {
+    filter: invert();
+}
+
+.gb_lb.gb_lb, .gb_zb.gb_zb, .gb_Ab.gb_Ab {
+    background-color: black !important;
+    border-color: #505050 !important;
+}
+
+.gb_sb.gb_sb {
+    background-color: #1b1b1b !important;
+}
+
+.gb_sb:hover, .gb_lb:hover, .gb_zb:hover {
+    background-color: #363636 !important;
+}
