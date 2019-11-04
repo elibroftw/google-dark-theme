@@ -1502,10 +1502,6 @@ a.gb_1.gb_2.gb_de.gb_pb {
 }
 
 /* Profile picture jobs */
-.gb_xa.gbii, .gb_Sa.gb_D.gb_j.gb_Ta.gb_Bc {
-    filter: invert();
-}
-
 .gb_lb.gb_lb, .gb_zb.gb_zb, .gb_Ab.gb_Ab {
     background-color: black !important;
     border-color: #505050 !important;
@@ -1517,4 +1513,42 @@ a.gb_1.gb_2.gb_de.gb_pb {
 
 .gb_sb:hover, .gb_lb:hover, .gb_zb:hover {
     background-color: #363636 !important;
+}
+
+/* Finance */
+.PyJv1b, .KYeOtb.M51USb {
+    color: rgba(255,255,255,.87) !important;
+}
+
+.uch-xa-tl {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.FRH7Ye.gsrt {
+    color: white !important;
+}
+
+.LlMFmd {
+    color: #777 !important;
+}
+
+.wfbQZb {
+    color: rgba(255, 255, 255, 0.62) !important;
+}
+
+.JwgTNb {
+    color: #20ffe0 !important;   
+}
+
+.mMbopd {
+    background-color: #121212 !important;
+}
+
+.iF8z4d td, .ckQqBf, .kyITtb, .j7FfMb, .IsqQVc.irGj7Ss8GHqg-zJFzKq8ukm8 {
+    color:  rgba(255, 255, 255, 0.87) !important;
+}
+
+.bm7Wje:hover {
+    background-color: #343434 !important;
 }
