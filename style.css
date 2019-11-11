@@ -216,13 +216,13 @@ a.gb_z.gb_oc, a.gb_z.gb_rc, .gb_sc, .gb_z.gb_uc {
     filter: invert();
 }
 
-.gb_i:hover a {
-    border: 1px solid #868686 !important;
+/* .gb_Kf:hover a {
+    border-color: #333 !important;
 }
 
 .gb_i:hover .gb_o {
     background: rgba(0, 0, 0, 0.9) !important;
-}
+} */
 
 /* Places */
 .yyjhs {
@@ -514,7 +514,7 @@ a.LwS2ce:link {
     color: white !important;
 }
 
-.gb_I div.gb_K {
+div.gb_K {
     color: black !important;
 }
 
@@ -536,8 +536,20 @@ a.LwS2ce:link {
     border: rgb(255, 255, 255) !important;
 }
 
-.gb_D, .gb_qb {
-    background: #1b1b1b !important;
+.gb_D, .gb_qb, .gb_I {
+    background-color: #121212 !important;    
+}
+
+#gbwa > div:nth-child(1) > a:nth-child(1):hover {
+    border-color: #333 !important;
+}
+
+.gb_t {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.gb_K.gb_bg {
+    background-color: black !important;
 }
 
 .gb_qb:hover {
@@ -590,6 +602,10 @@ a.LwS2ce:link {
 #rso>div:nth-child(1)>div>div.kp-blk.c14z5c.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(n + 3)>div>div>span.w8qArf>a,
 #rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div:nth-child(n + 5)>div>div>span.w8qArf>a,
 #uid_3 > div.ifM9O > div:nth-child(2) > div:nth-child(4) > div > div > span.w8qArf > a {
+    color: #006621 !important;
+}
+
+#rhs_block > div.g.rhsvw.kno-kp.mnr-c.g-blk > div.EyBRub.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div.xpdopen > div.ifM9O > div > div.SALvLe.farUxc.mJ2Mod > div > div:nth-child(n) > div > div > span.w8qArf > a {
     color: #006621 !important;
 }
 /* Compass Icon */
@@ -668,7 +684,7 @@ input#gs_htif0, input#lst-ib, .sbsb_a {
 }
 
 /* MORE text */
-.SW5pqf, .EZRelc, div.BAyyse:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(2), .lr_dct_more_btn, .TYiug, .jMtmC, .SRgN7c .FVbHKd {
+.SW5pqf, span.wR7plc.xXEKkb, .EZRelc, div.BAyyse:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(2), .lr_dct_more_btn, .TYiug, .jMtmC, .SRgN7c .FVbHKd {
     color: #20ffe0 !important;
 }
 
@@ -1488,7 +1504,9 @@ a.gb_1.gb_2.gb_de.gb_pb {
 }
 
 /* Spotify Founders */
-.TZNJBf {
+div.rlc__slider-page:nth-child(n) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(n) > div:nth-child(n),
+div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-child(1)
+{
     background-color: black !important;
 }
 
