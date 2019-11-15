@@ -3,7 +3,7 @@
     "name": "Google Dark Theme",
     "short_name": "Google Dark Theme",
     "description": "A dark theme for google searches",
-    "version": "17.224",
+    "version": "17.225",
     "homepage_url": "https://elijahlopez.herokuapp.com/software/#google-dark-theme",
     "icons": {
         "16": "icons/icon16.png",
@@ -33,6 +33,7 @@
                 "*://www.google.es/",
                 "*://www.google.es/search*",
                 "*://www.google.ca/",
+                "*://www.google.ca/webhp*",
                 "*://www.google.ca/search*",
                 "*://www.google.de/",
                 "*://www.google.de/search*",
