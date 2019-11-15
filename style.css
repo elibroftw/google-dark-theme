@@ -177,6 +177,14 @@ a#gb_71 {
     background: #121212 !important;
 }
 
+.gb_k:not(.gb_l):hover .gb_t {
+    background: rgba(72, 72, 72, 0.9) !important;
+}
+
+.gb_k:hover a {
+    border-color: rgba(72, 72, 72, 0.9) !important;
+}
+
 .vk_cxp, a.gb_z.gb_Ha.gb_g, .gb_fb, ul.LVal7b, ul.gb_H.gb_y, .LVal7b, .gb_H, .gb_F, .gb_E  {
     background-color: #121212 !important;;
 }
@@ -294,9 +302,6 @@ a.gb_z.gb_oc, a.gb_z.gb_rc, .gb_sc, .gb_z.gb_uc {
 }
 
 /*  */
-.gb_0b {
-    filter: invert(100) !important;
-}
 
 .DRolee {
     color: rgba(255, 255, 255, 0.87) !important;
@@ -1479,6 +1484,22 @@ span.wob_t {
 } */
 
 /* sign in */
+.gb_Bb.gb_Bb, .gb_Cb.gb_Cb {
+    background-color: black !important;
+}
+
+.gb_l .gb_3b {
+    color: gray !important;
+}
+
+.gb_Bb:hover {
+    background-color: #0f0f0f !important;
+}
+
+.gb_l .gb_hb {
+    color: white !important;
+}
+
 a.gb_1.gb_2.gb_de.gb_pb {
     color: white !important;
 }
@@ -1521,7 +1542,7 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
 
 /* Profile picture jobs */
 .gb_lb.gb_lb, .gb_zb.gb_zb, .gb_Ab.gb_Ab {
-    background-color: black !important;
+    background-color: inherit !important;
     border-color: #505050 !important;
 }
 
@@ -1610,3 +1631,4 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
 .LbNDAb {
     color: #4285F3 !important;
 }
+
