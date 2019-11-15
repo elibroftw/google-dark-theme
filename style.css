@@ -1540,6 +1540,10 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
     color: #3ea6ff !important;
 }
 
+a.gYVSnb, div.gYVSnb span {
+    color: rgba(255, 255, 255, 0.38) !important;
+}
+
 /* Profile picture jobs */
 .gb_lb.gb_lb, .gb_zb.gb_zb, .gb_Ab.gb_Ab {
     background-color: inherit !important;
