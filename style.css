@@ -851,7 +851,7 @@ option {
 }
 
 .language_list_sl_list, .language_list_tl_list, .language_list_section, header#gb {
-    background-color: black !important;
+    background-color: #121212 !important;
 }
 
 .sl-wrap, .tl-wrap, .swap-wrap, .swap.jfk-button, .swap.jfk-button-disabled, .results-container, .result, .gt-edit, .contribute-target {
