@@ -1311,9 +1311,9 @@ span.wob_t {
     background: #121212 !important;
 }
 
-.gb_i:not(.gb_j):hover .gb_r {
+/* .gb_i:not(.gb_j):hover .gb_r {
     background: rgba(40, 40, 40, 0.9) !important;
-}
+} */
 
 .gb_4.gb_cg.gbp1.gb_We.gb_tb {
     color: white !important;
@@ -1636,3 +1636,6 @@ a.gYVSnb, div.gYVSnb span {
     color: #4285F3 !important;
 }
 
+/* .gb_C .gb_D {
+    background-position: -2045px -35px !important;
+} */
