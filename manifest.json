@@ -3,7 +3,7 @@
     "name": "Google Dark Theme",
     "short_name": "Google Dark Theme",
     "description": "A dark theme for google searches",
-    "version": "17.229",
+    "version": "17.230",
     "homepage_url": "https://elijahlopez.herokuapp.com/software/#google-dark-theme",
     "icons": {
         "16": "icons/icon16.png",
@@ -18,6 +18,7 @@
             "all_frames": true,
             "matches": [
                 "*://ogs.google.com/*",
+                "*://scholar.google.com/*",
                 "*://translate.google.com/",
                 "*://www.google.com/webhp*",
                 "*://www.google.com/videohp*",
