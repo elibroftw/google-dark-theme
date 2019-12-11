@@ -1688,3 +1688,13 @@ a.gYVSnb, div.gYVSnb span {
 /* .gb_C .gb_D {
     background-position: -2045px -35px !important;
 } */
+
+/* Google Scholar */
+/* #gs_bdy_ccl */
+#gs_top {
+    background-color: #121212 !important;
+}
+
+.gs_in_cb label, .gs_in_cb .gs_lbl, .gs_in_ra label {
+    color: #888 !important;
+}
