@@ -1719,3 +1719,16 @@ a.gYVSnb, div.gYVSnb span {
 .Lu0opc.k2Oeod.SkGIjd.tHT0l, .Lu0opc.BlOseb.SkGIjd.tHT0l {
     background-color: black !important;
 }
+
+/* Q&A on Google */
+.TC8kpb {
+    color: white;
+}
+
+.cYjWmf, .R6g0Cd {
+    fill: rgba(255, 255, 255, 0.38) !important;
+}
+
+.cYjWmf:hover, .R6g0Cd:hover {
+    fill: rgba(255, 255, 255, 0.8) !important;
+}
