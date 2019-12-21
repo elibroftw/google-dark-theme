@@ -1699,7 +1699,7 @@ a.gYVSnb, div.gYVSnb span {
     color: #888 !important;
 }
 
-/* Diseases search */
+/* Health Sidebar */
 .K9xsvf.lYo97.kno-fb-ctx, .CTannb.gsrt, .S1C7Re, .V7ewqe, .BWsxhd {
     color: white !important;
 }
@@ -1718,6 +1718,10 @@ a.gYVSnb, div.gYVSnb span {
 
 .Lu0opc.k2Oeod.SkGIjd.tHT0l, .Lu0opc.BlOseb.SkGIjd.tHT0l {
     background-color: black !important;
+}
+
+.KqnMib {
+    color: rgba(255, 255, 255, 0.87) !important;
 }
 
 /* Q&A on Google */
