@@ -11,7 +11,7 @@ def git_push():
     try:
         repo = Repo('.git')
         repo.git.add(update=True)
-        repo.index.commit('updated style.css')
+        repo.index.commit('Updated style.css')
         origin = repo.remote(name='origin')
         origin.pull()
         origin.push()
