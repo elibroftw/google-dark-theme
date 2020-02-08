@@ -989,8 +989,8 @@ i {
     background-color: black !important;
 }
 
-.ErsxPb, .znKVS {
-    filter: invert();
+.ErsxPb:hover {
+    background-color: #484848 !important;
 }
 
 /* links */
