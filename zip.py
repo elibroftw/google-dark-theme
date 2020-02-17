@@ -45,7 +45,7 @@ with ZipFile('Builds/' + filename, 'w') as zf:
     zf.write('style.css')  # add css file to archive
     # zf.write('background.js')  # add js file to archive
 
-print(f'Build successful. Version: {version}\nTimestamp: {datetime.datetime.now().time()}')
+print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}')
 # TODO: use web-ext? 
 
 git_push()
