@@ -5,6 +5,7 @@ from shutil import rmtree
 from contextlib import suppress
 import datetime
 from git import Repo
+from datetime import datetime
 
 
 def git_push():
@@ -26,10 +27,9 @@ os.makedirs('Builds')
 with open('manifest.json') as f:
     data = json.load(f)
 
-# versioning: releases.builds
-version = data['version'].split('.')
-version[-1] = str(1 + int(version[-1]))
-version = '.'.join(version)
+# versioning: year.month.day.builds
+version = datetime.today().strftime('%Y.%#m.%#d')
+version = f"{version}.{int(data['version'].split('.')[-1]) + 1}"
 data['version'] = version
 
 with open('manifest.json', 'w') as fp:
