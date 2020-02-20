@@ -646,14 +646,9 @@ div.gb_K {
 .w8qArf .fl, a.fl,
 #rso>div:nth-child(1)>div>div.kp-blk.c14z5c.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(n + 3)>div>div>span.w8qArf>a,
 #rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div:nth-child(n + 5)>div>div>span.w8qArf>a,
-#uid_3 > div.ifM9O > div:nth-child(2) > div:nth-child(4) > div > div > span.w8qArf > a {
-    color: #006621 !important;
-}
-
-#rso > div:nth-child(1) > div > div.EyBRub.kp-blk.c14z5c.Wnoohf.OJXvsb > div.xpdopen > div.ifM9O > div > div.SALvLe.farUxc.mJ2Mod > div > div:nth-child(n) > div > div > span.w8qArf > a {
-    color: #006621 !important;
-}
-
+#uid_3 > div.ifM9O > div:nth-child(2) > div:nth-child(4) > div > div > span.w8qArf > a,
+#rhs > div:nth-child(3) > div.EyBRub.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div.xpdopen > div.ifM9O > div > div.SALvLe.farUxc.mJ2Mod > div > div:nth-child(n) > div > div > span.w8qArf > a,
+#rso > div:nth-child(1) > div > div.EyBRub.kp-blk.c14z5c.Wnoohf.OJXvsb > div.xpdopen > div.ifM9O > div > div.SALvLe.farUxc.mJ2Mod > div > div:nth-child(n) > div > div > span.w8qArf > a,
 #rhs_block > div.g.rhsvw.kno-kp.mnr-c.g-blk > div.EyBRub.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div.xpdopen > div.ifM9O > div > div.SALvLe.farUxc.mJ2Mod > div > div:nth-child(n) > div > div > span.w8qArf > a {
     color: #006621 !important;
 }
