@@ -407,7 +407,7 @@ a.gb_z.gb_oc, a.gb_z.gb_rc, .gb_sc, .gb_z.gb_uc {
 }
 
 .k2Oeod.MFTKyf {
-    background: linear-gradient(270deg,#000 50%,rgba(162, 162, 162, 0.09) 100%) !important;
+    background: linear-gradient(270deg,#000 50%,rgba(167, 167, 167, 0.09) 100%) !important;
 }
 
 .BlOseb.MFTKyf {
@@ -1270,7 +1270,11 @@ a.scCTtb div {
 }
 
 #isr_chc g-left-button, #isr_chc g-right-button {
-    background-color: #000 !important;
+    background-color: #000000c9 !important;
+}
+
+.BlOseb.MFTKyf .KkkQv, .k2Oeod.MFTKyf .S2C1T {
+    filter: invert();
 }
 
 .BlOseb.SkGIjd .KkkQv, .k2Oeod.SkGIjd .S2C1T {
@@ -1431,6 +1435,10 @@ span.wob_t {
 }
 
 /* Pilot -> Shopping */
+.VEbNnc {
+    color: #777 !important;
+}
+
 .G9CET, .sh-dr__prs {
     background-color: #121212 !important;
 }
