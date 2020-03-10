@@ -235,10 +235,11 @@ a#gb_71 {
 
 .tX9u1b:hover {
     border-color: #4d4d4d !important;
+    background-color: #222 !important;
 }
 
 .tX9u1b:hover .Rq5Gcb {
-    background-color: #4d4d4d !important;
+    background-color: #222 !important;
     color: #ddd !important;
 }
 
