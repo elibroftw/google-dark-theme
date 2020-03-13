@@ -6,6 +6,7 @@ from contextlib import suppress
 import datetime
 from git import Repo
 from datetime import datetime
+import webbrowser
 
 
 def git_push():
@@ -49,3 +50,7 @@ print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}
 # TODO: use web-ext? 
 
 git_push()
+
+webbrowser.open('https://userstyles.org/styles/180957/edit')
+webbrowser.open('https://addons.mozilla.org/en-CA/developers/addon/dark-theme-for-google-searches/versions/submit/')
+webbrowser.open('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
