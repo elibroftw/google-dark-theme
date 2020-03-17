@@ -17,7 +17,7 @@ jobs:
         @name Google Dark Theme
         @version $(sed -E -n 's/.*"version": ".*([0-9]+\.[0-9]+\.[0-9]+).*/\1/p' manifest.json)
         @description A dark theme for Google (currently only supports searches).
-        @author elibroftw
+        @author Elijah Lopez
         @namespace elibroftw
         @homepageURL https://github.com/elibroftw/google-dark-theme
         @supportURL https://github.com/elibroftw/google-dark-theme/issues/
