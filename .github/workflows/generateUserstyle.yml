@@ -24,7 +24,7 @@ jobs:
         @preprocessor stylus
         ==/UserStyle== */
 
-        @-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.(com|co\\.jp|co\\.uk|es|ca|de|it|fr|com\\.au|com\\.tw|nl|com\\.br|com\\.tr|be|com\\.gr|co\\.in|com\\.mx|dk|com\\.ar|ch|cl|at|co\\.kr|ie|com\\.co|pl|pt|com\\.pk)/((webhp|videohp|imghp|search|\\?.*).*)?") {
+        @-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.(com|co\\.jp|co\\.uk|es|ca|ru|bg||de|it|fr|com\\.au|com\\.tw|nl|com\\.br|com\\.tr|be|com\\.gr|co\\.in|com\\.mx|dk|com\\.ar|ch|cl|at|co\\.kr|ie|com\\.co|pl|pt|com\\.pk)/((webhp|videohp|imghp|search|\\?.*).*)?") {
         
         $(cat style.css)
 
