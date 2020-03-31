@@ -255,6 +255,13 @@ ul.gb_E.gb_w, ul.gb_E.gb_x, ul.gb_E.gb_L, .EHzcec, .K1u0Zb, .EHzcec.eejsDc {
     color: rgba(255, 255, 255, 0.87);
 }
 
+.NQV3m {
+    background-color: #000 !important;
+}
+
+.NQV3m:hover {
+    background-color: #363636 !important;
+}
 
 a.gb_F.gb_9f {
     background-color: #0a0a0a !important;
@@ -1509,16 +1516,36 @@ span.wob_t {
     background: #121212 !important;
 }
 
-.gb_Kb:hover {
-    background: #282828 !important;
+.gb_Kb:hover, .gb_wb:hover {
+    background-color: #282828 !important;
 }
 
 .gb_1b {
     color: #fff !important;
 }
 
-.gb_ob {
-    background-color: #1b1b1b !important;
+.gb_l .gb_ob {
+    color: #aaa !important;
+}
+
+.gb_yb.gb_yb {
+    background-color: #121212 !important;
+}
+
+.gb_yb:hover {
+    background-color: #000 !important;
+}
+
+.gb_Fb.gb_Fb, .gb_ub.gb_ub {
+    background-color: black !important;
+}
+
+.gb_ub.gb_ub {
+    border-color: #000 !important;
+}
+
+.gb_Fb:hover {
+    background-color: #363636 !important;
 }
 
 .PDvun, .ersBRc {
