@@ -889,6 +889,35 @@ option {
 
 /* Translate */
 
+.gt-baf-word-clickable {
+    color: white !important;
+}
+
+.gt-baf-previous-word-mobile {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.gt-baf-previous-word-mobile, .gt-baf-word-selected {
+    background-color: black !important;
+}
+
+.gt-lc-mobile .gt-baf-word-clickable:hover {
+    background-color: #353535 !important;
+}
+
+.gt-lc-mobile .gt-baf-word-selected .gt-baf-word-clickable {
+    color: white !important;
+    background-color: black !important;
+}
+
+.gt-baf-back {
+    color: #777 !important;
+}
+
+.gt-cd-pos-pop {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
 .frame {
     background: #121212 !important;
 }
