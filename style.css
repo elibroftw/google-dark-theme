@@ -918,7 +918,7 @@ option {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.frame {
+.frame, .gt-lc.gt-lc-mobile .gt-cc-r-i {
     background: #121212 !important;
 }
 

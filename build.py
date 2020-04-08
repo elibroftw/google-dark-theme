@@ -51,7 +51,7 @@ print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}
 
 git_push()
 
-webbrowser.open('https://raw.githubusercontent.com/elibroftw/google-dark-theme/userstyle/style.user.css')
+webbrowser.open('https://github.com/elibroftw/google-dark-theme/blob/userstyle/style.user.css')
 webbrowser.open('https://userstyles.org/styles/180957/edit')
 webbrowser.open('https://addons.mozilla.org/en-CA/developers/addon/dark-theme-for-google-searches/versions/submit/')
 webbrowser.open('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
