@@ -3,8 +3,13 @@
     "name": "Google Dark Theme",
     "short_name": "Google Dark Theme",
     "description": "A dark theme for google searches",
-    "version": "2020.4.11.265",
+    "version": "2020.4.11.266",
     "homepage_url": "https://elijahlopez.herokuapp.com/software/#google-dark-theme",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "google-dark-theme@elopez.me"
+        }
+    },
     "icons": {
         "16": "icons/icon16.png",
         "48": "icons/icon48.png",

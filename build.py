@@ -7,6 +7,7 @@ import datetime
 from git import Repo
 from datetime import datetime
 import webbrowser
+import requests
 
 
 def git_push():
@@ -51,6 +52,11 @@ print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}
 
 git_push()
 
+# TODO: https://addons-server.readthedocs.io/en/latest/topics/api/signing.html
+url_name = 'dark-theme-for-google-searches'
+GUID = '000a8ba3-ef46-40fd-a51c-daf19e7c00e7'
+requests.put(f'https://addons.mozilla.org/api/v4/addons/{GUID}/versions/{version}/')
+
 webbrowser.open('https://userstyles.org/styles/180957/edit')
-webbrowser.open('https://addons.mozilla.org/en-CA/developers/addon/dark-theme-for-google-searches/versions/submit/')
+webbrowser.open(f'https://addons.mozilla.org/en-CA/developers/addon/{url_name}/versions/submit/')
 webbrowser.open('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
