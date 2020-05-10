@@ -237,7 +237,7 @@ a#gb_71 {
 }
 
 .Rq5Gcb {
-    color: #505050 !important;
+    color: #ddd !important;
 }
 
 .tX9u1b:hover {
@@ -565,9 +565,6 @@ a.LwS2ce:link {
 
 .gb_fb .gb_gb:hover {
     color: #222 !important;
-    background-color: #fff !important;
-    background-image: -moz-linear-gradient(top,#fff,#f8f8f8) !important;
-    background-image: linear-gradient(top,#fff,#f8f8f8) !important;
 }
 
 .gb_z, .gb_Eb, .IZACzd, .Ndq8Rb, .piVJ4d, .cwUqwd {
@@ -1683,7 +1680,33 @@ a.gYVSnb, div.gYVSnb span {
 }
 
 .gb_sb.gb_sb {
-    background-color: #1b1b1b !important;
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.gb_6b, .Ywxp6b {
+    color: #ddd;
+}
+
+.gb_l .gb_ob, .gb_pb:hover {
+    background: black !important;
+}
+
+.gb_Jb.gb_Jb, .gb_Kb.gb_Kb {
+    background-color: black !important;
+}
+
+.gb_xb.gb_xb {
+    background-color: black !important;
+    border-color: #505050 !important;
+}
+
+.gb_xb.gb_xb:hover, .gb_Jb:hover {
+    background-color: #363636 !important;
+}
+
+.gb_Sb > .gb_Rb:hover, .gb_Sb > .gb_Rb:focus, .gb_Sb > .gb_Rb:hover:focus {
+    background-color: #242424 !important;
 }
 
 .gb_sb:hover, .gb_lb:hover, .gb_zb:hover {
