@@ -50,13 +50,14 @@ with ZipFile('Builds/' + filename, 'w') as zf:
 print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}')
 # TODO: use web-ext? 
 
-git_push()
-
 URL_NAME = 'dark-theme-for-google-searches'
 # TODO: https://addons-server.readthedocs.io/en/latest/topics/api/signing.html
 # GUID = '000a8ba3-ef46-40fd-a51c-daf19e7c00e7'
 # requests.put(f'https://addons.mozilla.org/api/v4/addons/{GUID}/versions/{version}/')
 
+print('https://raw.githubusercontent.com/elibroftw/google-dark-theme/cd732b2bc6e13c2e5c40455807082f0fd9827864/style.user.css')
 print('https://userstyles.org/styles/180957/edit')
 print(f'https://addons.mozilla.org/en-CA/developers/addon/{URL_NAME}/versions/submit/')
 print('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
+
+git_push()
