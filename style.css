@@ -23,7 +23,7 @@ a#gb_71 {
 }
 
 /* Sports */
-.ey2qkf.tuzU3e.QI3dEb.K2ENGc.wxNiFd.GsYI2e.CuWfJb.eIMmHd.lq7Dvb {
+.ey2qkf.tuzU3e.QI3dEb.K2ENGc.wxNiFd.GsYI2e.CuWfJb.eIMmHd.lq7Dvb, .nGzje, .ey2qkf {
     background-color: #121212 !important;
 }
 
@@ -31,24 +31,32 @@ a#gb_71 {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.e9fBA {
-    color: rgba(255, 255, 255, 0.87) !important;
-}
-
 .BslMec, .Z3DVab, .u2tuje .iGBaJe, .RawNCe, .jyC4xe {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.imspo_mt_football__live-game-status, .YIikAd {
+.imspo_mt_football__live-game-status, .YIikAd, .e9fBA, .Pohwl .fbf28d, .S9IdSb .gDo0uc, .S9IdSb .xkW0Cc {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.iMxPRkPYX3BU-LtgTxMR6OBU, .tb_u.attn, .ABd7Db {
+.ivCkGf {
+    background-color: #242424 !important
+}
+
+.iMxPRkPYX3BU-LtgTxMR6OBU, .tb_u.attn, .ABd7Db, #liveresults-sports-immersive__match-fullpage {
     background-color: #000 !important;
+}
+
+.tb_h.ie7Asb.Hr51pb.imso-medium-font.TbbqEc.imso-ani.YPgUJe.B27Eaf, .tb_c {
+    background-color: #121212 !important;
 }
 
 .YPgUJe {
     box-shadow: 0px 3px 2px #000 !important;
+}
+
+.imso-hide-overflow.tb_l.GSkImd {
+    color: white !important;
 }
 
 .nGHNmf, .liveresults-sports-immersive__str-rs-cl, .yOo6xe {
@@ -59,7 +67,7 @@ a#gb_71 {
     color: #ddd !important
 }
 
-.fwXO9b, .liveresults-sports-immersive__str-dc {
+.fwXO9b, .liveresults-sports-immersive__str-dc, .imso_mh__ft-mtchc, .imso-hide-overflow {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
@@ -75,7 +83,7 @@ a#gb_71 {
     background-color: #000 !important;
 }
 
-.imspo_mt__dt-t, .imspo_mt__pm-inf {
+.imspo_mt__dt-t, .imspo_mt__pm-inf, .lr-imso-ss-wdt, .ss-ms-cs {
     color: rgba(254, 254, 254, 0.87) !important;
 }
 
