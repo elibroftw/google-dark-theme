@@ -1966,3 +1966,7 @@ a.gYVSnb, div.gYVSnb span {
 .Eogop .xuoMNd {
     background-color: #000 !important;
 }
+
+.GHDvEf, .GHDvEf:hover, .GHDvEf.selected, .GHDvEf.selected:hover {
+    background-color: #121212 !important;
+}
