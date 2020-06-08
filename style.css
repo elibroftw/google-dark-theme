@@ -543,7 +543,7 @@ a.LwS2ce:link {
 }
 
 #hdtb-more-mn a:hover, .hdtbItm.hdtbSel:hover, .hdtbItm a:hover, #cdrlnk:hover {
-    background-color: #363636 !important;   
+    background-color: #363636 !important;
 }
 
 .BlOseb.eSq3C g-fab, .k2Oeod.eSq3C g-fab, #cdr_opt {
@@ -620,7 +620,7 @@ div.gb_K {
 }
 
 .gb_D, .gb_qb, .gb_I {
-    background-color: #121212 !important;    
+    background-color: #121212 !important;
 }
 
 #gbwa > div:nth-child(1) > a:nth-child(1):hover {
@@ -653,8 +653,8 @@ div.gb_K {
 }
 
 /*  borders for tables and cards */
-.cv2VAd, .kp-blk, .vk_c, .vk_cxp, #rhs .fIcnad { 
-    border-color: #505050 !important;    
+.cv2VAd, .kp-blk, .vk_c, .vk_cxp, #rhs .fIcnad {
+    border-color: #505050 !important;
 }
 
 #appbar {
@@ -1766,7 +1766,7 @@ a.gYVSnb, div.gYVSnb span {
 }
 
 .JwgTNb {
-    color: #20ffe0 !important;   
+    color: #20ffe0 !important;
 }
 
 .mMbopd {
@@ -1925,7 +1925,7 @@ a.gYVSnb, div.gYVSnb span {
 }
 
 .Hm7Qac:hover {
-    background-color: #363636 !important;   
+    background-color: #363636 !important;
 }
 
 .GMjygd {
@@ -1974,3 +1974,10 @@ a.gYVSnb, div.gYVSnb span {
 .GHDvEf, .GHDvEf:hover, .GHDvEf.selected, .GHDvEf.selected:hover {
     background-color: #121212 !important;
 }
+
+/* Nutrition */
+
+.HIf9ae, .AYBNrd, .JuE4Vc {
+    background-color: #121212 !important;
+}
+/*  */
