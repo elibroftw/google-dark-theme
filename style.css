@@ -347,6 +347,10 @@ a.gb_z.gb_oc, a.gb_z.gb_rc, .gb_z.gb_uc {
 
 /* Dictionary */
 
+.xRxmxc {
+    color: #fff !important;
+}
+
 .lr_dct_spkr_off {
     filter: invert(100) !important;
 }
