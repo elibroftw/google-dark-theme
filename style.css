@@ -1575,8 +1575,9 @@ span.wob_t {
     background-color: #1b1b1b !important;
 }
 
-.gb_Ib {
+.gb_Ib, .gb_Ob {
     background: #121212 !important;
+    border-color: #000 !important;
 }
 
 .gb_Kb:hover, .gb_wb:hover {
