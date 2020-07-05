@@ -1825,9 +1825,9 @@ a.gYVSnb, div.gYVSnb span {
     color: #4285F3 !important;
 }
 
-/* .gb_C .gb_D {
-    background-position: -2045px -35px !important;
-} */
+.gb_C .gb_D {
+    background-position: 65px -35px !important;
+}
 
 /* Google Scholar */
 /* #gs_bdy_ccl */
@@ -1997,4 +1997,16 @@ a.gYVSnb, div.gYVSnb span {
 
 .amyZLb, .HnYYW.mfMhoc, .Uw4age, .INGOOb, .WUjVSb, .AupITe, .HRfe0e {
     color: #aaa !important;
+}
+
+/* Buttons */
+.jhp input[type="submit"], .sbdd_a input, .gbqfba {
+    background-image: linear-gradient(top, #000, #000) !important;
+    background-image: -moz-linear-gradient(top, #000, #000) !important;
+    background-color: #000 !important;
+    border: #aaa !important;
+}
+
+#SIvCob {
+    color: white !important;
 }
