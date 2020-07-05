@@ -2007,6 +2007,14 @@ a.gYVSnb, div.gYVSnb span {
     border: #aaa !important;
 }
 
+.tfB0Bf input[type="submit"], .gbqfba {
+    color: #777 !important;
+}
+
+.tfB0Bf input[type="submit"]:hover {
+    color: #aaa !important;
+}
+
 #SIvCob {
     color: white !important;
 }
