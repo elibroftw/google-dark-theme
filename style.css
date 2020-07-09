@@ -1083,7 +1083,7 @@ a:hover, .u2sJ0e .lA0GG:hover, .w:hover {
     color: #b3b3b3 !important;
 }
 
-.Hg3mWc, .yvg0ob span, span#knowledge-currency__tgt-currency, span#knowledge-currency__tgt-amount {
+.Hg3mWc, .Hg3mWc:focus, .yvg0ob span, span#knowledge-currency__tgt-currency, span#knowledge-currency__tgt-amount {
     background-color: #121212 !important;
     color: #fff !important;
 }
