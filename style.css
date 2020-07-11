@@ -2019,3 +2019,15 @@ a.gYVSnb, div.gYVSnb span {
 #SIvCob {
     color: white !important;
 }
+
+.JheGif {
+    color: #3ea6ff !important;
+}
+
+.WF4CUc, .o5GQac img {
+    color: rgb(192, 208, 219) !important;
+}
+
+a:hover .JheGif, a:visited:hover .JheGif {
+    text-decoration: underline;
+}
