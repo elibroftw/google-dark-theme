@@ -213,6 +213,10 @@ a#gb_71 {
     color: #fff !important;
 }
 
+.EBe2gf span, .EBe2gf, .GrWnYc, .GrWnYc span {
+    filter: invert();
+}
+
 .fTKmHE99XE4__star-xl, .fTKmHE99XE4__star-xl span, .fTKmHE99XE4__star-s, .fTKmHE99XE4__star-s span, .imspo_mt__triangle {
     filter: invert(100) !important;
 }
@@ -931,8 +935,12 @@ option {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.gt-baf-previous-word-mobile, .gt-baf-word-selected, .kLhEKe {
+.gt-baf-previous-word-mobile, .gt-baf-word-selected, .kLhEKe, .ru14E.kF2iof {
     background-color: black !important;
+}
+
+.Ubd3wc {
+    color: #bfbfbf !important;
 }
 
 .gt-lc-mobile .gt-baf-word-clickable:hover {
@@ -2038,4 +2046,8 @@ a .zTpPx {
 
 .QV3IV {
     color: #777 !important;
+}
+
+.wrsf {
+    color: #000 !important;
 }
