@@ -19,12 +19,12 @@ def git_push():
         origin.pull()
         origin.push()
     except: print('Some error occured while pushing the code')
-    finally: print('Git push from script succeeded')   
-    
+    finally: print('Git push from script succeeded')
 
-rmtree('Builds', ignore_errors=True)
+
+rmtree('builds', ignore_errors=True)
 # TODO: use files = glob.glob('/YOUR/PATH/*'); os.remove(f)
-os.makedirs('Builds')
+os.makedirs('builds')
 
 with open('manifest.json') as f:
     data = json.load(f)
@@ -40,7 +40,7 @@ with open('manifest.json', 'w') as fp:
 name = data['short_name']
 filename = name + ' ' + version + '.zip'
 
-with ZipFile('Builds/' + filename, 'w') as zf:
+with ZipFile('builds/' + filename, 'w') as zf:
     zf.write('manifest.json')  # add manifiest.json to archive
     for icon in os.listdir('icons'):  # add icons to archive
         zf.write(f'icons/{icon}')
@@ -48,7 +48,7 @@ with ZipFile('Builds/' + filename, 'w') as zf:
     # zf.write('background.js')  # add js file to archive
 
 print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}')
-# TODO: use web-ext? 
+# TODO: use web-ext?
 
 URL_NAME = 'dark-theme-for-google-searches'
 # TODO: https://addons-server.readthedocs.io/en/latest/topics/api/signing.html
