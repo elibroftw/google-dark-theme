@@ -27,7 +27,9 @@ a#gb_71 {
 }
 
 /* Sports */
-.imso_mh__l-tm-sc, .imso_mh__r-tm-sc, .imso_mh__scr-it.imso_mh__sep.imso-light-font, .imso_mh__lg-st-srs, .imso_scr_sum__rft-cell.imso_scr_sum__scr-and-sum-cell.imso_scr_sum__scr-summ-narrow-cell, .imso_scr_sum__nm-cell {
+.imso_mh__l-tm-sc, .imso_mh__r-tm-sc, .imso_mh__scr-it.imso_mh__sep.imso-light-font, .imso_mh__lg-st-srs,
+ .imso_scr_sum__rft-cell.imso_scr_sum__scr-and-sum-cell.imso_scr_sum__scr-summ-narrow-cell,
+  .imso_scr_sum__nm-cell, .imspo_tps__pnm, .imspo_tps__stat-val {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
