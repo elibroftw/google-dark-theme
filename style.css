@@ -715,6 +715,14 @@ div.gb_K {
 #rhs_block > div.g.rhsvw.kno-kp.mnr-c.g-blk > div.EyBRub.kp-blk.knowledge-panel.Wnoohf.OJXvsb > div.xpdopen > div.ifM9O > div > div.SALvLe.farUxc.mJ2Mod > div > div:nth-child(n) > div > div > span.w8qArf > a {
     color: #006621 !important;
 }
+
+.H73aad {
+    background-color: black !important;
+}
+
+.H73aad:hover {
+    background: #242424 !important;
+}
 /* Compass Icon */
 
 .M5mFPb {
@@ -2073,8 +2081,12 @@ a .zTpPx {
     color: white !important;
 }
 
-.v3jTId, .Cy9gW, .XxrEYe, .cJzOGc, .ep3ODe .V2Zq0e {
+.v3jTId, .Cy9gW, .XxrEYe, .cJzOGc, .ep3ODe .V2Zq0e, .esuhec, .PVsnzc, .fUflyc, .jleFbf {
     color: #cacbcc !important;
+}
+
+.VJwspe {
+    color: rgba(255, 255, 255, 0.54) !important;
 }
 
 .k8XOCe {
@@ -2083,4 +2095,13 @@ a .zTpPx {
 
 #foot .AaVjTc .YyVfkd {
     color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.BfIAp {
+    fill: rgba(255, 255, 255, 0.38) !important;
+}
+
+.BfIAp:hover {
+    fill: rgba(255, 255, 255, 0.54) !important;
+    border: 1px solid rgba(255, 255 ,255 ,.54) !important;
 }
