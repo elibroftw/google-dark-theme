@@ -106,6 +106,6 @@ if __name__ == '__main__':
     print('https://userstyles.org/styles/180957/edit')
     if not args.upload: print(f'https://addons.mozilla.org/en-CA/developers/addon/{url_name}/versions/submit/')
     print('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
-    git_push()
+    # git_push()
     if args.upload:
         upload(name, version)
