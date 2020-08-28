@@ -26,11 +26,12 @@ def git_push():
         repo.git.add(update=True)
         repo.index.commit('Updated style.css')
         origin = repo.remote(name='origin')
-        origin.pull()
         origin.push()
         print('Git push from script succeeded')
+        return True
     except:
         print('Some error occured while pushing the code')
+    return False
 
 
 def create_zip(file):
@@ -87,25 +88,41 @@ if __name__ == '__main__':
         manifest = json.load(f)
 
     # versioning: year.month.day.builds
-    date = datetime.today().strftime('%Y.%#m.%#d')
-    build_no = int(manifest['version'].split('.')[-1]) + 1
-    version = f'{date}.{build_no}'
-    manifest['version'] = version
+    repo = Repo('.git')
+    origin = repo.remote(name='origin')
+    commits_behind = sum(1 for c in repo.iter_commits('master..origin/master'))
+    if commits_behind:
+        # if origin has changes
+        commit_message = ', '.join([item.a_path for item in repo.index.diff(None)])
+        repo.git.add(update=True)
+        repo.index.commit(f'Updated {commit_message}')
+        origin.pull()
+    if sum(1 for c in repo.iter_commits('origin/master..master')) or repo.is_dirty():
+        # if need to push or any changes were made
+        date = datetime.today().strftime('%Y.%#m.%#d')
+        build_no = int(manifest['version'].split('.')[-1]) + 1
+        repo = Repo('.git')
+        version = f'{date}.{build_no}'
+        manifest['version'] = version
+        with open('manifest.json', 'w') as fp:
+            json.dump(manifest, fp, indent=4)
+        commit_message = ', '.join([item.a_path for item in repo.index.diff(None)])
+        repo.git.add(update=True)
+        repo.index.commit(f'Updated {commit_message}')
+        origin = repo.remote(name='origin')
+        origin.push()
+    else:
+        version = manifest['version']
     name = manifest['short_name']
     filename = f'{name} {version}.zip'
     create_zip(f'builds/{filename}')
 
-    with open('manifest.json', 'w') as fp:
-        json.dump(manifest, fp, indent=4)
-
     print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}')
-
     url_name = 'dark-theme-for-google-searches'
-
     print('https://raw.githubusercontent.com/elibroftw/google-dark-theme/cd732b2bc6e13c2e5c40455807082f0fd9827864/style.user.css')
     print('https://userstyles.org/styles/180957/edit')
-    if not args.upload: print(f'https://addons.mozilla.org/en-CA/developers/addon/{url_name}/versions/submit/')
     print('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
-    # git_push()
     if args.upload:
         upload(name, version)
+    else:
+        print(f'https://addons.mozilla.org/en-CA/developers/addon/{url_name}/versions/submit/')
