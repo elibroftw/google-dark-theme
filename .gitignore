@@ -2,3 +2,4 @@ __pycache__/
 builds/
 .vscode/
 .env
+test.py

@@ -8,6 +8,16 @@ from git import Repo
 from datetime import datetime
 import webbrowser
 import requests
+import argparse
+import time
+import jwt
+import io
+import uuid
+
+
+parser = argparse.ArgumentParser(description='Google Dark Theme Build & Upload Script')
+parser.add_argument('--upload', default=False, action='store_true', help='Upload to mozilla addons after')
+args = parser.parse_args()
 
 
 def git_push():
@@ -18,8 +28,9 @@ def git_push():
         origin = repo.remote(name='origin')
         origin.pull()
         origin.push()
-    except: print('Some error occured while pushing the code')
-    finally: print('Git push from script succeeded')
+        print('Git push from script succeeded')
+    except:
+        print('Some error occured while pushing the code')
 
 
 def create_zip(file):
@@ -33,30 +44,68 @@ def create_zip(file):
         # zf.write('background.js')
 
 
+def upload(name, version):
+    guid = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'
+
+    with open('.env') as f:
+        line = f.readline()
+        while line:
+            k, v = line.split('=', 1)
+            os.environ[k] = v.strip()
+            line = f.readline()
+
+    jwt_secret = os.getenv('jwt-secret')
+    jwt_issuer = os.getenv('jwt-issuer')
+    assert jwt_issuer and jwt_secret
+    jwt_obj = {
+        'iss': jwt_issuer,
+        'jti': str(uuid.uuid4()),
+        'iat': time.time(),
+        'exp': time.time() + 60
+    }
+    jwt_obj = jwt.encode(jwt_obj, jwt_secret, algorithm='HS256').decode()
+    file = io.BytesIO()
+    create_zip(file)
+    print(f'uploading version {version}')
+    data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
+    headers = {'Authorization': f'JWT {jwt_obj}'}
+    url = f'https://addons.mozilla.org/api/v4/addons/{guid}/versions/{version}/'
+    # url = 'https://postman-echo.com/put/'
+    r = requests.put(url, data, headers=headers, files=data)
+    if r.status_code == 200:
+        print('Sucessfully uploaded')
+    else:
+        print('Something went wrong')
+        print(r.json())
+
+
 if __name__ == '__main__':
     rmtree('builds', ignore_errors=True)
-    # TODO: use files = glob.glob('/YOUR/PATH/*'); os.remove(f)
     os.makedirs('builds')
 
     with open('manifest.json') as f:
-        data = json.load(f)
+        manifest = json.load(f)
 
     # versioning: year.month.day.builds
     date = datetime.today().strftime('%Y.%#m.%#d')
-    build_no = int(data['version'].split('.')[-1]) + 1
+    build_no = int(manifest['version'].split('.')[-1]) + 1
     version = f'{date}.{build_no}'
-    data['version'] = version
-
-    with open('manifest.json', 'w') as fp:
-        json.dump(data, fp, indent=4)
-
-    name = data['short_name']
+    manifest['version'] = version
+    name = manifest['short_name']
     filename = f'{name} {version}.zip'
     create_zip(f'builds/{filename}')
+
+    with open('manifest.json', 'w') as fp:
+        json.dump(manifest, fp, indent=4)
+
     print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}')
+
     url_name = 'dark-theme-for-google-searches'
+
     print('https://raw.githubusercontent.com/elibroftw/google-dark-theme/cd732b2bc6e13c2e5c40455807082f0fd9827864/style.user.css')
     print('https://userstyles.org/styles/180957/edit')
-    print(f'https://addons.mozilla.org/en-CA/developers/addon/{url_name}/versions/submit/')
+    if not args.upload: print(f'https://addons.mozilla.org/en-CA/developers/addon/{url_name}/versions/submit/')
     print('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
     git_push()
+    if args.upload:
+        upload(name, version)
