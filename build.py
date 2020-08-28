@@ -93,7 +93,7 @@ if __name__ == '__main__':
         date = datetime.today().strftime('%Y.%#m.%#d')
         changed_files = {item.a_path for item in repo.index.diff(None)}
         build_no = int(manifest['version'].split('.')[-1])
-        if 'style.css' in changed_files or 'manifest.json' in changed_files or 'Icons/icon16.png':
+        if 'style.css' in changed_files or 'manifest.json' in changed_files or 'Icons/icon16.png' in changed_files:
             # only update build if style.css, manifest.json, or icons have changed
             build_no += 1
         version = f'{date}.{build_no}'
