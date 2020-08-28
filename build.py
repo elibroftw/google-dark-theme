@@ -20,18 +20,9 @@ parser.add_argument('--upload', default=False, action='store_true', help='Upload
 args = parser.parse_args()
 
 
-def git_push():
-    try:
-        repo = Repo('.git')
-        repo.git.add(update=True)
-        repo.index.commit('Updated style.css')
-        origin = repo.remote(name='origin')
-        origin.push()
-        print('Git push from script succeeded')
-        return True
-    except:
-        print('Some error occured while pushing the code')
-    return False
+def is_ahead(repo):
+    # if local repo/branch is ahead of origin
+    return sum(1 for c in repo.iter_commits('origin/master..master'))
 
 
 def create_zip(file):
@@ -97,11 +88,14 @@ if __name__ == '__main__':
         repo.git.add(update=True)
         repo.index.commit(f'Updated {commit_message}')
         origin.pull()
-    if sum(1 for c in repo.iter_commits('origin/master..master')) or repo.is_dirty():
+    if is_ahead(repo) or repo.is_dirty():
         # if need to push or any changes were made
         date = datetime.today().strftime('%Y.%#m.%#d')
-        build_no = int(manifest['version'].split('.')[-1]) + 1
-        repo = Repo('.git')
+        changed_files = {item.a_path for item in repo.index.diff(None)}
+        build_no = int(manifest['version'].split('.')[-1])
+        if 'style.css' in changed_files or 'manifest.json' in changed_files or 'Icons/icon16.png':
+            # only update build if style.css, manifest.json, or icons have changed
+            build_no += 1
         version = f'{date}.{build_no}'
         manifest['version'] = version
         with open('manifest.json', 'w') as fp:
