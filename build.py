@@ -62,7 +62,6 @@ def upload(name, version):
     data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
     headers = {'Authorization': f'JWT {jwt_obj}'}
     url = f'https://addons.mozilla.org/api/v4/addons/{guid}/versions/{version}/'
-    # url = 'https://postman-echo.com/put/'
     r = requests.put(url, data, headers=headers, files=data)
     if r.status_code == 200:
         print('Sucessfully uploaded')
