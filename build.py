@@ -16,7 +16,7 @@ import uuid
 
 
 parser = argparse.ArgumentParser(description='Google Dark Theme Build & Upload Script')
-parser.add_argument('--upload', default=False, action='store_true', help='Upload to mozilla addons after')
+parser.add_argument('upload', default=False, action='store_true', help='Upload to mozilla addons after')
 args = parser.parse_args()
 
 
