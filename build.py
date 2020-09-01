@@ -64,7 +64,7 @@ def upload(name, version):
     headers = {'Authorization': f'JWT {jwt_obj}'}
     url = f'https://addons.mozilla.org/api/v4/addons/{guid}/versions/{version}/'
     r = requests.put(url, data, headers=headers, files=data)
-    if r.status_code == 200:
+    if r.status_code == 204:
         print('Sucessfully uploaded')
     else:
         print('Something went wrong')
