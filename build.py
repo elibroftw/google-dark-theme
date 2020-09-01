@@ -17,6 +17,7 @@ import uuid
 
 parser = argparse.ArgumentParser(description='Google Dark Theme Build & Upload Script')
 parser.add_argument('upload', default=False, action='store_true', help='Upload to mozilla addons after')
+parser.add_argument('up', default=False, action='store_true', help='Upload to mozilla addons after')
 args = parser.parse_args()
 
 
@@ -115,7 +116,7 @@ if __name__ == '__main__':
     print('https://raw.githubusercontent.com/elibroftw/google-dark-theme/cd732b2bc6e13c2e5c40455807082f0fd9827864/style.user.css')
     print('https://userstyles.org/styles/180957/edit')
     print('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
-    if args.upload:
+    if args.upload or args.up:
         upload(name, version)
     else:
         print(f'https://addons.mozilla.org/en-CA/developers/addon/{url_name}/versions/submit/')
