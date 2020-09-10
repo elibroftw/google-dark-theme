@@ -1942,8 +1942,19 @@ a.gYVSnb, div.gYVSnb span {
     border-color: #000 !important;
 }
 
-.Wa30od {
+.Wa30od, .WCTwsc.tl-pp-on, .WCTwsc, .WCTwsc:not(.tl-pp-on) {
     background: black !important;
+    color: #ccc !important;
+}
+
+.WCTwsc:hover {
+    background: #1c1c1c !important;
+    color: white !important;
+}
+
+.WCTwsc.sel {
+    background: #1c1c1c !important;
+    color: white !important;
 }
 
 .oy67gf, .KOKYBe {
