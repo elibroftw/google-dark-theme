@@ -1725,7 +1725,89 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
 }
 
 /* Job stuff */
-.C4e63e {
+.RKPg2c .z1asCe svg, .PUDfGe.z1asCe.kKuqUd svg, .PUDfGe.z1asCe.N5KMwd svg,
+.z1asCe.mQ5pwc svg, .pMhGee.Co68jc.j0vryd, .z1asCe.EZMfad svg,
+.tbKN6d.Wc7XP.z1asCe.bjaP2b svg, .z1asCe.LV6CSb svg, .tllmZe.z1asCe.GNeCNe svg {
+    color: white !important;
+}
+
+.NOiGgb .sb-unsaved svg, .SGdgT .sb-unsaved svg {
+    fill: rgba(255, 255, 255, 0.54) !important;
+}
+
+.eZUcuf {
+    background-color: white !important;
+    border-radius: 20%;
+}
+
+.bD1FPe, .ZBwwL {
+    background-color: black;
+}
+
+.lR4X6c {
+    border-color: #363636 !important;
+}
+
+.iFjolb.hide-focus-ring.gws-plugins-horizon-jobs__li-ed, .uLAgob {
+    background-color: #121212 !important;
+}
+
+.GbaVB, .GbaVB:not(.tl-pp-on) {
+    border-color: #000 !important;
+    color: lightgray !important;
+}
+
+.WGYX8:hover {
+    background: #222 !important;
+    border-color: #222 !important;
+}
+
+.WGYX8[selected] {
+    background: #222 !important;
+    border-color: grey !important;
+}
+
+.cS4btb {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.cS4btb.view, .cS4btb:hover {
+    color: #4285f4 !important;
+}
+
+.iFjolb:focus, .tl-item-selected {
+    background-color: #222 !important;
+}
+
+.gNzyzf.z1asCe.hMXgu svg {
+    color: red !important
+}
+
+.z1asCe.GYDk8c svg, .z1asCe.xrfZdf svg {
+    color: #3f7ee6 !important;
+}
+
+.PCPu9c {
+    color: white;
+}
+
+.jolnDe {
+    background-color: #121212;
+}
+
+.YgLbBe, .sssrNe, .qySoyb {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.tPhRLe, .tPhRLe span {
+    filter: invert();
+}
+
+.XVmsDd {
+    color: #c8c8c8 !important;
+}
+
+.C4e63e, .tJ9zfc, .sb-saved-label, .sb-unsaved-label, .VpOZqb {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
