@@ -1725,12 +1725,6 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
 }
 
 /* Job stuff */
-.RKPg2c .z1asCe svg, .PUDfGe.z1asCe.kKuqUd svg, .PUDfGe.z1asCe.N5KMwd svg,
-.z1asCe.mQ5pwc svg, .pMhGee.Co68jc.j0vryd, .z1asCe.EZMfad svg,
-.tbKN6d.Wc7XP.z1asCe.bjaP2b svg, .z1asCe.LV6CSb svg, .tllmZe.z1asCe.GNeCNe svg {
-    color: white !important;
-}
-
 .NOiGgb .sb-unsaved svg, .SGdgT .sb-unsaved svg {
     fill: rgba(255, 255, 255, 0.54) !important;
 }
@@ -2058,10 +2052,6 @@ a.gYVSnb, div.gYVSnb span {
 
 .EPVc0, .B2bknd, .KSKpHe {
     color: #ccc !important;
-}
-
-.z1asCe svg {
-    color: black !important;
 }
 
 .fxgdke {
