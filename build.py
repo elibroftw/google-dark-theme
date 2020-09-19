@@ -13,7 +13,11 @@ import time
 import jwt
 import io
 import uuid
+import pyperclip
 
+
+with open('style.css') as f:
+    style = f.read()
 
 parser = argparse.ArgumentParser(description='Google Dark Theme Build & Upload Script')
 parser.add_argument('upload', default=False, action='store_true', help='Upload to mozilla addons after')
@@ -94,6 +98,23 @@ if __name__ == '__main__':
             # only update build if style.css, manifest.json, or icons have changed
             build_no += 1
         version = f'{date}.{build_no}'
+        user_style = f"""
+        /* ==UserStyle==
+        @name Google Dark Theme
+        @version {version}
+        @description A dark theme for Google (currently only supports searches).
+        @author Elijah Lopez
+        @namespace elibroftw
+        @homepageURL https://github.com/elibroftw/google-dark-theme
+        @supportURL https://github.com/elibroftw/google-dark-theme/issues/
+        @preprocessor stylus
+        ==/UserStyle== */
+        """ + r"""
+        @-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|gr|mx|pk|tr))?)|(co\\.(in|jp|kr|uk))|(at|be|bg|ca|ch|cl|de|dk|es|fr|hu|ie|it|nl|pl|pt|ru))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+        """ + f"{style}\n" + '}'
+        with open('style.user.css', 'w') as f:
+            f.write(user_style)
+        pyperclip.copy(user_style)
         manifest['version'] = version
         with open('manifest.json', 'w') as fp:
             json.dump(manifest, fp, indent=4)
@@ -104,6 +125,7 @@ if __name__ == '__main__':
         origin.push()
     else:
         version = manifest['version']
+
     name = manifest['short_name']
     filename = f'{name} {version}.zip'
     create_zip(f'builds/{filename}')
