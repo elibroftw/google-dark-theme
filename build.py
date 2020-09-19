@@ -110,7 +110,7 @@ if __name__ == '__main__':
         '@preprocessor stylus\n' +
         '==/UserStyle== */\n\n' +
         r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|gr|mx|pk|tr))?)|(co\\.(in|jp|kr|uk))|(at|be|bg|ca|ch|cl|de|dk|es|fr|hu|ie|it|nl|pl|pt|ru))/((webhp|videohp|imghp|search|\\?.*).*)?") {' +
-        f'\n\n{style}\n' + '}')
+        f'\n\n{style}' + '}\n')
         with open('style.user.css', 'w') as f:
             f.write(user_style)
         pyperclip.copy(user_style)
