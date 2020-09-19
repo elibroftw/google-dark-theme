@@ -1,41 +1,41 @@
-name: Generate userstyle
-on:
-  push:
-    branches: [ master ]
+# name: Generate userstyle
+# on:
+#   push:
+#     branches: [ master ]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v2
+#     steps:
+#     - uses: actions/checkout@v2
 
-    - name: Generate userstyle
-      run: |
-        cat > style.user.css << EOF
-        /* ==UserStyle==
-        @name Google Dark Theme
-        @version $(sed -E -n 's/.*"version": ".*([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+).*/\1/p' manifest.json)
-        @description A dark theme for Google (currently only supports searches).
-        @author Elijah Lopez
-        @namespace elibroftw
-        @homepageURL https://github.com/elibroftw/google-dark-theme
-        @supportURL https://github.com/elibroftw/google-dark-theme/issues/
-        @preprocessor stylus
-        ==/UserStyle== */
+#     - name: Generate userstyle
+#       run: |
+#         cat > style.user.css << EOF
+#         /* ==UserStyle==
+#         @name Google Dark Theme
+#         @version $(sed -E -n 's/.*"version": ".*([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+).*/\1/p' manifest.json)
+#         @description A dark theme for Google (currently only supports searches).
+#         @author Elijah Lopez
+#         @namespace elibroftw
+#         @homepageURL https://github.com/elibroftw/google-dark-theme
+#         @supportURL https://github.com/elibroftw/google-dark-theme/issues/
+#         @preprocessor stylus
+#         ==/UserStyle== */
 
-        @-moz-document regexp("https?://(www|scholar|translate|ogs)\\\.google\\\.(com|com\\\.ua|ru|bg|co\\\.jp|co\\\.uk|es|ca||de|it|fr|com\\\.au|com\\\.tw|nl|com\\\.br|com\\\.tr|be|com\\\.gr|co\\\.in|com\\\.mx|dk|com\\\.ar|ch|cl|at|co\\\.kr|ie|com\\\.co|pl|pt|com\\\.pk)/((webhp|videohp|imghp|search|\\\?.*).*)?") {
+#         @-moz-document regexp("https?://(www|scholar|translate|ogs)\\\.google\\\.(com|com\\\.ua|ru|bg|co\\\.jp|co\\\.uk|es|ca||de|it|fr|com\\\.au|com\\\.tw|nl|com\\\.br|com\\\.tr|be|com\\\.gr|co\\\.in|com\\\.mx|dk|com\\\.ar|ch|cl|at|co\\\.kr|ie|com\\\.co|pl|pt|com\\\.pk)/((webhp|videohp|imghp|search|\\\?.*).*)?") {
 
-        $(cat style.css)
+#         $(cat style.css)
 
-        }
-        EOF
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add style.user.css
-        git commit -m "Push userstyle"
-        git push "https://${actor}:${token}@github.com/${repo}.git" HEAD:userstyle --force
-      env:
-        actor: ${{ github.actor }}
-        token: ${{ github.token }}
-        repo: ${{ github.repository }}
+#         }
+#         EOF
+#         git config --local user.email "action@github.com"
+#         git config --local user.name "GitHub Action"
+#         git add style.user.css
+#         git commit -m "Push userstyle"
+#         git push "https://${actor}:${token}@github.com/${repo}.git" HEAD:userstyle --force
+#       env:
+#         actor: ${{ github.actor }}
+#         token: ${{ github.token }}
+#         repo: ${{ github.repository }}
