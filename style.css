@@ -246,7 +246,7 @@ a#gb_71 {
     filter: invert(100) !important;
 }
 
-.fTKmHE99XE4__star {
+.fTKmHE99XE4__star, .HWnzvc {
     filter: invert();
 }
 
@@ -1747,8 +1747,9 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
 }
 
 .GbaVB, .GbaVB:not(.tl-pp-on) {
-    border-color: #000 !important;
+    border-color: #363636 !important;
     color: lightgray !important;
+    background-color: black !important;
 }
 
 .WGYX8:hover {
@@ -2245,4 +2246,16 @@ a .zTpPx {
 
 .pMhGee.Co68jc.j0vryd {
     color: white !important;
+}
+
+.bKLZtb, .yNBDrc {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.Pj4BN {
+    background-color: black !important;
+}
+
+.xo4F1c, .gspHze {
+    color: rgba(255, 255, 255, 0.54) !important
 }

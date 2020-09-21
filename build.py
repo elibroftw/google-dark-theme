@@ -131,7 +131,6 @@ if __name__ == '__main__':
 
     print(f'Build successful. Version: {version}\nTimestamp: {datetime.now().time()}')
     url_name = 'dark-theme-for-google-searches'
-    print('https://raw.githubusercontent.com/elibroftw/google-dark-theme/cd732b2bc6e13c2e5c40455807082f0fd9827864/style.user.css')
     print('https://userstyles.org/styles/180957/edit')
     print('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
     if args.upload or args.up:
