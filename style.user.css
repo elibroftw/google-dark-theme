@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.9.19.313
+@version 2020.9.21.314
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -2254,6 +2254,10 @@ a .zTpPx {
 
 .ayRjaf {
     color: #a4a4a4 !important;
+}
+
+.pMhGee.Co68jc.j0vryd {
+    color: white !important;
 }
 
 }
