@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.10.1.322
+@version 2020.10.1.323
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -968,6 +968,18 @@ option {
 }
 
 /* Translate */
+
+.notification-container {
+    background-color: black !important;
+}
+
+.gt-is-mobile .gt-is-sg {
+    color: rgba(255,255,255,0.87) !important;
+}
+
+.gt-is-tr {
+    color: rgba(0,0,0,0.54) !important;
+}
 
 .ls-wrap .sugg-fade {
     background: black !important;

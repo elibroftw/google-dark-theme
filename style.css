@@ -956,6 +956,18 @@ option {
 
 /* Translate */
 
+.notification-container {
+    background-color: black !important;
+}
+
+.gt-is-mobile .gt-is-sg {
+    color: rgba(255,255,255,0.87) !important;
+}
+
+.gt-is-tr {
+    color: rgba(0,0,0,0.54) !important;
+}
+
 .ls-wrap .sugg-fade {
     background: black !important;
 }
