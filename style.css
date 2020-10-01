@@ -956,6 +956,15 @@ option {
 
 /* Translate */
 
+.ls-wrap .sugg-fade {
+    background: black !important;
+}
+
+#sl_list-search-box, #tl_list-search-box {
+    background-color: black !important;
+    color: white !important;
+}
+
 .gt-baf-word-clickable {
     color: white !important;
 }
