@@ -3,7 +3,7 @@
     "name": "Google Dark Theme",
     "short_name": "Google Dark Theme",
     "description": "A dark theme for google searches",
-    "version": "2020.10.1.323",
+    "version": "2020.10.7.324",
     "homepage_url": "https://elijahlopez.herokuapp.com/software/#google-dark-theme",
     "icons": {
         "16": "icons/icon16.png",
@@ -51,6 +51,7 @@
                 "*://images.google.pl/*",
                 "*://images.google.pt/*",
                 "*://images.google.ru/*",
+                "*://images.google.sk/*",
                 "*://scholar.google.com/*",
                 "*://scholar.google.com.ar/*",
                 "*://scholar.google.com.au/*",
@@ -81,6 +82,7 @@
                 "*://scholar.google.pl/*",
                 "*://scholar.google.pt/*",
                 "*://scholar.google.ru/*",
+                "*://scholar.google.sk/*",
                 "*://translate.google.com/*",
                 "*://translate.google.com.br/*",
                 "*://translate.google.com.tr/*",
@@ -109,6 +111,7 @@
                 "*://translate.google.pl/*",
                 "*://translate.google.pt/*",
                 "*://translate.google.ru/*",
+                "*://translate.google.sk/*",
                 "*://www.google.com/",
                 "*://www.google.com/?*",
                 "*://www.google.com/webhp*",
@@ -240,7 +243,11 @@
                 "*://www.google.ru/",
                 "*://www.google.ru/?*",
                 "*://www.google.ru/webhp*",
-                "*://www.google.ru/search*"
+                "*://www.google.ru/search*",
+                "*://www.google.sk/",
+                "*://www.google.sk/?*",
+                "*://www.google.sk/webhp*",
+                "*://www.google.sk/search*"
             ],
             "run_at": "document_start"
         }
