@@ -20,7 +20,7 @@ parser.add_argument('--upload', '-u', default=False, action='store_true', help='
 args = parser.parse_args()
 
 
-GUID = '000a8ba3-ef46-40fd-a51c-daf19e7c00e7'
+GUID = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'
 addon_files = ['manifest.json', 'style.css'] + glob('icons/*.png')
 with open('style.css') as f: style = f.read()
 
