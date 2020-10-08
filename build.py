@@ -2,11 +2,10 @@ from zipfile import ZipFile
 import os
 import json
 from shutil import rmtree
-from contextlib import suppress
 import datetime
 from git import Repo
 from datetime import datetime
-import webbrowser
+from glob import glob
 import requests
 import argparse
 import time
@@ -16,12 +15,23 @@ import uuid
 import pyperclip
 
 
-with open('style.css') as f:
-    style = f.read()
-
 parser = argparse.ArgumentParser(description='Google Dark Theme Build & Upload Script')
 parser.add_argument('--upload', '-u', default=False, action='store_true', help='Upload to mozilla addons after')
 args = parser.parse_args()
+
+
+GUID = '000a8ba3-ef46-40fd-a51c-daf19e7c00e7'
+addon_files = ['manifest.json', 'style.css'] + glob('icons/*.png')
+with open('style.css') as f: style = f.read()
+
+# read environmental variables
+with open('.env') as f:
+    line = f.readline()
+    while line:
+        k, v = line.split('=', 1)
+        os.environ[k] = v.strip()
+        line = f.readline()
+
 
 
 def is_ahead(repo):
@@ -32,27 +42,16 @@ def is_ahead(repo):
 def create_zip(file):
     """ file: filename or file-type object """
     with ZipFile(file, 'w') as zf:
-        zf.write('manifest.json')
-        for icon in os.listdir('icons'):
-            # add icons to archive
-            zf.write(f'icons/{icon}')
-        zf.write('style.css')
-        # zf.write('background.js')
+        for file in addon_files:
+            zf.write(file)
 
 
-def upload(name, version):
-    guid = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'
+def upload(version):
+    # e.g. version = '1.1.1.1'
 
-    with open('.env') as f:
-        line = f.readline()
-        while line:
-            k, v = line.split('=', 1)
-            os.environ[k] = v.strip()
-            line = f.readline()
-
-    jwt_secret = os.getenv('jwt-secret')
-    jwt_issuer = os.getenv('jwt-issuer')
-    assert jwt_issuer and jwt_secret
+    # create auth JWT token
+    jwt_secret = os.environ['jwt-secret']
+    jwt_issuer = os.environ['jwt-issuer']
     jwt_obj = {
         'iss': jwt_issuer,
         'jti': str(uuid.uuid4()),
@@ -60,12 +59,13 @@ def upload(name, version):
         'exp': time.time() + 60
     }
     jwt_obj = jwt.encode(jwt_obj, jwt_secret, algorithm='HS256').decode()
+
     file = io.BytesIO()
     create_zip(file)
     print(f'uploading version {version}')
     data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
     headers = {'Authorization': f'JWT {jwt_obj}'}
-    url = f'https://addons.mozilla.org/api/v4/addons/{guid}/versions/{version}/'
+    url = f'https://addons.mozilla.org/api/v4/addons/{GUID}/versions/{version}/'
     r = requests.put(url, data, headers=headers, files=data)
     print(r.status_code)
     print(r.json())
@@ -133,6 +133,6 @@ if __name__ == '__main__':
     print('https://userstyles.org/styles/180957/edit')
     print('https://chrome.google.com/webstore/devconsole/d9cb1dfc-39c3-47c1-83ca-1ec7b4652439/ohhpliipfhicocldcakcgpbbcmkjkian/edit/package')
     if args.upload:
-        upload(name, version)
+        upload(version)
     else:
         print(f'https://addons.mozilla.org/en-CA/developers/addon/{url_name}/versions/submit/')
