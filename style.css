@@ -626,7 +626,7 @@ div.gb_K {
     color: #000 !important;
 }
 
-.gb_ub:hover {
+.gb_ub:hover, .gb_Qb:hover {
     background-color: #363636 !important;
 }
 
@@ -847,7 +847,7 @@ input#gs_htif0, input#lst-ib, .sbsb_a {
     color: #fff;
 }
 
-.sfbg, #fbar{
+.sfbg, #fbar, .f6F9Be {
     background-color: #121212 !important;
 }
 
@@ -1657,7 +1657,7 @@ span.wob_t {
     background-color: #000 !important;
 }
 
-.gb_Fb.gb_Fb, .gb_wb.gb_wb {
+.gb_wb.gb_wb {
     background-color: black !important;
 }
 
@@ -1697,10 +1697,6 @@ span.wob_t {
 } */
 
 /* sign in */
-.gb_Bb.gb_Bb {
-    background-color: #000 !important;
-}
-
 .gb_4.gb_5.gb_ce.gb_Wc {
     color: #fff !important;
 }
@@ -1869,7 +1865,7 @@ a.gYVSnb, div.gYVSnb span {
     background: black !important;
 }
 
-.gb_Jb.gb_Jb, .gb_Kb.gb_Kb {
+.gb_Jb.gb_Jb {
     background-color: black !important;
 }
 
