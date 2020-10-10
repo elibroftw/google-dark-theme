@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.10.8.328
+@version 2020.10.10.329
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -243,7 +243,7 @@ a#gb_71 {
     color: #fff !important;
 }
 
-.EBe2gf span, .EBe2gf, .GrWnYc, .GrWnYc span, .aXBZVd {
+.EBe2gf span, .EBe2gf, .GrWnYc, .GrWnYc span {
     filter: invert();
 }
 
@@ -2300,8 +2300,14 @@ a .zTpPx {
     color: grey !important;
 }
 
-.gb_l .gb_qb {
+.gb_l .gb_qb, .tKfMXd, .eLpAgf {
     color: #aaa !important;
+}
+
+/* People also search for search symbol */
+.aXBZVd {
+    background-color: #121212 !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='rgba(255,255,255,.54)' d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3C/svg%3E");
 }
 
 }
