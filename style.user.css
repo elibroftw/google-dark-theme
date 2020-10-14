@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.10.10.330
+@version 2020.10.13.331
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -1249,6 +1249,10 @@ a.ksb.ab_button.kxctl-b:hover {
 /* Stocks */
 span.vk_bk, .vk_bk {
     color: #818181 !important
+}
+
+.f196ee {
+    background-color: #121212 !important;
 }
 
 .vk_bk {
