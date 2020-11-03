@@ -1775,6 +1775,7 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
 .WGYX8:hover {
     background: #222 !important;
     border-color: #222 !important;
+    color: #dfdfdf !important;
 }
 
 .WGYX8[selected] {
@@ -2333,7 +2334,7 @@ a .zTpPx {
 color: #3ea6ff !important;
 }
 
-.qpmo9c, .BcZE6d {
+.qpmo9c, .BcZE6d, .xVXTVe, .EHQHR {
     color: #aaa !important;
 }
 
@@ -2344,6 +2345,23 @@ color: #3ea6ff !important;
     filter: invert()
 }
 
-.labDHc, .P1j5kb, .SnLWtb {
+.labDHc, .P1j5kb, .SnLWtb, .rDMtnd {
+    color: #dfdfdf !important;
+}
+
+.u2sJ0e.AvEv1e, .WCKaKb {
+    background-color: black !important;
+}
+
+.AvEv1e {
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.BT8SYd {
+    color: #dfdfdf !important;
+}
+
+.WGYX8 {
+    background: black !important;
     color: #dfdfdf !important;
 }
