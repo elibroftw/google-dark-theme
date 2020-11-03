@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.11.3.335
+@version 2020.11.3.336
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -2340,6 +2340,21 @@ a .zTpPx {
 
 .MGqjK {
     background-color: #121212 !important;
+}
+
+.kKVYgd {
+color: #3ea6ff !important;
+}
+
+.qpmo9c, .BcZE6d {
+    color: #aaa !important;
+}
+
+.c07z9 {
+    color: #ccc !important;
+}
+.I12kpe.W63P1e.hide-focus-ring, .I12kpe.Uz0SZd.hide-focus-ring {
+    filter: invert()
 }
 
 }
