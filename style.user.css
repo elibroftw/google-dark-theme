@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.11.3.338
+@version 2020.11.5.339
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -1126,7 +1126,10 @@ i {
 }
 
 /* links */
-a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .GtMhHe, .nRfCwb, .ubF8Rd, .w, .RJn8N.xXEKkb.ellip, .wUrVib, .L4FTLe .F3hKE, #rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(1)>div>div>div>div>span>span.piXPB>span {
+a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m,
+.GtMhHe, .nRfCwb, .ubF8Rd, .w, .RJn8N.xXEKkb.ellip,
+.wUrVib, .L4FTLe .F3hKE, .FoAEQ,
+#rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(1)>div>div>div>div>span>span.piXPB>span {
     color: #3ea6ff !important;
 }
 
@@ -1507,7 +1510,7 @@ span.wob_t {
     color: #fff !important;
 }
 
-.gb_jb.gb_kb, .gb_5b {
+.gb_jb.gb_kb, .gb_5b, .u9sbk.W2lMue {
     color: #ededed !important;
 }
 
@@ -2377,6 +2380,14 @@ color: #3ea6ff !important;
 .WGYX8 {
     background: black !important;
     color: #dfdfdf !important;
+}
+
+.dVcUje, .TVJLWe {
+    color: #dfdfdf !important;
+}
+
+.az0qG, .Ee0wSe, .o8x72c, .wrsf {
+    color: #fff !important;
 }
 
 }
