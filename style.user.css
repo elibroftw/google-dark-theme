@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.11.21.342
+@version 2020.11.24.343
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -137,7 +137,7 @@ a#gb_71 {
     background-color: #121212 !important;
 }
 
-.imso-hov:hover, .imso-hov:focus {
+.imso-hov:hover, .imso-hov:focus, .gb_Qb > .gb_Pb:hover {
     background-color: #363636 !important;
 }
 
@@ -1674,7 +1674,7 @@ span.wob_t {
 }
 
 .gb_wb.gb_wb {
-    background-color: black !important;
+    background-color: #121212 !important;
 }
 
 .gb_ub.gb_ub {
@@ -2408,6 +2408,14 @@ color: #3ea6ff !important;
 
 .rBrJud {
     box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.14),0 3px 1px -2px rgba(255, 255, 255, 0.2),0 1px 5px 0 rgba(255, 255, 255, 0.12) !important;
+}
+
+.mfMhoc, .gb_rb {
+    color: #dfdfdf !important;
+}
+
+.gb_4b {
+    color: #fff !important;
 }
 
 }
