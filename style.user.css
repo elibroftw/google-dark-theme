@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.11.26.346
+@version 2020.11.26.347
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -1022,7 +1022,7 @@ option {
     color: white !important;
 }
 
-.gt-baf-word-clickable, .aia4Ud {
+.gt-baf-word-clickable, .aia4Ud, .JLqJ4b {
     color: white !important;
 }
 
