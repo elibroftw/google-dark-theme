@@ -1009,8 +1009,12 @@ option {
     color: white !important;
 }
 
-.gt-baf-word-clickable, .aia4Ud, .JLqJ4b {
+.gt-baf-word-clickable, .aia4Ud, .JLqJ4b, .NlvNvf, .VIiyi {
     color: white !important;
+}
+
+.Tw0Tv:not(:disabled) {
+    color: rgba(255, 255, 255, 0.54) !important;
 }
 
 .gt-baf-previous-word-mobile {
