@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.11.26.345
+@version 2020.11.26.346
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -1000,8 +1000,17 @@ option {
     background-color: #222 !important;
 }
 
-.ordo2.KKjvXb {
+.ordo2.KKjvXb, .rm1UF.UnxENd, .Dwvecf, .ZShpvc, .hgbeOc {
     background-color: black !important;
+}
+
+.WFnNle {
+    background-color: #121212 !important;
+}
+
+.aCQag {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
 }
 
 .KskmCc {
