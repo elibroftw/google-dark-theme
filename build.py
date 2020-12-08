@@ -100,7 +100,7 @@ if __name__ == '__main__':
         user_style = (
         '/* ==UserStyle==\n' +
         '@name Google Dark Theme\n' +
-        f'@version {version}\n' +
+        f'@version {date}\n' +
         '@description A dark theme for Google (currently only supports searches).\n' +
         '@author Elijah Lopez\n' +
         '@namespace elibroftw\n' +
