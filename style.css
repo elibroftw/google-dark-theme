@@ -1363,7 +1363,7 @@ span.act-inactive-stopwatch-icon, span.act-inactive-timer-icon, img.act-icon-dar
     filter: invert(100);
 }
 
-.cdr_dlg {
+.cdr_dlg, .act-flush-card.act-tim-cnt {
     background-color: #121212 !important;
 }
 

@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2020.12.13
+@version 2020.12.14
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -1376,7 +1376,7 @@ span.act-inactive-stopwatch-icon, span.act-inactive-timer-icon, img.act-icon-dar
     filter: invert(100);
 }
 
-.cdr_dlg {
+.cdr_dlg, .act-flush-card.act-tim-cnt {
     background-color: #121212 !important;
 }
 
