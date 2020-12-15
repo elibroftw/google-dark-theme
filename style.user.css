@@ -276,7 +276,7 @@ a#gb_71 {
 }
 
 /*App tray*/
-#hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c {
+#hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c, .EHzcec {
     background: #121212 !important;
 }
 
@@ -292,7 +292,7 @@ a#gb_71 {
     background-color: #121212 !important;;
 }
 
-.Rq5Gcb {
+.Rq5Gcb, .Rq5Gcb {
     color: #ddd !important;
 }
 
@@ -1376,7 +1376,7 @@ span.act-inactive-stopwatch-icon, span.act-inactive-timer-icon, img.act-icon-dar
     filter: invert(100);
 }
 
-.cdr_dlg, .act-flush-card.act-tim-cnt {
+.cdr_dlg, .act-flush-card.act-tim-cnt, .gb_Ta.gb_Fg.gb_i.gb_Eg.gb_Hg.gb_Dg.gb_Zf {
     background-color: #121212 !important;
 }
 
@@ -2038,7 +2038,7 @@ a.gYVSnb, div.gYVSnb span {
 }
 
 .gb_C .gb_D {
-    background-position: 65px -35px !important;
+    background-position: 0 1500px !important;
 }
 
 /* Google Scholar */
@@ -2472,6 +2472,11 @@ color: #3ea6ff !important;
 }
 
 .RvYhPd, .yg51vc, .Xeztj, .Nxb87 {
+    background-color: #121212 !important;
+}
+
+.footerInner {
+    border-color: black !important;
     background-color: #121212 !important;
 }
 
