@@ -23,7 +23,7 @@ args = parser.parse_args()
 # TLDs
 top_level_domains = ['com', 'com.ar', 'com.br', 'com.tr', 'com.gr', 'com.au', 'com.mx', 'com.pa', 'com.pk',
                      'co.uk', 'co.jp', 'co.in', 'co.kr', 'ae', 'at', 'bg', 'ca',  'ch',  'cl',  'dk',  'es',
-                     'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'ru',  'sk']
+                     'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'rs', 'ru', 'sk']
 
 match_bases = [
     '*://www.google.TLD/',
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
     manifest['content_scripts'][0]['matches'] = matches
     with open('manifest.json', 'w') as f:
-        json.dump(manifest, f)
+        json.dump(manifest, f, indent=4)
 
     # versioning: year.month.day.builds
     repo = Repo('.git')
