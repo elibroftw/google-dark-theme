@@ -40,8 +40,6 @@ match_bases = [
 ]
 
 matches = [match_base.replace('TLD', tld) for tld in top_level_domains for match_base in match_bases]
-pprint(matches)
-
 
 GUID = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'
 addon_files = ['manifest.json', 'style.css'] + glob('icons/*.png')
@@ -100,6 +98,10 @@ if __name__ == '__main__':
 
     with open('manifest.json') as f:
         manifest = json.load(f)
+
+    manifest['content_scripts'][0]['matches'] = matches
+    with open('manifest.json', 'w') as f:
+        json.dump(manifest, f)
 
     # versioning: year.month.day.builds
     repo = Repo('.git')
