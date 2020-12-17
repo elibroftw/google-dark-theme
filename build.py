@@ -25,7 +25,6 @@ top_level_domains = ['com', 'com.ar', 'com.br', 'com.tr', 'com.gr', 'com.au', 'c
                      'co.uk', 'co.jp', 'co.in', 'co.kr', 'ae', 'at', 'bg', 'ca',  'ch',  'cl',  'dk',  'es',
                      'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'ru',  'sk']
 
-# use element.replace('TLD', tld)
 match_bases = [
     '*://www.google.TLD/',
     '*://www.google.TLD/?*',
@@ -40,7 +39,7 @@ match_bases = [
     "*://translate.google.TLD/*",
 ]
 
-matches = [match_base.replace('TLD', tld) for match_base in match_bases for tld in top_level_domains]
+matches = [match_base.replace('TLD', tld) for tld in top_level_domains for match_base in match_bases]
 pprint(matches)
 
 
