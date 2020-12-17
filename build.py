@@ -12,12 +12,36 @@ import time
 import jwt
 import io
 import uuid
+from pprint import pprint
 import pyperclip
 
 
 parser = argparse.ArgumentParser(description='Google Dark Theme Build & Upload Script')
 parser.add_argument('--upload', '-u', default=False, action='store_true', help='Upload to mozilla addons after')
 args = parser.parse_args()
+
+# TLDs
+top_level_domains = ['com', 'com.ar', 'com.br', 'com.tr', 'com.gr', 'com.au', 'com.mx', 'com.pa', 'com.pk',
+                     'co.uk', 'co.jp', 'co.in', 'co.kr', 'ae', 'at', 'bg', 'ca',  'ch',  'cl',  'dk',  'es',
+                     'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'ru',  'sk']
+
+# use element.replace('TLD', tld)
+match_bases = [
+    '*://www.google.TLD/',
+    '*://www.google.TLD/?*',
+    '*://www.google.TLD/imghp*',
+    '*://www.google.TLD/webhp*',
+    '*://www.google.TLD/videohp*',
+    '*://www.google.TLD/search*',
+    '*://ogs.google.TLD/*',
+    "*://images.google.TLD/*",
+    "*://books.google.TLD/*",
+    "*://scholar.google.TLD/*",
+    "*://translate.google.TLD/*",
+]
+
+matches = [match_base.replace('TLD', tld) for match_base in match_bases for tld in top_level_domains]
+pprint(matches)
 
 
 GUID = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'
