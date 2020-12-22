@@ -8,5 +8,5 @@
 A dark theme for Google (currently only supports searches).
 
 # Screenshots
-![Chromium](https://raw.githubusercontent.com/elibroftw/google-dark-theme/master/Resources/Chrome%20Web%20Store%20Screenshot.png)
-![FireFox](https://raw.githubusercontent.com/elibroftw/google-dark-theme/master/Resources/Firefox%20Screenshot.jpg)
+![Chromium](https://lh3.googleusercontent.com/XO7DZfVu8nJzBdxhl50Oe4t-YJBSrWNn5wAMgAijoEvxJ1qKvX9ziiwWGpY3e56jlS5oq_XybkhhxnwvUGXeQ1vr=w640-h400-e365-rj-sc0x00ffffff)
+![FireFox](https://addons.cdn.mozilla.net/user-media/previews/full/249/249303.png?modified=1608598871)
