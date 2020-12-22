@@ -5,7 +5,8 @@
 [![Userstyle](https://img.shields.io/badge/dynamic/json?label=Userstyle&query=version&url=https://raw.githubusercontent.com/elibroftw/google-dark-theme/master/manifest.json&style=for-the-badge&color=black)](https://raw.githubusercontent.com/elibroftw/google-dark-theme/master/style.user.css)
 [![Userstyles](https://img.shields.io/badge/dynamic/json?label=Stylish&query=version&url=https://raw.githubusercontent.com/elibroftw/google-dark-theme/master/manifest.json&style=for-the-badge&color=black)](https://userstyles.org/styles/180957/google-searches-dark-theme)
 
-A dark theme for Google (currently only supports searches).
+A dark theme for Google (searches and translate).
+Click Chrome or Firefox labels above to install.
 
 # Screenshots
 ![Chromium](https://lh3.googleusercontent.com/XO7DZfVu8nJzBdxhl50Oe4t-YJBSrWNn5wAMgAijoEvxJ1qKvX9ziiwWGpY3e56jlS5oq_XybkhhxnwvUGXeQ1vr=w640-h400-e365-rj-sc0x00ffffff)
