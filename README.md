@@ -10,3 +10,7 @@ A dark theme for Google (currently only supports searches).
 # Screenshots
 ![Chromium](https://lh3.googleusercontent.com/XO7DZfVu8nJzBdxhl50Oe4t-YJBSrWNn5wAMgAijoEvxJ1qKvX9ziiwWGpY3e56jlS5oq_XybkhhxnwvUGXeQ1vr=w640-h400-e365-rj-sc0x00ffffff)
 ![FireFox](https://addons.cdn.mozilla.net/user-media/previews/full/249/249303.png?modified=1608598871)
+
+# Assets
+If you are interested in how the promototional images and icons were made,
+ the source files are in my [browser themes repo](https://github.com/elibroftw/matte-black-theme/tree/master/Resources).
