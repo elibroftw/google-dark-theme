@@ -2462,6 +2462,10 @@ color: #3ea6ff !important;
     background-color: #121212 !important;
 }
 
+.cG5GOd {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0) 0%, rgb(18, 18, 18) 20%);
+}
+
 .footerInner {
     border-color: black !important;
     background-color: #121212 !important;
