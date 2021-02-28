@@ -22,7 +22,7 @@ args = parser.parse_args()
 
 # TLDs
 top_level_domains = ['com', 'com.ar', 'com.br', 'com.cu', 'com.tr', 'com.gr', 'com.au', 'com.mx', 'com.pa', 'com.pk',
-                     'com.sg', 'co.uk', 'co.jp', 'co.in', 'co.kr', 'co.th', 'co.za', 'ae', 'at', 'bg', 'ca', 'ch',
+                     'com.sg', 'com.tw', 'co.uk', 'co.jp', 'co.in', 'co.kr', 'co.th', 'co.za', 'ae', 'at', 'bg', 'ca', 'ch',
                      'cl', 'de', 'dk', 'es', 'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'rs', 'ru', 'sk']
 
 match_bases = [
@@ -122,6 +122,12 @@ if __name__ == '__main__':
             # only update build if style.css, manifest.json, or icons have changed
             build_no += 1
         version = f'{date}.{build_no}'
+        regex_com = '|'.join([tld.split('com.', 1)[1] for tld in top_level_domains if 'com.' in tld])
+        regex_co = '|'.join([tld.split('co.', 1)[1] for tld in top_level_domains if 'co.' in tld])
+        regex_other = '|'.join([tld for tld in top_level_domains if 'com' not in tld and 'co' not in tld])
+        regex = r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(' + regex_com + '))?)|(co\\.(' + 'in|jp|kr|uk' + '))|(' + regex_other + '))/((webhp|videohp|imghp|search|\\?.*).*)?") {'
+        print(regex)
+        print(r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|gr|mx|pk|tr))?)|(co\\.(in|jp|kr|uk))|(at|be|bg|ca|ch|cl|de|dk|es|fr|hu|ie|it|nl|pl|pt|ru))/((webhp|videohp|imghp|search|\\?.*).*)?") {')
         user_style = (
         '/* ==UserStyle==\n' +
         '@name Google Dark Theme\n' +
