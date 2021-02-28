@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|gr|mx|pk|tr))?)|(co\\.(in|jp|kr|uk))|(at|be|bg|ca|ch|cl|de|dk|es|fr|hu|ie|it|nl|pl|pt|ru))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|cu|gr|mx|pa|pk|sg|tr|tw))?)|(co\\.(in|jp|kr|uk))|(ae|at|bg|ca|ch|cl|de|dk|es|fi|fr|gr|hu|ie|it|nl|pl|pt|rs|ru|sk))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 html {
     scrollbar-color: #666 #363636;

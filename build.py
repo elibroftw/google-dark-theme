@@ -125,9 +125,7 @@ if __name__ == '__main__':
         regex_com = '|'.join([tld.split('com.', 1)[1] for tld in top_level_domains if 'com.' in tld])
         regex_co = '|'.join([tld.split('co.', 1)[1] for tld in top_level_domains if 'co.' in tld])
         regex_other = '|'.join([tld for tld in top_level_domains if 'com' not in tld and 'co' not in tld])
-        regex = r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(' + regex_com + r'))?)|(co\\.(' + 'in|jp|kr|uk' + '))|(' + regex_other + r'))/((webhp|videohp|imghp|search|\\?.*).*)?") {'
-        print(regex)
-        print(r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|gr|mx|pk|tr))?)|(co\\.(in|jp|kr|uk))|(at|be|bg|ca|ch|cl|de|dk|es|fr|hu|ie|it|nl|pl|pt|ru))/((webhp|videohp|imghp|search|\\?.*).*)?") {')
+        style_regex = r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(' + regex_com + r'))?)|(co\\.(' + 'in|jp|kr|uk' + '))|(' + regex_other + r'))/((webhp|videohp|imghp|search|\\?.*).*)?") {'
         user_style = (
         '/* ==UserStyle==\n' +
         '@name Google Dark Theme\n' +
@@ -139,7 +137,7 @@ if __name__ == '__main__':
         '@supportURL https://github.com/elibroftw/google-dark-theme/issues/\n' +
         '@preprocessor stylus\n' +
         '==/UserStyle== */\n\n' +
-        r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|gr|mx|pk|tr))?)|(co\\.(in|jp|kr|uk))|(at|be|bg|ca|ch|cl|de|dk|es|fr|hu|ie|it|nl|pl|pt|ru))/((webhp|videohp|imghp|search|\\?.*).*)?") {' +
+        style_regex +
         f'\n\n{style}\n' + '}\n')
         with open('style.user.css', 'w') as f:
             f.write(user_style)
