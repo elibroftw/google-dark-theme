@@ -21,8 +21,8 @@ parser.add_argument('--upload', '-u', default=False, action='store_true', help='
 args = parser.parse_args()
 
 # TLDs
-top_level_domains = ['com', 'com.ar', 'com.au', 'com.br', 'com.cu', 'com.gr', 'com.mx', 'com.pa', 'com.pk', 'com.tr',
-                     'com.sg', 'com.tw', 'co.uk', 'co.jp', 'co.in', 'co.kr', 'co.th', 'co.za', 'ae', 'at', 'bg', 'ca', 'ch',
+top_level_domains = ['com', 'com.ar', 'com.au', 'com.br', 'com.cu', 'com.gr', 'com.mx', 'com.pa', 'com.pk', 'com.sg',
+                     'com.tr', 'com.tw', 'co.uk', 'co.jp', 'co.in', 'co.kr', 'co.th', 'co.za', 'ae', 'at', 'bg', 'ca', 'ch',
                      'cl', 'de', 'dk', 'es', 'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'rs', 'ru', 'sk']
 
 match_bases = [
@@ -125,7 +125,7 @@ if __name__ == '__main__':
         regex_com = '|'.join([tld.split('com.', 1)[1] for tld in top_level_domains if 'com.' in tld])
         regex_co = '|'.join([tld.split('co.', 1)[1] for tld in top_level_domains if 'co.' in tld])
         regex_other = '|'.join([tld for tld in top_level_domains if 'com' not in tld and 'co' not in tld])
-        regex = r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(' + regex_com + '))?)|(co\\.(' + 'in|jp|kr|uk' + '))|(' + regex_other + '))/((webhp|videohp|imghp|search|\\?.*).*)?") {'
+        regex = r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(' + regex_com + r'))?)|(co\\.(' + 'in|jp|kr|uk' + '))|(' + regex_other + r'))/((webhp|videohp|imghp|search|\\?.*).*)?") {'
         print(regex)
         print(r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|gr|mx|pk|tr))?)|(co\\.(in|jp|kr|uk))|(at|be|bg|ca|ch|cl|de|dk|es|fr|hu|ie|it|nl|pl|pt|ru))/((webhp|videohp|imghp|search|\\?.*).*)?") {')
         user_style = (
