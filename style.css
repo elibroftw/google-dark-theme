@@ -2248,11 +2248,12 @@ a.gYVSnb, div.gYVSnb span {
 }
 
 .tfB0Bf input[type="submit"], .gbqfba {
-    color: #777 !important;
+    color: #aaa !important;
+    background-color: black !important;
 }
 
 .tfB0Bf input[type="submit"]:hover {
-    color: #aaa !important;
+    background-color: #242424 !important;
 }
 
 #SIvCob {
