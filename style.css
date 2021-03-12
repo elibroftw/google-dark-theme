@@ -28,10 +28,11 @@ a#gb_71 {
 
 /* Sports */
 .imso_mh__l-tm-sc, .imso_mh__r-tm-sc, .imso_mh__scr-it.imso_mh__sep.imso-light-font, .imso_mh__lg-st-srs,
- .imso_scr_sum__rft-cell.imso_scr_sum__scr-and-sum-cell.imso_scr_sum__scr-summ-narrow-cell,
-  .imso_scr_sum__nm-cell, .imspo_tps__pnm, .imspo_tps__stat-val,
-  .imso_scr_sum__rft-cell.imso_scr_sum__scr-and-sum-cell.imso_scr_sum__scr-wide-cell,
-  .imso_scr_sum__rft-cell.imso_scr_sum__scr-and-sum-cell.imso_scr_sum__summ-wide-cell {
+.imso_scr_sum__rft-cell.imso_scr_sum__scr-and-sum-cell.imso_scr_sum__scr-summ-narrow-cell,
+.imso_scr_sum__nm-cell, .imspo_tps__pnm, .imspo_tps__stat-val,
+.imso_scr_sum__rft-cell.imso_scr_sum__scr-and-sum-cell.imso_scr_sum__scr-wide-cell,
+.imso_scr_sum__rft-cell.imso_scr_sum__scr-and-sum-cell.imso_scr_sum__summ-wide-cell,
+.J3Tg1d .tmS4cc .gadasb {
     color: rgba(255, 255, 255, 0.87) !important;
 
 }
