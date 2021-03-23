@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2021.3.18
+@version 2021.3.23
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -987,6 +987,15 @@ option {
 
 .S6GkK {
     color: #5f6368 !important;
+}
+
+.ita-kd-img {
+    filter: invert();
+}
+
+.canvas.ita-hwt-canvas {
+    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAAWlJREFUGJVdzz+L2nAAh/EnFgWJSn7BIB4ILkl/wb+Ig4Pi4ltob3Jz8u4Wa5cqtGQzHZz6AlyEDu5Ccb+5KAWRDEdJcDjQxdF0uIPqPfNn+H7fCSHI5/Pouk69Xud0OqFpGtFolEgkguu6D/P5/Odut9spQggymQzn85lcLofneaiqynq9xjRNfbvdPvPaFc5mswRBwH6/ZzwefxJC5I7H49/BYPB9NBp9RgiBlBIpJc1mE4DhcHgbvrZYLH50Op33AAghsG0b0zQxDINer/cxvGgymXwDSKVSoOs6lmUB4DjOh0vouu4dQKFQwDAM0DQNgG63ewUdx7mLx+PYtk21WiWdTr+87Pf7b+E9QKPRoFKpUC6XX3CxWLzZbDaPFxsfFEVBSkm73aZUKv3Hq9XqVxiGoe/7v6fT6RdVVbEsi1qtRqvVusKK53mPQRA8LZfLr7PZ7E8ikSAWiwGQTCY5HA4oioLv+/wDWAmyspuUDnsAAAAASUVORK5CYII=") 0 10, auto;
+    background-color: black !important;
 }
 
 .PxXj2d, .KskmCc {
