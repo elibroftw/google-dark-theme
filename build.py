@@ -14,6 +14,7 @@ import io
 import uuid
 from pprint import pprint
 import pyperclip
+import webbrowser
 
 
 parser = argparse.ArgumentParser(description='Google Dark Theme Build & Upload Script')
@@ -74,15 +75,19 @@ def upload(version):
     create_zip(file)
 
     # Chrome
+    client_id = os.environ['client_id']
     data = {
-        'client_id': os.environ['client_id'],
+        'client_id': client_id,
         'client_secret': os.environ['client_secret'],
-        'code': os.environ['access_code'],
+
         'grant_type': 'authorization_code',
         'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
     }
     print(os.environ['access_code'])
 
+    webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=urn:ietf:wg:oauth:2.0:oob')
+    access_code = input('Enter OAUTH2 token: ')
+    data['code'] = access_code
     access_token = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
     pprint(access_token)
     access_token = access_token['access_token']
