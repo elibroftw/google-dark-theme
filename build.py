@@ -101,9 +101,10 @@ def upload(version):
         'code': os.environ['refresh_token'],
         'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
     }
-    webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=urn:ietf:wg:oauth:2.0:oob&access_type=offline')
+    # webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=urn:ietf:wg:oauth:2.0:oob&access_type=offline')
     # data['code'] = input('Enter code: ')
     r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
+    pprint(r)
     access_token = r['access_token']
     quit()
     headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
