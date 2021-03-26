@@ -70,6 +70,8 @@ def create_zip(file):
 
 def upload(version):
     # e.g. version = '1.1.1.1'
+    file = io.BytesIO()
+    create_zip(file)
 
     # Chrome
     data = {
@@ -106,8 +108,6 @@ def upload(version):
     }
     jwt_obj = jwt.encode(jwt_obj, jwt_secret, algorithm='HS256').decode()
 
-    file = io.BytesIO()
-    create_zip(file)
     print(f'uploading version {version}')
     data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
     headers = {'Authorization': f'JWT {jwt_obj}'}
