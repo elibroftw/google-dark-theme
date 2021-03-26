@@ -80,7 +80,9 @@ def upload(version):
         'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
     }
 
-    access_token = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()['access_token']
+    access_token = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
+    pprint(access_token)
+    access_token = access_token['access_token']
     headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
 
     r = requests.put(f'https://www.googleapis.com/upload/chromewebstore/v1.1/items/{ITEM_ID}',
