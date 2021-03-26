@@ -41,7 +41,8 @@ match_bases = [
 
 matches = [match_base.replace('TLD', tld) for tld in top_level_domains for match_base in match_bases]
 
-GUID = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'
+GUID = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'  # Firefox
+ITEM_ID = 'ohhpliipfhicocldcakcgpbbcmkjkian'     # Chrome Web Store
 addon_files = ['manifest.json', 'style.css'] + glob('icons/*.png')
 with open('style.css') as f: style = f.read()
 
@@ -70,9 +71,30 @@ def create_zip(file):
 def upload(version):
     # e.g. version = '1.1.1.1'
 
+    # Chrome
+    data = {
+        'client_id': os.environ['client_id'],
+        'client_secret': os.environ['client_secret'],
+        'code': os.environ['access_code'],
+        'grant_type': 'authorization_code',
+        'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
+    }
+
+    access_token = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()['access_token']
+    headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
+
+    r = requests.put(f'https://www.googleapis.com/upload/chromewebstore/v1.1/items/{ITEM_ID}',
+                     headers=headers, data=file.getvalue())
+    print(r.status_code)
+    print(r.json())
+    r = requests.post(f'https://www.googleapis.com/chromewebstore/v1.1/items/{ITEM_ID}/publish', headers=headers)
+    print(r.status_code)
+    print(r.json())
+
+    # Firefox
     # create auth JWT token
-    jwt_secret = os.environ['jwt-secret']
-    jwt_issuer = os.environ['jwt-issuer']
+    jwt_secret = os.environ['jwt_secret']
+    jwt_issuer = os.environ['jwt_issuer']
     jwt_obj = {
         'iss': jwt_issuer,
         'jti': str(uuid.uuid4()),
