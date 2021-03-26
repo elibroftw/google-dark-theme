@@ -79,6 +79,7 @@ def upload(version):
         'grant_type': 'authorization_code',
         'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
     }
+    print(os.environ['access_code'])
 
     access_token = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
     pprint(access_token)
