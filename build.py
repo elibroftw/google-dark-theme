@@ -97,16 +97,21 @@ def upload(version):
     data = {
         'client_id': client_id,
         'client_secret': os.environ['client_secret'],
-        'grant_type': 'refresh_token',  # use authorization_code for first time
+        'grant_type': 'refresh_token',
         'refresh_token': os.environ['refresh_token'],
         'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
     }
-    # webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=urn:ietf:wg:oauth:2.0:oob&access_type=offline')
-    # data['code'] = input('Enter code: ')
-    r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
-    pprint(r)
-    access_token = r['access_token']
-    quit()
+
+    try:
+        r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
+        access_token = r['access_token']
+    except KeyError:
+        webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=urn:ietf:wg:oauth:2.0:oob&access_type=offline')
+        data['code'] = input('Enter code: ')
+        data['grant_type'] = 'authorization_code'
+        r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
+        access_token = r['access_token']
+        print('new refresh token:', r['refresh_token'])
     headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
     requests.put(f'https://www.googleapis.com/upload/chromewebstore/v1.1/items/{ITEM_ID}', headers=headers, data=file.getvalue())
     requests.post(f'https://www.googleapis.com/chromewebstore/v1.1/items/{ITEM_ID}/publish', headers=headers)
