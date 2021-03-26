@@ -79,7 +79,6 @@ def upload(version):
     data = {
         'client_id': client_id,
         'client_secret': os.environ['client_secret'],
-
         'grant_type': 'authorization_code',
         'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
     }
