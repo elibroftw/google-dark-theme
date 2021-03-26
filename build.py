@@ -71,34 +71,9 @@ def create_zip(file):
 
 def upload(version):
     # e.g. version = '1.1.1.1'
+    print(f'uploading version {version}')
     file = io.BytesIO()
     create_zip(file)
-
-    # Chrome
-    client_id = os.environ['client_id']
-    data = {
-        'client_id': client_id,
-        'client_secret': os.environ['client_secret'],
-        'grant_type': 'authorization_code',
-        'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
-    }
-    print(os.environ['access_code'])
-
-    webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=urn:ietf:wg:oauth:2.0:oob')
-    access_code = input('Enter OAUTH2 token: ')
-    data['code'] = access_code
-    access_token = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
-    pprint(access_token)
-    access_token = access_token['access_token']
-    headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
-
-    r = requests.put(f'https://www.googleapis.com/upload/chromewebstore/v1.1/items/{ITEM_ID}',
-                     headers=headers, data=file.getvalue())
-    print(r.status_code)
-    print(r.json())
-    r = requests.post(f'https://www.googleapis.com/chromewebstore/v1.1/items/{ITEM_ID}/publish', headers=headers)
-    print(r.status_code)
-    print(r.json())
 
     # Firefox
     # create auth JWT token
@@ -112,13 +87,26 @@ def upload(version):
     }
     jwt_obj = jwt.encode(jwt_obj, jwt_secret, algorithm='HS256').decode()
 
-    print(f'uploading version {version}')
     data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
     headers = {'Authorization': f'JWT {jwt_obj}'}
     url = f'https://addons.mozilla.org/api/v4/addons/{GUID}/versions/{version}/'
-    r = requests.put(url, data, headers=headers, files=data)
-    print(r.status_code)
-    print(r.json())
+    requests.put(url, data, headers=headers, files=data)
+
+    # Chrome
+    client_id = os.environ['client_id']
+    data = {
+        'client_id': client_id,
+        'client_secret': os.environ['client_secret'],
+        'grant_type': 'authorization_code',
+        'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
+    }
+    webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=urn:ietf:wg:oauth:2.0:oob&access_type=offline')
+    data['code'] = input('Enter OAUTH2 token: ')
+    access_token = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
+    access_token = access_token['access_token']
+    headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
+    requests.put(f'https://www.googleapis.com/upload/chromewebstore/v1.1/items/{ITEM_ID}', headers=headers, data=file.getvalue())
+    requests.post(f'https://www.googleapis.com/chromewebstore/v1.1/items/{ITEM_ID}/publish', headers=headers)
 
 
 if __name__ == '__main__':
