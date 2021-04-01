@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2021.3.25
+@version 2021.4.1
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|cu|gr|mx|pa|pk|sg|tr|tw))?)|(co\\.(in|jp|kr|uk))|(ae|at|bg|ca|ch|cl|de|dk|es|fi|fr|gr|hu|ie|it|nl|pl|pt|rs|ru|sk))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|cu|gr|mx|pa|pk|sg|tr|tw))?)|(co\\.(in|jp|kr|uk))|(ae|at|bg|ca|ch|cl|cz|de|dk|es|fi|fr|gr|hu|ie|it|nl|pl|pt|rs|ru|sk))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 html {
     scrollbar-color: #666 #363636;

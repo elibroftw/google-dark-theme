@@ -24,7 +24,7 @@ args = parser.parse_args()
 # TLDs
 top_level_domains = ['com', 'com.ar', 'com.au', 'com.br', 'com.cu', 'com.gr', 'com.mx', 'com.pa', 'com.pk', 'com.sg',
                      'com.tr', 'com.tw', 'co.uk', 'co.jp', 'co.in', 'co.kr', 'co.th', 'co.za', 'ae', 'at', 'bg', 'ca', 'ch',
-                     'cl', 'de', 'dk', 'es', 'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'rs', 'ru', 'sk']
+                     'cl', 'cz', 'de', 'dk', 'es', 'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'rs', 'ru', 'sk']
 
 match_bases = [
     '*://www.google.TLD/',
