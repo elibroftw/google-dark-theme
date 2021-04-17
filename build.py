@@ -86,9 +86,6 @@ def upload(version):
         'exp': time.time() + 60
     }
     jwt_obj = jwt.encode(jwt_obj, jwt_secret, algorithm='HS256')
-    print(jwt_obj)
-    quit()
-
 
     data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
     headers = {'Authorization': f'JWT {jwt_obj}'}
