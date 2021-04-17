@@ -134,7 +134,7 @@ if __name__ == '__main__':
     commits_behind = len(list(repo.iter_commits('master..origin/master')))
     if commits_behind:
         # if origin has changes
-        commit_message = ', '.join([item.a_path for item in repo.index.diff(None)])
+        commit_message = ', '.join((item.a_path for item in repo.index.diff(None)))
         repo.git.add(update=True)
         repo.index.commit(f'Updated {commit_message}')
         origin.pull()

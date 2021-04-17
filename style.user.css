@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2021.4.1
+@version 2021.4.16
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -1196,7 +1196,7 @@ a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .s80L3d,
     color: #3ea6ff !important;
 }
 
-.gb_m:hover, #tw-gtlink:visited {
+.gb_m:hover, #tw-gtlink:visited, .sbl1p {
     color: #3ea6ff !important;
 }
 
@@ -2505,6 +2505,10 @@ color: #3ea6ff !important;
 
 .a9v0ne {
     color: #aaa !important;
+}
+
+.aypzV {
+    color: #eee im !important;
 }
 
 }
