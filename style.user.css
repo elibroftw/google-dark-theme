@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2021.4.19
+@version 2021.4.27
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -1823,7 +1823,7 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
     background-color: #000 !important;
 }
 
-/* Job stuff */
+/* Jobs */
 .NOiGgb .sb-unsaved svg, .SGdgT .sb-unsaved svg {
     fill: rgba(255, 255, 255, 0.54) !important;
 }
@@ -1841,8 +1841,12 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
     border-color: #363636 !important;
 }
 
-.iFjolb.hide-focus-ring.gws-plugins-horizon-jobs__li-ed, .uLAgob {
+.iFjolb.hide-focus-ring.gws-plugins-horizon-jobs__li-ed, .uLAgob, .iFjolb {
     background-color: #121212 !important;
+}
+
+.iFjolb:hover {
+    background-color: #222 !important;
 }
 
 .GbaVB, .GbaVB:not(.tl-pp-on) {
