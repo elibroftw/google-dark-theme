@@ -34,10 +34,12 @@ match_bases = [
     '*://www.google.TLD/videohp*',
     '*://www.google.TLD/search*',
     '*://ogs.google.TLD/*',
-    "*://images.google.TLD/*",
-    "*://books.google.TLD/*",
-    "*://scholar.google.TLD/*",
-    "*://translate.google.TLD/*",
+    '*://images.google.TLD/*',
+    '*://books.google.TLD/*',
+    '*://scholar.google.TLD/*',
+    '*://translate.google.TLD/*',
+    'news.google.TLD',
+    'https://www.google.TLD/shopping',
 ]
 
 matches = [match_base.replace('TLD', tld) for tld in top_level_domains for match_base in match_bases]
