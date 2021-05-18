@@ -38,7 +38,7 @@ match_bases = [
     '*://books.google.TLD/*',
     '*://scholar.google.TLD/*',
     '*://translate.google.TLD/*',
-    'news.google.TLD',
+    '*://news.google.TLD',
     'https://www.google.TLD/shopping',
 ]
 
