@@ -92,7 +92,9 @@ def upload(version):
     data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
     headers = {'Authorization': f'JWT {jwt_obj}'}
     url = f'https://addons.mozilla.org/api/v4/addons/{GUID}/versions/{version}/'
-    requests.put(url, data, headers=headers, files=data)
+    r = requests.put(url, data, headers=headers, files=data)
+    print(r.status_code)
+    print(r.text)
 
     # Chrome
     client_id = os.environ['client_id']
