@@ -93,8 +93,6 @@ def upload(version):
     headers = {'Authorization': f'JWT {jwt_obj}'}
     url = f'https://addons.mozilla.org/api/v4/addons/{GUID}/versions/{version}/'
     r = requests.put(url, data, headers=headers, files=data)
-    print(r.status_code)
-    print(r.text)
 
     # Chrome
     client_id = os.environ['client_id']
