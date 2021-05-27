@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2021.5.24
+@version 2021.5.27
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -134,7 +134,7 @@ a#gb_71 {
     color: rgba(255, 255, 255, 0.56) !important;
 }
 
-.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, .iKjWAf, .sfbgg, .jZWadf {
+.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, .iKjWAf, .sfbgg, .jZWadf, html, .ZINbbc {
     background-color: #121212 !important;
 }
 
@@ -761,8 +761,12 @@ div.gb_K {
 
 /* Search bar stuff */
 
-.gLFyf, .LWyAN, .q8FTm, .JSAgYe, .o44hBf {
+.gLFyf, .LWyAN, .q8FTm, .JSAgYe, .o44hBf, .sbc input[type="text"] {
     color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.sbc, .Pg70bf {
+    background-color: black !important;
 }
 
 .Tg7LZd {
@@ -998,7 +1002,7 @@ option {
     background-color: black !important;
 }
 
-.cmlJmd {
+.cmlJmd, .s3v9rd.AP7Wnd {
     color: grey !important;
 }
 
@@ -1196,7 +1200,7 @@ a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .s80L3d,
     color: #3ea6ff !important;
 }
 
-.gb_m:hover, #tw-gtlink:visited, .sbl1p, .vfxGNc {
+.gb_m:hover, #tw-gtlink:visited, .sbl1p, .vfxGNc, .vvjwJb, .XLloXe, .Xb5VRe {
     color: #3ea6ff !important;
 }
 
@@ -1402,7 +1406,7 @@ span.act-inactive-stopwatch-icon, span.act-inactive-timer-icon, img.act-icon-dar
     background-color: transparent !important;
 }
 
-#cdr_cont > div.cdr_dlg > div.cdr_ttl {
+#cdr_cont > div.cdr_dlg > div.cdr_ttl, .FCUp0c, .iBp4i.AP7Wnd, .BNeawe {
     color: #aaa !important;
 }
 
@@ -2230,11 +2234,11 @@ a.gYVSnb, div.gYVSnb span {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.CMMlMe, .yeRnY, .GQXXO, .JXRj4e, .NOK5hf, .c0L1fd {
+.CMMlMe, .yeRnY, .GQXXO, .JXRj4e, .NOK5hf, .c0L1fd, .wyrwXc.AP7Wnd {
     color: #eee !important;
 }
 
-.hb8SAc {
+.hb8SAc, .deIvCb.AP7Wnd {
     color: #dfdfdf !important;
 }
 
