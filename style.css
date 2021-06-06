@@ -806,6 +806,10 @@ input#gs_htif0, input#lst-ib, .sbsb_a {
     color: #aaa !important;
 }
 
+.gb_9d:not(.gb_2) {
+    color: white !important;
+}
+
 /* MORE text */
 .SW5pqf, span.wR7plc.xXEKkb, .EZRelc, div.BAyyse:nth-child(1) > div:nth-child(1) > span:nth-child(1) > span:nth-child(2), .lr_dct_more_btn, .TYiug, .jMtmC, .SRgN7c .FVbHKd {
     color: #20ffe0 !important;
