@@ -746,6 +746,16 @@ div.gb_K {
     color: #006621 !important;
 }
 
+.lJ9FBc input[type="submit"], .gbqfba {
+    background-color: #000 !important;
+    color: #eee !important;
+}
+
+.lJ9FBc input[type="submit"]:hover {
+    background-color: #222 !important;
+    color: #eee !important;
+}
+
 /* Search bar stuff */
 
 .gLFyf, .LWyAN, .q8FTm, .JSAgYe, .o44hBf, .sbc input[type="text"] {
