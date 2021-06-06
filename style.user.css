@@ -869,8 +869,26 @@ input#gs_htif0, input#lst-ib, .sbsb_a {
     color: #fff;
 }
 
-.sfbg, #fbar, .f6F9Be {
+.sfbg, #fbar, .f6F9Be, .gb_Cb.gb_Cb, .gb_Db.gb_Db, .gb_vb.gb_vb, .gb_rb.gb_rb {
     background-color: #121212 !important;
+}
+
+.gb_Cb.gb_Cb:hover, .gb_Db.gb_Db:hover, .gb_vb:hover, .gb_Mb > .gb_Lb:hover, .gb_Mb > .gb_Lb:hover .gb_Ob,
+.gb_rb:hover, .gb_tb:hover {
+    background-color: #222 !important;
+}
+
+.gb_Mb > .gb_Lb:active, .gb_Mb > .gb_Lb:focus:active, .gb_Mb > .gb_Lb:active .gb_Ob,
+.gb_rb:active, .gb_rb:focus:active, .gb_tb:active, .gb_tb:active:focus {
+    background-color: #000 !important;
+}
+
+.gb_k .gb_lb, .gb_0b {
+    color: #eee !important;
+}
+
+.gb_2b, .gb_k .gb_nb {
+    color: #aaa !important;
 }
 
 .Q8LRLc {
@@ -1589,10 +1607,6 @@ span.wob_t {
     color: #ededed !important;
 }
 
-.gb_Ob:hover {
-    background: #000 !important;
-}
-
 .gb_Mb {
     background: #111111 !important;
 }
@@ -1981,7 +1995,7 @@ a.gYVSnb, div.gYVSnb span {
     background-color: #242424 !important;
 }
 
-.gb_sb:hover, .gb_lb:hover, .gb_zb:hover {
+.gb_sb:hover, .gb_zb:hover {
     background-color: #363636 !important;
 }
 
