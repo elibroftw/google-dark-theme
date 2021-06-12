@@ -884,7 +884,7 @@ input#gs_htif0, input#lst-ib, .sbsb_a {
     color: #eee !important;
 }
 
-.gb_2b, .gb_k .gb_nb {
+.gb_2b, .gb_k .gb_nb, .URIeEf {
     color: #aaa !important;
 }
 
@@ -2253,7 +2253,7 @@ a.gYVSnb, div.gYVSnb span {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.CMMlMe, .yeRnY, .GQXXO, .JXRj4e, .NOK5hf, .c0L1fd, .wyrwXc.AP7Wnd {
+.CMMlMe, .yeRnY, .GQXXO, .JXRj4e, .NOK5hf, .c0L1fd, .wyrwXc.AP7Wnd, .UVgjof {
     color: #eee !important;
 }
 
@@ -2326,7 +2326,7 @@ a:hover .JheGif, a:visited:hover .JheGif {
     text-decoration: underline;
 }
 
-a .zTpPx {
+a .zTpPx, .checkbox-label, .jfk-radiobutton-label {
     color: #fff !important;
 }
 
@@ -2421,7 +2421,7 @@ a .zTpPx {
     background: #121212 !important;
 }
 
-.ep3ODe .lgJJud {
+.ep3ODe .lgJJud, .f6F9Be {
     background-color: #121212 !important;
 }
 
@@ -2513,7 +2513,7 @@ color: #3ea6ff !important;
     filter: invert();
 }
 
-.RvYhPd, .yg51vc, .Xeztj, .Nxb87, .dXdtIf, .FoDaAb {
+.RvYhPd, .yg51vc, .Xeztj, .Nxb87, .dXdtIf, .FoDaAb, .gb_Jd.gb_3d.gb_Sd.gb_Rd {
     background-color: #121212 !important;
 }
 
@@ -2526,12 +2526,16 @@ color: #3ea6ff !important;
     background-color: #121212 !important;
 }
 
-.TcXXXb {
+.TcXXXb, .b0KoTc {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.a9v0ne {
+.a9v0ne, .mitem a, .mitem a:hover {
     color: #aaa !important;
+}
+
+.mitem:hover {
+    background: #1b1b1b !important;
 }
 
 .aypzV, .wM6W7d, .LrzXr {
@@ -2549,4 +2553,115 @@ color: #3ea6ff !important;
 .CNf3nf.LhCR5d {
     background-color: black !important;
     border-color: #aaa !important;
+}
+
+/* Google Drive */
+.a-qc-La, .N7iPof, .a-D-B, .a-c-d.h-R-d-rc, .a-ub-Gd, .y-C-ka:hover, .y-C-ka:active, .y-C-ka:focus, .a-ub-oa {
+    background-color: #121212;
+}
+
+.aabwZd .WYuW0e .M3pype[data-column-field="6"], .l-t-T-V > .l-Ab-T-r {
+    color: rgba(255, 255, 255, 0.72) !important;
+    fill: rgba(255, 255, 255, 0.72) !important;
+}
+
+.s55KNe:not(.KBj6Qd) .GZwC2b .jGNTYb,
+.aabwZd:not(.KBj6Qd) .GZwC2b, .a-U-ye-ha > .a-U-J,
+.y-C-Ed-V, .a-ub-Gd, .y-C {
+    background-color: #262626 !important;
+    border-color: #aaa !important;
+}
+
+.aabwZd .WYuW0e, .a-t-J {
+    color: rgba(255, 255, 255, 0.54) !important;
+    fill: rgba(255, 255, 255, 0.54) !important;
+    border-color: #aaa !important;
+}
+
+.iZz7md {
+    color: rgba(255, 255, 255, 0.54) !important;
+    fill: rgba(255, 255, 255, 0.54) !important;
+}
+
+.h-R-w-d.a-l-S-Pc-w-d, .iZz7md.aaQsNb:hover, .iZz7md.aaQsNb:hover svg, .iZz7md .I2rTXb:focus, .iZz7md .I2rTXb:focus svg {
+    color: #eee !important;
+    fill: #eee !important;
+}
+
+.y-C-sa-RvPyde, .y-C-H-Sb {
+    color: #aaa !important;
+}
+
+.a-Mg-V-T, .a-Mg-YsLxq-V-T {
+    color: #eee !important;
+}
+
+.y-C-lg:hover svg, .y-C-lg:active svg, .y-C-lg:focus svg, .y-C-ka:hover .y-C-lg:hover svg, .y-C-ka:active .y-C-lg:active svg, .y-C-ka:focus .y-C-lg:focus svg, .y-C-lg svg {
+    fill: #fff !important;
+}
+
+.a-q-Xc-Ab-c {
+    filter: alpha(opacity=25) invert();
+}
+
+.a-s-fa-Ha-pa, .a-d-c svg {
+    fill: white;
+}
+
+#gb, .Kk7lMc-Yb-Il-j {
+    background-color: #121212 !important;
+}
+
+.gb_Te, .gssb_e {
+    background-color: black !important;
+}
+
+.gb_Te:not(.gb_Ue) input::placeholder, .gb_Te.gb_Ue input::placeholder {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+.gb_pa, .gb_Te.gb_Ue .gb_ef {
+    color: white !important;
+}
+
+.gssb_m, .a-jn-yd {
+    background: black !important;
+    color: #eee !important;
+}
+
+.gssb_i {
+    background: #262626 !important;
+}
+
+.a-t-j .a-gd-j, .a-t-D {
+    background-color: #121212 !important;
+    border-color: #aaa !important;
+}
+
+.a-ec-Gd .Kzazxf.x6jRSb {
+    background-color: black !important;
+}
+
+.h-w {
+    background: black !important;
+}
+
+.a-w-Mr::after {
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgb(0, 0, 0) 50%) !important;
+}
+
+.h-v-x, .h-v, .h-v-pc .h-v-x, .h-v-W .h-v-x {
+    color: #aaa !important;
+}
+
+.h-v-pc, .h-v-W, .a-l-S-Pc-w-d.h-R-w-d-W {
+    background-color: #262626 !important;
+}
+
+.a-ec-Gd .Kzazxf.x6jRSb {
+    color: #eee !important;
+}
+
+.a-U-J-x, .ab-S-Wg {
+    color: #aaa !important;
 }

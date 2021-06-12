@@ -33,6 +33,7 @@ match_bases = [
     '*://www.google.TLD/webhp*',
     '*://www.google.TLD/videohp*',
     '*://www.google.TLD/search*',
+    '*://www.google.TLD/preferences*',
     '*://ogs.google.TLD/*',
     '*://images.google.TLD/*',
     '*://books.google.TLD/*',
@@ -43,7 +44,7 @@ match_bases = [
 ]
 
 matches = [match_base.replace('TLD', tld) for tld in top_level_domains for match_base in match_bases]
-
+matches.append('*://drive.google.com/drive*')
 GUID = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'  # Firefox
 ITEM_ID = 'ohhpliipfhicocldcakcgpbbcmkjkian'     # Chrome Web Store
 addon_files = ['manifest.json', 'style.css'] + glob('icons/*.png')
