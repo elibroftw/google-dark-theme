@@ -192,7 +192,7 @@ a#gb_71 {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.fbar, .zRQJhd, .c93Gbe, .s8GCU, .GhpATe {
+.fbar, .zRQJhd, .c93Gbe, .s8GCU, .GhpATe, .FalWJb {
     background: #121212 !important;
 }
 
@@ -2646,7 +2646,7 @@ color: #3ea6ff !important;
     background: #262626 !important;
 }
 
-.a-s-yd-J.a-s-yd-Sa > * {
+.a-s-yd-J.a-s-yd-Sa > *, .a-t-J-ha {
     background-color: #262626 !important;
 }
 
@@ -2681,6 +2681,10 @@ color: #3ea6ff !important;
 
 .a-U-J-x, .ab-S-Wg {
     color: #aaa !important;
+}
+
+.a-t-cb {
+    border-color: #222 !important;
 }
 
 }
