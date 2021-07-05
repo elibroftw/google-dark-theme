@@ -168,7 +168,7 @@ if __name__ == '__main__':
         style_regex +
         f'\n\n{style}\n' + '}\n')
         with open('style.user.css', 'w') as f:
-            user_style.replace('alpha(opacity=25) invert()', "unquote('alpha(opacity=25) invert()')")
+            user_style = user_style.replace('alpha(opacity=25) invert()', "unquote('alpha(opacity=25) invert()')")
             f.write(user_style)
         pyperclip.copy(user_style)
         manifest['version'] = version
