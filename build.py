@@ -33,15 +33,18 @@ match_bases = [
     '*://www.google.TLD/webhp*',
     '*://www.google.TLD/videohp*',
     '*://www.google.TLD/search*',
+    '*://www.google.TLD/preferences*',
+    '*://www.google.TLD/shopping*',
     '*://ogs.google.TLD/*',
-    "*://images.google.TLD/*",
-    "*://books.google.TLD/*",
-    "*://scholar.google.TLD/*",
-    "*://translate.google.TLD/*",
+    '*://images.google.TLD/*',
+    '*://books.google.TLD/*',
+    '*://scholar.google.TLD/*',
+    '*://translate.google.TLD/*',
+    '*://news.google.TLD/'
 ]
 
 matches = [match_base.replace('TLD', tld) for tld in top_level_domains for match_base in match_bases]
-
+matches.append('*://drive.google.com/drive*')
 GUID = '{000a8ba3-ef46-40fd-a51c-daf19e7c00e7}'  # Firefox
 ITEM_ID = 'ohhpliipfhicocldcakcgpbbcmkjkian'     # Chrome Web Store
 addon_files = ['manifest.json', 'style.css'] + glob('icons/*.png')
@@ -85,12 +88,12 @@ def upload(version):
         'iat': time.time(),
         'exp': time.time() + 60
     }
-    jwt_obj = jwt.encode(jwt_obj, jwt_secret, algorithm='HS256').decode()
+    jwt_obj = jwt.encode(jwt_obj, jwt_secret, algorithm='HS256')
 
     data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
     headers = {'Authorization': f'JWT {jwt_obj}'}
     url = f'https://addons.mozilla.org/api/v4/addons/{GUID}/versions/{version}/'
-    requests.put(url, data, headers=headers, files=data)
+    r = requests.put(url, data, headers=headers, files=data)
 
     # Chrome
     client_id = os.environ['client_id']
@@ -134,7 +137,7 @@ if __name__ == '__main__':
     commits_behind = len(list(repo.iter_commits('master..origin/master')))
     if commits_behind:
         # if origin has changes
-        commit_message = ', '.join([item.a_path for item in repo.index.diff(None)])
+        commit_message = ', '.join((item.a_path for item in repo.index.diff(None)))
         repo.git.add(update=True)
         repo.index.commit(f'Updated {commit_message}')
         origin.pull()
@@ -165,6 +168,7 @@ if __name__ == '__main__':
         style_regex +
         f'\n\n{style}\n' + '}\n')
         with open('style.user.css', 'w') as f:
+            user_style = user_style.replace('alpha(opacity=25) invert()', "unquote('alpha(opacity=25) invert()')")
             f.write(user_style)
         pyperclip.copy(user_style)
         manifest['version'] = version
