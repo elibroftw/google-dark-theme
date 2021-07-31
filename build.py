@@ -56,6 +56,7 @@ with open('.env') as f:
     while line:
         k, v = line.split('=', 1)
         os.environ[k] = v.strip()
+        print(k)
         line = f.readline()
 
 
