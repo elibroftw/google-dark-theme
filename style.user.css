@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2021.7.5
+@version 2021.7.31
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -134,7 +134,7 @@ a#gb_71 {
     color: rgba(255, 255, 255, 0.56) !important;
 }
 
-.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, .iKjWAf, .sfbgg, .jZWadf, html, .ZINbbc {
+.imso-hov, .oajNTd.imso-hide-loading, .GOPbMb, .Lou9Nc, .jTw2d, .yR4jwc, body, .iKjWAf, .sfbgg, .jZWadf {
     background-color: #121212 !important;
 }
 
@@ -192,8 +192,12 @@ a#gb_71 {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.fbar, .zRQJhd, .c93Gbe, .s8GCU, .GhpATe, .FalWJb {
+.fbar, .zRQJhd, .c93Gbe, .s8GCU, .GhpATe {
     background: #121212 !important;
+}
+
+.c8d6zd {
+    color: #ddd !important;
 }
 
 /* Track */
@@ -759,28 +763,10 @@ div.gb_K {
     color: #006621 !important;
 }
 
-.lJ9FBc input[type="submit"], .gbqfba {
-    background-color: #000 !important;
-    color: #eee !important;
-}
-
-.lJ9FBc input[type="submit"]:hover {
-    background-color: #222 !important;
-    color: #eee !important;
-}
-
 /* Search bar stuff */
 
-.gLFyf, .LWyAN, .q8FTm, .JSAgYe, .o44hBf, .sbc input[type="text"] {
+.gLFyf, .LWyAN, .q8FTm, .JSAgYe, .o44hBf {
     color: rgba(255, 255, 255, 0.87) !important;
-}
-
-.sbc, .Pg70bf {
-    background-color: black !important;
-}
-
-.Hr51pb .tb_l:hover {
-    background-color: #1b1b1b !important;
 }
 
 .Tg7LZd {
@@ -825,12 +811,8 @@ input#gs_htif0, input#lst-ib, .sbsb_a {
     color: #dbdbdb !important;
 }
 
-.mus_tt18, .RqlTSb, .YQhxq, .fqgGwb {
+.mus_tt18, .RqlTSb, .YQhxq {
     color: #aaa !important;
-}
-
-.gb_9d:not(.gb_2) {
-    color: white !important;
 }
 
 /* MORE text */
@@ -879,26 +861,8 @@ input#gs_htif0, input#lst-ib, .sbsb_a {
     color: #fff;
 }
 
-.sfbg, #fbar, .f6F9Be, .gb_Cb, .gb_Db.gb_Db, .gb_vb.gb_vb, .gb_rb.gb_rb {
+.sfbg, #fbar, .f6F9Be {
     background-color: #121212 !important;
-}
-
-.gb_Cb.gb_Cb:hover, .gb_Db.gb_Db:hover, .gb_vb:hover, .gb_Mb > .gb_Lb:hover, .gb_Mb > .gb_Lb:hover .gb_Ob,
-.gb_rb:hover, .gb_tb:hover {
-    background-color: #222 !important;
-}
-
-.gb_Mb > .gb_Lb:active, .gb_Mb > .gb_Lb:focus:active, .gb_Mb > .gb_Lb:active .gb_Ob,
-.gb_rb:active, .gb_rb:focus:active, .gb_tb:active, .gb_tb:active:focus {
-    background-color: #000 !important;
-}
-
-.gb_k .gb_lb, .gb_0b {
-    color: #eee !important;
-}
-
-.gb_2b, .gb_k .gb_nb, .URIeEf {
-    color: #aaa !important;
 }
 
 .Q8LRLc {
@@ -1038,7 +1002,7 @@ option {
     background-color: black !important;
 }
 
-.cmlJmd, .s3v9rd.AP7Wnd {
+.cmlJmd {
     color: grey !important;
 }
 
@@ -1236,7 +1200,7 @@ a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .s80L3d,
     color: #3ea6ff !important;
 }
 
-.gb_m:hover, #tw-gtlink:visited, .sbl1p, .vfxGNc, .vvjwJb, .XLloXe, .Xb5VRe {
+.gb_m:hover, #tw-gtlink:visited {
     color: #3ea6ff !important;
 }
 
@@ -1401,7 +1365,7 @@ span.vk_bk, .vk_bk {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-#Wprf1b, .B58ezc {
+#Wprf1b {
     color: #888 !important;
 }
 
@@ -1442,7 +1406,7 @@ span.act-inactive-stopwatch-icon, span.act-inactive-timer-icon, img.act-icon-dar
     background-color: transparent !important;
 }
 
-#cdr_cont > div.cdr_dlg > div.cdr_ttl, .FCUp0c, .iBp4i.AP7Wnd, .BNeawe {
+#cdr_cont > div.cdr_dlg > div.cdr_ttl {
     color: #aaa !important;
 }
 
@@ -1615,6 +1579,10 @@ span.wob_t {
 
 .gb_jb.gb_kb, .gb_5b, .u9sbk.W2lMue {
     color: #ededed !important;
+}
+
+.gb_Ob:hover {
+    background: #000 !important;
 }
 
 .gb_Mb {
@@ -1859,7 +1827,7 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
     background-color: #000 !important;
 }
 
-/* Jobs */
+/* Job stuff */
 .NOiGgb .sb-unsaved svg, .SGdgT .sb-unsaved svg {
     fill: rgba(255, 255, 255, 0.54) !important;
 }
@@ -1877,12 +1845,8 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
     border-color: #363636 !important;
 }
 
-.iFjolb.hide-focus-ring.gws-plugins-horizon-jobs__li-ed, .uLAgob, .iFjolb {
+.iFjolb.hide-focus-ring.gws-plugins-horizon-jobs__li-ed, .uLAgob {
     background-color: #121212 !important;
-}
-
-.iFjolb:hover {
-    background-color: #222 !important;
 }
 
 .GbaVB, .GbaVB:not(.tl-pp-on) {
@@ -2005,7 +1969,7 @@ a.gYVSnb, div.gYVSnb span {
     background-color: #242424 !important;
 }
 
-.gb_sb:hover, .gb_zb:hover {
+.gb_sb:hover, .gb_lb:hover, .gb_zb:hover {
     background-color: #363636 !important;
 }
 
@@ -2266,11 +2230,11 @@ a.gYVSnb, div.gYVSnb span {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.CMMlMe, .yeRnY, .GQXXO, .JXRj4e, .NOK5hf, .c0L1fd, .wyrwXc.AP7Wnd, .UVgjof {
+.CMMlMe, .yeRnY, .GQXXO, .JXRj4e, .NOK5hf, .c0L1fd {
     color: #eee !important;
 }
 
-.hb8SAc, .deIvCb.AP7Wnd {
+.hb8SAc {
     color: #dfdfdf !important;
 }
 
@@ -2339,7 +2303,7 @@ a:hover .JheGif, a:visited:hover .JheGif {
     text-decoration: underline;
 }
 
-a .zTpPx, .checkbox-label, .jfk-radiobutton-label {
+a .zTpPx {
     color: #fff !important;
 }
 
@@ -2434,7 +2398,7 @@ a .zTpPx, .checkbox-label, .jfk-radiobutton-label {
     background: #121212 !important;
 }
 
-.ep3ODe .lgJJud, .f6F9Be {
+.ep3ODe .lgJJud {
     background-color: #121212 !important;
 }
 
@@ -2526,7 +2490,7 @@ color: #3ea6ff !important;
     filter: invert();
 }
 
-.RvYhPd, .yg51vc, .Xeztj, .Nxb87, .dXdtIf, .FoDaAb, .gb_Jd.gb_3d.gb_Sd.gb_Rd {
+.RvYhPd, .yg51vc, .Xeztj, .Nxb87, .dXdtIf, .FoDaAb {
     background-color: #121212 !important;
 }
 
@@ -2539,156 +2503,12 @@ color: #3ea6ff !important;
     background-color: #121212 !important;
 }
 
-.TcXXXb, .b0KoTc {
+.TcXXXb {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.a9v0ne, .mitem a, .mitem a:hover {
+.a9v0ne {
     color: #aaa !important;
-}
-
-.mitem:hover {
-    background: #1b1b1b !important;
-}
-
-.aypzV, .wM6W7d, .LrzXr {
-    color: #eee !important;
-}
-
-.AvBz0e {
-    background-color: black !important;
-}
-
-.U1hlv {
-    color: #ddd !important;
-}
-
-.CNf3nf.LhCR5d {
-    background-color: black !important;
-    border-color: #aaa !important;
-}
-
-/* Google Drive */
-.a-qc-La, .N7iPof, .a-D-B, .a-c-d.h-R-d-rc, .a-ub-Gd, .y-C-ka:hover, .y-C-ka:active, .y-C-ka:focus, .a-ub-oa {
-    background-color: #121212 !important;
-}
-
-.aabwZd .WYuW0e .M3pype[data-column-field="6"], .l-t-T-V > .l-Ab-T-r {
-    color: rgba(255, 255, 255, 0.72) !important;
-    fill: rgba(255, 255, 255, 0.72) !important;
-}
-
-.s55KNe:not(.KBj6Qd) .GZwC2b .jGNTYb,
-.aabwZd:not(.KBj6Qd) .GZwC2b, .a-U-ye-ha > .a-U-J,
-.y-C-Ed-V, .a-ub-Gd, .y-C {
-    background-color: #262626 !important;
-    border-color: #222 !important;
-}
-
-.aabwZd .WYuW0e, .a-t-J {
-    color: rgba(255, 255, 255, 0.54) !important;
-    fill: rgba(255, 255, 255, 0.54) !important;
-    border-color: #222 !important;
-}
-
-.iZz7md {
-    color: rgba(255, 255, 255, 0.54) !important;
-    fill: rgba(255, 255, 255, 0.54) !important;
-}
-
-.h-R-w-d.a-l-S-Pc-w-d, .iZz7md.aaQsNb:hover, .iZz7md.aaQsNb:hover svg, .iZz7md .I2rTXb:focus, .iZz7md .I2rTXb:focus svg {
-    color: #eee !important;
-    fill: #eee !important;
-}
-
-.y-C-sa-RvPyde, .y-C-H-Sb {
-    color: #aaa !important;
-}
-
-.a-Mg-V-T, .a-Mg-YsLxq-V-T {
-    color: #eee !important;
-}
-
-.y-C-lg:hover svg, .y-C-lg:active svg, .y-C-lg:focus svg, .y-C-ka:hover .y-C-lg:hover svg, .y-C-ka:active .y-C-lg:active svg, .y-C-ka:focus .y-C-lg:focus svg, .y-C-lg svg {
-    fill: #fff !important;
-}
-
-.a-q-Xc-Ab-c {
-    filter: unquote('alpha(opacity=25) invert()');
-}
-
-.a-s-fa-Ha-pa, .a-d-c svg {
-    fill: white;
-}
-
-#gb, .Kk7lMc-Yb-Il-j {
-    background-color: #121212 !important;
-}
-
-.gb_Te, .gssb_e {
-    background-color: black !important;
-}
-
-.gb_Te:not(.gb_Ue) input::placeholder, .gb_Te.gb_Ue input::placeholder {
-    color: rgba(255, 255, 255, 0.54) !important;
-}
-
-.gb_pa, .gb_Te.gb_Ue .gb_ef, .gb_ef {
-    color: white !important;
-}
-
-.gssb_m, .a-jn-yd {
-    background: black !important;
-    color: #eee !important;
-}
-
-.gssb_i {
-    background: #262626 !important;
-}
-
-.a-s-yd-J.a-s-yd-Sa > *, .a-t-J-ha {
-    background-color: #262626 !important;
-}
-
-.a-t-j .a-gd-j, .a-t-D {
-    background-color: #121212 !important;
-    border-color: #222 !important;
-}
-
-.a-ec-Gd .Kzazxf.x6jRSb {
-    background-color: black !important;
-}
-
-.h-w {
-    background: black !important;
-}
-
-.a-w-Mr::after {
-    background-image: linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgb(0, 0, 0) 50%) !important;
-}
-
-.h-v-x, .h-v, .h-v-pc .h-v-x, .h-v-W .h-v-x {
-    color: #aaa !important;
-}
-
-.h-v-pc, .h-v-W, .a-l-S-Pc-w-d.h-R-w-d-W, .o-Yc-o-T:hover, .Hb-ja-Na .o-Yc-o-T:focus:hover {
-    background-color: #262626 !important;
-}
-
-.a-ec-Gd .Kzazxf.x6jRSb, .o-Yc-o-T {
-    color: #eee !important;
-}
-
-.a-U-J-x, .ab-S-Wg {
-    color: #aaa !important;
-}
-
-.a-t-cb {
-    border-color: #222 !important;
-}
-
-.gstl_50 .sbib_b input, .gstl_50 .sbib_b input:focus {
-    color: rgba(255, 255, 255, 0.87) !important;
 }
 
 }
