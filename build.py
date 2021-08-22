@@ -153,7 +153,7 @@ if __name__ == '__main__':
         regex_com = '|'.join([tld.split('com.', 1)[1] for tld in top_level_domains if 'com.' in tld])
         regex_co = '|'.join([tld.split('co.', 1)[1] for tld in top_level_domains if 'co.' in tld])
         regex_other = '|'.join([tld for tld in top_level_domains if 'com' not in tld and 'co' not in tld])
-        style_regex = r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(' + regex_com + r'))?)|(co\\.(' + 'in|jp|kr|uk' + '))|(' + regex_other + r'))/((webhp|videohp|imghp|search|\\?.*).*)?") {'
+        style_regex = r'@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(' + regex_com + r'))?)|(co\\.(' + regex_co + '))|(' + regex_other + r'))/((webhp|videohp|imghp|search|\\?.*).*)?") {'
         user_style = (
         '/* ==UserStyle==\n' +
         '@name Google Dark Theme\n' +
@@ -174,11 +174,12 @@ if __name__ == '__main__':
         manifest['version'] = version
         with open('manifest.json', 'w') as fp:
             json.dump(manifest, fp, indent=4)
-        commit_message = ', '.join([item.a_path for item in repo.index.diff(None)])
-        repo.git.add(update=True)
-        repo.index.commit(f'Updated {commit_message}')
-        origin = repo.remote(name='origin')
-        origin.push()
+        if args.upload:
+            commit_message = ', '.join([item.a_path for item in repo.index.diff(None)])
+            repo.git.add(update=True)
+            repo.index.commit(f'Updated {commit_message}')
+            origin = repo.remote(name='origin')
+            origin.push()
     else:
         version = manifest['version']
 
