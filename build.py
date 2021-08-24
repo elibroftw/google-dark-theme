@@ -22,9 +22,18 @@ parser.add_argument('--upload', '-u', default=False, action='store_true', help='
 args = parser.parse_args()
 
 # TLDs
-top_level_domains = ['com', 'com.ar', 'com.au', 'com.br', 'com.cu', 'com.gr', 'com.hk', 'com.mx', 'com.pa', 'com.pk', 'com.sg',
-                     'com.tr', 'com.tw', 'co.uk', 'co.jp', 'co.in', 'co.kr', 'co.nz', 'co.th', 'co.za', 'ae', 'at', 'bg', 'ca', 'ch',
-                     'cl', 'cz', 'de', 'dk', 'es', 'fi', 'fr', 'gr', 'hu', 'ie', 'it', 'nl', 'pl', 'pt', 'rs', 'ru', 'sk']
+top_level_domains = {'com.pk', 'mk', 'com.bz', 'gg', 'com.gi', 'co.zw', 'com.mm', 'sm', 'ee', 'lt', 'rs', 'dz', 'com.pg', 'be', 'ga', 'cl',
+                     'sr', 'com.sv', 'ro', 'co.ug', 'dk', 'com.kh', 'com.pe', 'at', 'co.ck', 'gy', 'com.et', 'hu', 'co.zm', 'nl', 'rw', 'nu',
+                     'cv', 'gr', 'co.ke', 'com.pr', 'com.ai', 'com.sb', 'com.tr', 'com.ua', 'cd', 'tt', 'lv', 'ca', 'nr', 'com', 'jo', 'ws',
+                     'cf', 'lu', 'cz', 'com.qa', 'si', 'co.za', 'co.bw', 'tn', 'com.ar', 'gm', 'ie', 'com.ni', 'tm', 'ps', 'com.vn', 'co.nz',
+                     'ge', 'is', 'co.cr', 'so', 'com.gr', 'com.fj', 'co.mz', 'by', 'it', 'ae', 'com.ag', 'sc', 'com.eg', 'com.hk', 'pt', 'bj',
+                     'com.bo', 'ms', 'ci', 'es', 'co.th', 'ch', 'co.il', 'co.uk', 'com.ph', 'bg', 'com.uy', 'ad', 'se', 'ba', 'no', 'co.tz',
+                     'kg', 'li', 'com.sa', 'ml', 'com.mt', 'com.co', 'gl', 'de', 'mw', 'cat', 'co.jp', 'la', 'com.cy', 'as', 'mv', 'bf', 'je',
+                     'am', 'hr', 'al', 'com.mx', 'com.sl', 'com.ly', 'com.my', 'com.cu', 'co.kr', 'com.ec', 'cn', 'co.ve', 'co.vi', 'com.au',
+                     'vu', 'bi', 'tg', 'fi', 'co.ao', 'com.do', 'to', 'co.in', 'mu', 'pn', 'com.kw', 'com.tj', 'com.br', 'com.gh', 'com.om',
+                     'com.py', 'ki', 'iq', 'fm', 'td', 'vg', 'im', 'me', 'com.jm', 'co.id', 'co.ls', 'sh', 'com.np', 'com.lb', 'com.tw', 'bt',
+                     'lk', 'cm', 'com.af', 'dm', 'pl', 'mn', 'com.sg', 'sn', 'com.ng', 'com.bd', 'com.gt', 'kz', 'mg', 'ht', 'com.bh', 'com.pa',
+                     'ru', 'st', 'az', 'co.uz', 'hn', 'com.na', 'com.bn', 'co.ma', 'ne', 'sk', 'tl', 'cg', 'dj', 'fr', 'com.vc', 'md', 'bs'}
 
 match_bases = [
     '*://www.google.TLD/',

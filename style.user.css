@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ar|au|br|cu|gr|hk|mx|pa|pk|sg|tr|tw))?)|(co\\.(uk|jp|in|kr|nz|th|za))|(ae|at|bg|ca|ch|cl|cz|de|dk|es|fi|fr|gr|hu|ie|it|nl|pl|pt|rs|ru|sk))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(sv|np|tj|pa|et|uy|mm|mx|sg|py|bd|kw|fj|ar|au|af|na|pk|ni|om|sb|ag|bo|br|cu|bn|tw|qa|pr|lb|ua|gr|ng|gi|kh|ai|eg|sa|my|ly|gh|ph|do|tr|mt|hk|bh|vn|pe|bz|vc|co|pg|cy|ec|sl|jm|gt))?)|(co\\.(ls|bw|tz|id|zw|in|ma|za|uk|ke|ao|ug|il|ck|zm|kr|ve|vi|jp|th|nz|uz|cr|mz))|(mu|ca|gg|mn|sm|ne|cz|rs|me|lu|tn|pl|hu|bj|ch|ki|nu|is|bi|ae|bg|rw|kg|sr|ba|cl|dz|sc|dj|ci|hn|cat|td|ru|cv|nr|as|ge|si|to|fm|dm|it|bs|je|ml|so|im|cm|mk|lt|jo|iq|cd|la|am|tg|bt|gl|sk|ee|sn|bf|tt|nl|mv|gr|fi|es|mg|de|pn|sh|md|no|gm|at|ad|hr|lv|mw|al|kz|cf|tl|se|be|gy|vu|li|ie|dk|tm|ms|lk|st|az|by|ws|vg|ps|fr|ga|ht|cg|ro|pt|cn))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 html {
     scrollbar-color: #666 #363636;
