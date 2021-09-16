@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2021.8.24
+@version 2021.9.16
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(sv|np|tj|pa|et|uy|mm|mx|sg|py|bd|kw|fj|ar|au|af|na|pk|ni|om|sb|ag|bo|br|cu|bn|tw|qa|pr|lb|ua|gr|ng|gi|kh|ai|eg|sa|my|ly|gh|ph|do|tr|mt|hk|bh|vn|pe|bz|vc|co|pg|cy|ec|sl|jm|gt))?)|(co\\.(ls|bw|tz|id|zw|in|ma|za|uk|ke|ao|ug|il|ck|zm|kr|ve|vi|jp|th|nz|uz|cr|mz))|(mu|ca|gg|mn|sm|ne|cz|rs|me|lu|tn|pl|hu|bj|ch|ki|nu|is|bi|ae|bg|rw|kg|sr|ba|cl|dz|sc|dj|ci|hn|cat|td|ru|cv|nr|as|ge|si|to|fm|dm|it|bs|je|ml|so|im|cm|mk|lt|jo|iq|cd|la|am|tg|bt|gl|sk|ee|sn|bf|tt|nl|mv|gr|fi|es|mg|de|pn|sh|md|no|gm|at|ad|hr|lv|mw|al|kz|cf|tl|se|be|gy|vu|li|ie|dk|tm|ms|lk|st|az|by|ws|vg|ps|fr|ga|ht|cg|ro|pt|cn))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(fj|cy|bh|my|bo|gt|gh|hk|pk|gi|np|eg|jm|do|tj|ua|qa|sg|py|gr|kw|br|pr|om|lb|ec|et|bn|sa|ai|pg|sb|ng|bz|mm|cu|co|ag|uy|pa|vn|pe|au|sl|sv|ph|tw|ar|ly|mx|ni|tr|kh|na|vc|af|mt|bd))?)|(co\\.(uz|ck|ke|th|il|zw|mz|tz|ao|jp|kr|in|ls|ug|za|zm|uk|id|ma|ve|cr|nz|vi|bw))|(cz|tg|as|cf|ca|se|je|gm|gl|iq|vg|gr|im|nl|lu|dj|ba|nu|ad|tt|mw|bs|la|fr|pn|sr|it|sc|by|cg|ch|rw|lt|hr|ee|jo|bg|ne|ga|gg|kg|ht|ws|mu|es|vu|al|cn|tl|sk|mg|dz|ml|cv|dk|ms|rs|fi|bf|gy|ps|ci|lk|cm|cl|tn|st|be|nr|pt|to|fm|td|is|ie|at|hn|li|ki|so|kz|bt|mv|si|mk|hu|am|ae|bj|sm|cat|ru|de|mn|cd|ge|me|md|az|dm|tm|sn|pl|no|bi|lv|ro|sh))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 html {
     scrollbar-color: #666 #363636;
@@ -1244,7 +1244,7 @@ a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .s80L3d,
     color: #3ea6ff !important;
 }
 
-.gb_m:hover, #tw-gtlink:visited, .sbl1p, .vfxGNc, .vvjwJb, .XLloXe, .Xb5VRe {
+.gb_m:hover, #tw-gtlink:visited, .sbl1p, .vfxGNc, .vvjwJb, .XLloXe, .Xb5VRe, .mCBkyc {
     color: #3ea6ff !important;
 }
 
