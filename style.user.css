@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2021.12.15
+@version 2022.3.5
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -9,10 +9,11 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(py|ag|ng|ph|ai|br|vc|ar|hk|ua|qa|lb|sb|uy|kw|bd|sv|fj|pa|eg|sl|kh|mt|gr|cu|bz|pg|na|co|gt|et|bh|my|tr|do|tw|af|mm|pe|jm|gi|bn|vn|au|sg|gh|np|ly|ni|tj|pk|sa|mx|bo|om|pr|cy|ec))?)|(co\\.(kr|jp|uk|th|nz|ma|bw|in|ck|il|za|cr|ao|ve|id|tz|vi|ke|ug|zm|uz|ls|zw|mz))|(tt|ws|tn|ps|iq|ci|by|bf|ki|hu|li|cd|gl|dk|ae|cz|cv|im|tm|dz|gy|al|nl|bt|lt|sn|la|me|je|ms|dm|pn|cl|mg|gg|to|tl|it|kg|sh|vu|nu|ad|cf|ml|hn|hr|cm|cat|lu|md|mk|at|mw|ne|ch|ca|cg|so|mn|kz|fi|sc|jo|vg|lv|tg|rw|ht|ga|rs|se|cn|st|gm|bi|es|pl|sr|gr|pt|mu|ee|bg|ro|sm|sk|ie|td|bj|si|is|dj|fr|be|fm|az|bs|de|nr|no|as|mv|am|ru|lk|ge|ba))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(cu|sa|ph|ng|pg|sl|vn|bo|do|pa|sg|uy|bd|bz|mt|jm|ec|bh|my|qa|ua|af|sb|ai|br|na|vc|kh|ar|gi|gr|pk|pr|sv|py|pe|tr|np|et|fj|kw|ag|au|co|mx|om|mm|bn|lb|hk|gh|ni|ly|eg|tj|cy|gt|tw))?)|(co\\.(vi|kr|cr|th|ck|zm|jp|bw|ao|id|zw|uk|za|nz|uz|in|ls|il|ma|ug|ke|mz|ve|tz))|(tm|ie|cz|nr|gg|mk|ps|nl|td|pt|bf|li|kg|cn|gl|it|tg|gy|lu|ca|st|pl|bj|vg|im|je|fi|pn|cat|bg|dm|ga|at|si|as|to|sr|ms|se|ae|tn|ml|so|dj|cg|kz|rs|ge|ad|al|ro|fr|de|lt|rw|sk|no|vu|tl|cm|cl|ba|hr|cv|cd|iq|hn|jo|sm|mn|lk|dk|ht|bi|ru|bt|am|me|mw|tt|es|dz|mv|sh|gr|cf|sc|gm|lv|bs|sn|be|ki|mu|md|by|ws|fm|hu|ee|ne|mg|ch|az|nu|is|ci|la))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 html {
     scrollbar-color: #666 #363636;
+    filter: none
 }
 
 ::-webkit-scrollbar {
@@ -1685,12 +1686,7 @@ span.wob_t {
     color: #ddd !important
 }
 
-/* Pilot -> Shopping */
-.VEbNnc {
-    color: #777 !important;
-}
-
-.G9CET, .sh-dr__prs {
+.G9CET, .sh-dr__prs, .i0X6df, .dkw61e {
     background-color: #121212 !important;
 }
 
@@ -1699,7 +1695,12 @@ span.wob_t {
     color: #777 !important;
 }
 
-._-gG, .kHxwFf {
+.VEbNnc, .RlD7sd {
+    color: #777 !important;
+}
+
+
+._-gG, .kHxwFf, .BO5J0d, .a8Pemb {
     color: #ddd !important;
 }
 
@@ -1942,7 +1943,7 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.tPhRLe, .tPhRLe span {
+.tPhRLe, .tPhRLe span, .fbKdEb {
     filter: invert();
 }
 

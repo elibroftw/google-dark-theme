@@ -1,5 +1,6 @@
 html {
     scrollbar-color: #666 #363636;
+    filter: none
 }
 
 ::-webkit-scrollbar {
@@ -1672,12 +1673,7 @@ span.wob_t {
     color: #ddd !important
 }
 
-/* Pilot -> Shopping */
-.VEbNnc {
-    color: #777 !important;
-}
-
-.G9CET, .sh-dr__prs {
+.G9CET, .sh-dr__prs, .i0X6df, .dkw61e {
     background-color: #121212 !important;
 }
 
@@ -1686,7 +1682,12 @@ span.wob_t {
     color: #777 !important;
 }
 
-._-gG, .kHxwFf {
+.VEbNnc, .RlD7sd {
+    color: #777 !important;
+}
+
+
+._-gG, .kHxwFf, .BO5J0d, .a8Pemb {
     color: #ddd !important;
 }
 
@@ -1929,7 +1930,7 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.tPhRLe, .tPhRLe span {
+.tPhRLe, .tPhRLe span, .fbKdEb {
     filter: invert();
 }
 
