@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2022.3.5
+@version 2022.4.22
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(cu|qa|uy|kh|sl|om|vn|et|af|ph|bh|sa|bz|au|sg|eg|vc|bn|br|cy|hk|kw|ng|gi|co|gh|gr|pg|py|mm|lb|mx|my|ag|tw|tj|pe|ec|tr|ar|ly|jm|ai|do|pk|sv|ua|bo|fj|pa|sb|bd|pr|na|ni|mt|np|gt))?)|(co\\.(ve|zw|uz|ck|jp|tz|bw|nz|cr|th|kr|uk|id|vi|zm|il|ma|ke|za|ao|ls|in|mz|ug))|(ee|cm|sn|to|se|nr|tg|lt|al|at|ml|ad|kz|mv|dm|ci|iq|cg|rw|kg|bg|by|ps|bs|ga|md|bj|bf|vg|sk|sm|it|nu|gl|vu|la|cz|mn|nl|hn|ne|bt|rs|ht|im|lk|ge|so|me|li|ki|az|cn|ae|lu|cf|no|pl|si|fi|pn|de|ws|fr|dk|mu|mw|gm|td|ru|bi|ch|be|hr|sc|ro|as|tm|dz|hu|cat|dj|mk|pt|sh|lv|ca|gg|ba|mg|ms|am|sr|tt|is|gy|jo|cd|fm|es|tn|st|gr|ie|je|cl|tl|cv))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(kw|bh|cu|ly|br|gt|tw|pg|qa|ni|ag|pr|mt|gr|eg|mx|pk|af|vc|hk|et|sg|bo|ng|np|bd|bn|mm|ar|lb|fj|om|sa|na|tr|co|tj|jm|gh|au|ua|cy|do|bz|ai|ph|kh|sv|uy|vn|gi|sl|sb|pe|ec|my|pa|py))?)|(co\\.(kr|in|uk|uz|ve|tz|ma|ke|vi|ls|ao|nz|jp|za|ug|zw|il|th|id|ck|mz|zm|cr|bw))|(ba|az|nr|ne|mw|sr|si|md|hn|am|mv|fr|cf|ht|gm|tm|ch|sh|bg|st|by|fi|dj|ad|hr|iq|la|gl|bs|sk|sm|vu|cg|pl|cd|nu|tg|mg|kg|ps|as|cl|dz|lv|ru|es|ga|gr|ie|cat|dm|gy|bf|vg|bi|sc|dk|jo|it|lk|tn|de|ki|sn|td|pt|ee|ro|rs|is|cm|mk|rw|kz|li|ci|fm|be|lu|je|se|bt|ae|ge|al|at|hu|to|mu|nl|ms|im|tl|cz|ws|lt|cn|me|so|no|ml|bj|mn|tt|ca|gg|cv|pn))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 html {
     scrollbar-color: #666 #363636;
@@ -2032,7 +2032,7 @@ a.gYVSnb, div.gYVSnb span {
     color: #fff !important;
 }
 
-.FRH7Ye.gsrt {
+.FRH7Ye.gsrt, .eS0a2 {
     color: #fff !important;
 }
 
@@ -2311,7 +2311,7 @@ a.gYVSnb, div.gYVSnb span {
     color: #c85c5c !important;
 }
 
-.amyZLb, .HnYYW.mfMhoc, .Uw4age, .INGOOb, .WUjVSb, .AupITe, .HRfe0e {
+.amyZLb, .HnYYW.mfMhoc, .Uw4age, .INGOOb, .WUjVSb, .AupITe, .HRfe0e, .g8GHw li, .sh-ds__desc {
     color: #aaa !important;
 }
 
@@ -2348,7 +2348,7 @@ a:hover .JheGif, a:visited:hover .JheGif {
     text-decoration: underline;
 }
 
-a .zTpPx, .checkbox-label, .jfk-radiobutton-label {
+a .zTpPx, .checkbox-label, .jfk-radiobutton-label, .P3O8Ne, .mlUVHc, .g9WBQb {
     color: #fff !important;
 }
 
@@ -2421,7 +2421,7 @@ a .zTpPx, .checkbox-label, .jfk-radiobutton-label {
     color: grey !important;
 }
 
-.gb_l .gb_qb, .tKfMXd, .eLpAgf {
+.gb_l .gb_qb, .tKfMXd, .eLpAgf, .TZeISb, .qYlANb, .aGidzf, .cEFLDe {
     color: #aaa !important;
 }
 
