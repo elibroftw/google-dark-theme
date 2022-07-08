@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(my|sl|tj|pa|ar|sv|bh|gt|cu|om|gi|hk|vc|py|ec|bo|co|kw|ng|af|bz|fj|do|ag|sa|kh|pk|ua|mm|jm|na|ly|gh|tw|mx|ph|et|ai|uy|cy|sg|pe|tr|au|pg|sb|eg|bd|qa|mt|gr|pr|lb|br|ni|np|vn|bn))?)|(co\\.(nz|in|ck|kr|zw|zm|jp|id|za|tz|ke|ls|mz|ao|uk|uz|vi|il|ve|cr|bw|ug|th|ma))|(gr|nl|ro|ch|no|sm|me|cm|tl|to|im|cd|kg|sk|cf|is|tm|ga|lk|lv|cn|by|iq|sr|bi|gm|gy|sc|pl|it|az|cv|ru|nr|ml|mg|cz|vg|mv|mw|al|lu|ee|dk|hn|mn|fr|bs|rs|ht|as|td|so|jo|dm|sh|hr|lt|ci|rw|la|hu|ca|mu|nu|ki|gg|ge|tt|fi|kz|fm|cg|dz|es|at|ne|pt|cl|pn|cat|ws|vu|am|ps|je|bf|ba|dj|bj|ms|st|be|li|gl|ae|md|se|ie|ad|sn|mk|tn|si|bg|tg|bt|de))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(cu|gi|om|ly|sa|kh|gr|ng|ua|fj|cy|tr|lb|gt|uy|na|ai|ni|et|eg|ar|bd|bh|sb|ph|mt|af|qa|vc|bo|mx|pg|pr|hk|sl|pa|sv|py|bn|gh|co|bz|br|ec|tw|kw|pk|do|pe|sg|au|vn|mm|my|tj|jm|np|ag))?)|(co\\.(ke|jp|ck|zw|th|il|tz|ls|kr|mz|cr|vi|ve|ao|in|ma|nz|bw|ug|uz|za|zm|id|uk))|(sk|ga|mv|al|ad|ru|cg|ie|cz|am|cl|cn|bf|vg|ro|mk|lt|fm|cm|ne|tt|bj|fr|rs|se|sm|ba|rw|de|gl|pn|bt|iq|to|nu|gm|gg|li|so|ws|ch|ae|mg|ee|at|me|hu|sh|ki|nr|nl|lk|es|it|cd|tl|dm|vu|bg|cv|by|az|sn|lu|mw|td|st|md|no|im|cf|pt|ca|bs|jo|gr|lv|la|tn|ms|dj|ml|kz|mu|cat|dk|mn|ht|fi|bi|si|dz|tg|ci|je|ps|sr|gy|sc|hn|is|be|kg|pl|tm|hr|as|ge))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 html {
     scrollbar-color: #666 #363636;
@@ -2578,7 +2578,7 @@ color: #3ea6ff !important;
 }
 
 /* Google Drive */
-.a-qc-La, .N7iPof, .a-D-B, .a-c-d.h-R-d-rc, .a-ub-Gd, .y-C-ka:hover, .y-C-ka:active, .y-C-ka:focus,
+.a-qc-La, .N7iPof, .a-D-B, .a-c-d.h-R-d-rc, .a-ub-Gd, .y-C-ka:hover, .y-C-ka:active, .y-C-ka:focus, .S630me,
 .a-ub-oa, .NtzyH, .a-s-tb-sc-Ja.a-s-tb-Kg.a-l-Ba.a-s-tb-sc-Ja-J, .Y9nbBe.i6Fqyc, .a-s-Ba-Ak.Hb-ja-Na {
     background-color: #121212 !important;
 }
