@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(kw|sg|ly|mx|vn|sb|uy|ng|mt|bo|ar|eg|my|mm|au|pa|tj|ua|om|ph|cy|af|kh|gr|tw|qa|co|ag|bz|ai|jm|et|na|vc|sv|gh|np|gi|gt|py|tr|sa|ni|bd|bn|pk|pe|pg|hk|cu|lb|sl|ec|bh|pr|fj|br|do))?)|(co\\.(ck|ve|ao|tz|vi|in|uz|jp|zm|zw|kr|ug|nz|bw|mz|ma|za|ke|cr|th|id|il|uk|ls))|(mk|as|cg|nl|sc|ie|dk|ba|fm|tn|nu|ro|de|ad|ws|kz|ch|lv|rs|sk|tl|ge|mn|fr|ki|kg|ru|bt|hn|az|lu|gr|gy|gl|am|td|ne|pl|gg|si|hu|bg|bf|ps|im|mv|cv|cf|no|mg|fi|cn|cat|bs|rw|li|bj|pn|ml|tg|sm|me|mw|al|cd|by|st|gm|dz|cl|sn|tm|iq|es|la|pt|sr|se|it|lt|ht|sh|cm|vg|be|ms|md|ae|lk|jo|cz|tt|nr|ca|vu|dm|mu|ga|ee|bi|to|so|je|dj|is|hr|ci|at))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(br|pg|ar|bz|tj|gh|ni|pr|py|ua|bd|ec|fj|pk|vn|sa|ag|pa|bh|lb|kh|bn|au|jm|qa|ly|sg|gi|do|uy|sl|om|eg|sb|bo|ph|gt|pe|hk|kw|et|na|gr|af|mm|np|co|vc|sv|ai|ng|cu|tw|cy|tr|mt|my|mx))?)|(co\\.(jp|kr|ao|in|uz|uk|id|il|tz|bw|za|vi|nz|cr|ug|zm|th|ve|zw|ma|mz|ke|ls|ck))|(hn|fm|tl|ch|ge|ne|cd|gy|al|ba|ie|is|bs|vu|ci|mg|ki|ro|dz|vg|md|az|dj|hr|gm|iq|dm|gl|im|rw|ws|ru|jo|bg|pl|hu|tt|nr|cf|fr|fi|me|mk|ht|sm|am|ca|to|tn|nl|pt|mn|it|sr|ae|at|la|kz|bj|se|li|es|ms|sh|gr|rs|si|bt|ee|cm|je|no|sn|ps|dk|tg|kg|lk|de|cat|mv|so|ml|lu|nu|by|td|sc|as|tm|ad|mw|cz|cv|be|ga|mu|lv|sk|cg|lt|bf|pn|bi|cl|gg|cn|st))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 html {
     scrollbar-color: #666 #363636;
