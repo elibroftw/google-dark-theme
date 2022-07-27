@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2022.7.8
+@version 2022.7.26
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -9,7 +9,12 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(br|pg|ar|bz|tj|gh|ni|pr|py|ua|bd|ec|fj|pk|vn|sa|ag|pa|bh|lb|kh|bn|au|jm|qa|ly|sg|gi|do|uy|sl|om|eg|sb|bo|ph|gt|pe|hk|kw|et|na|gr|af|mm|np|co|vc|sv|ai|ng|cu|tw|cy|tr|mt|my|mx))?)|(co\\.(jp|kr|ao|in|uz|uk|id|il|tz|bw|za|vi|nz|cr|ug|zm|th|ve|zw|ma|mz|ke|ls|ck))|(hn|fm|tl|ch|ge|ne|cd|gy|al|ba|ie|is|bs|vu|ci|mg|ki|ro|dz|vg|md|az|dj|hr|gm|iq|dm|gl|im|rw|ws|ru|jo|bg|pl|hu|tt|nr|cf|fr|fi|me|mk|ht|sm|am|ca|to|tn|nl|pt|mn|it|sr|ae|at|la|kz|bj|se|li|es|ms|sh|gr|rs|si|bt|ee|cm|je|no|sn|ps|dk|tg|kg|lk|de|cat|mv|so|ml|lu|nu|by|td|sc|as|tm|ad|mw|cz|cv|be|ga|mu|lv|sk|cg|lt|bf|pn|bi|cl|gg|cn|st))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(mx|bz|sv|vc|ec|ua|om|sb|bn|cu|qa|br|kw|ar|gt|et|mt|co|np|uy|sg|ni|my|gr|ai|do|pa|sa|pg|af|pk|lb|sl|py|bh|fj|ph|ly|gi|ng|hk|tj|mm|gh|jm|tr|kh|ag|au|bo|tw|na|pr|eg|pe|cy|vn|bd))?)|(co\\.(il|uk|cr|ck|bw|ao|id|kr|ug|ls|ma|zm|zw|jp|nz|za|ve|vi|in|ke|tz|uz|mz|th))|(bt|ro|de|lk|ht|so|no|vg|sm|to|sh|lv|mu|mn|la|ad|bg|is|sk|cz|sc|az|vu|ae|bj|dk|gr|lu|mk|ch|jo|dm|sr|rs|cg|be|gl|je|li|td|nl|ca|pt|hn|gy|ws|tl|ki|sn|cm|ie|cd|bf|tg|at|mv|fm|md|bs|by|gg|ml|ba|fr|lt|bi|ms|fi|cf|tt|it|cv|ee|cn|ci|ge|im|nr|dj|tn|tm|dz|cat|nu|st|cl|kg|mg|iq|as|al|ga|ps|me|es|se|mw|am|pl|rw|kz|hu|pn|hr|ne|si|gm|ru))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+
+:root {
+    --link: #3ea6ff;
+    --bold-link: #c5e2fc;
+}
 
 html {
     scrollbar-color: #666 #363636;
@@ -780,11 +785,11 @@ div.gb_K {
 
 /* Search bar stuff */
 
-.gLFyf, .LWyAN, .q8FTm, .JSAgYe, .o44hBf, .sbc input[type="text"] {
+.gLFyf, .LWyAN, .q8FTm, .JSAgYe, .o44hBf, .sbc input[type="text"], .gs_in_txt {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
-.sbc, .Pg70bf {
+.sbc, .Pg70bf, .gs_in_txt {
     background-color: black !important;
 }
 
@@ -880,11 +885,7 @@ input#gs_htif0, input#lst-ib, .sbsb_a {
     color: #dbd3d3
 }
 
-.vO2mCd {
-    color: #fff;
-}
-
-.uUgsp {
+.uUgsp, .vO2mCd, .gs_rs b, .gs_rt b, .gs_rt2 b {
     color: #fff;
 }
 
@@ -2106,12 +2107,28 @@ a.gYVSnb, div.gYVSnb span {
 
 /* Google Scholar */
 /* #gs_bdy_ccl */
-#gs_top {
+#gs_top, #gs_ab, #gs_hdr {
     background-color: #121212 !important;
+}
+
+.gs_rt a:link, .gs_rt a:link b, .gs_rt2 a:link, .gs_rt2 a:link b {
+    color: var(--bold-link) !important;
+}
+
+.gs_or_svg, a.gs_fl:link, .gs_fl a:link {
+    color: var(--link);
 }
 
 .gs_in_cb label, .gs_in_cb .gs_lbl, .gs_in_ra label {
     color: #888 !important;
+}
+
+a.gs_in_ib.gs_in_gray .gs_lbl, a.gs_in_ib .gs_lbl {
+    color: #ccc !important;
+}
+
+.gs_ico, .gs_icm {
+    filter: invert();
 }
 
 /* Health Sidebar */
