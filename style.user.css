@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2022.8.14
+@version 2022.10.14
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(lb|sb|cy|do|sl|ni|mt|bn|br|na|ar|hk|co|ec|pg|ag|pk|ph|kh|bd|bz|gt|sa|tw|et|gr|bo|uy|kw|ai|mx|gh|my|cu|jm|af|vn|vc|pr|qa|fj|ua|py|ly|tj|sv|mm|tr|au|np|pe|ng|sg|bh|pa|om|eg|gi))?)|(co\\.(mz|ma|ug|ao|bw|ve|il|th|cr|ke|jp|tz|vi|za|zm|id|zw|in|nz|ck|kr|ls|uz|uk))|(la|se|ro|fm|fi|mn|vu|mu|pt|gm|mw|td|cz|si|ga|nu|cd|nl|bt|ne|sk|at|bi|tg|mk|cn|ie|sh|lv|ge|cl|cm|gl|mg|kg|md|dk|ch|sr|lt|vg|so|gr|ba|lk|ht|lu|es|dm|cg|st|bg|ki|gg|de|bj|hn|no|sm|bs|az|ee|rw|ml|pn|ps|dj|jo|mv|ru|hu|ms|ws|to|am|al|nr|pl|it|ca|iq|ci|tn|gy|is|tt|sc|sn|tm|ae|as|bf|tl|by|kz|fr|cf|rs|cv|be|je|im|ad|hr|li|cat|me|dz))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ni|et|vc|sa|eg|ec|ng|vn|bo|qa|ai|pr|co|hk|pk|jm|br|py|sb|tr|fj|ua|bz|sv|ph|kw|bh|gt|gi|mm|bd|sg|na|kh|mx|om|cy|pg|tj|gr|gh|mt|do|ag|lb|pa|uy|au|bn|pe|ar|ly|my|cu|tw|np|sl|af))?)|(co\\.(in|zm|vi|bw|th|cr|ug|ma|ao|ck|tz|id|nz|zw|uk|uz|ke|kr|za|mz|ls|il|jp|ve))|(mu|hn|ru|sk|kz|tl|cv|nr|iq|ml|bi|lt|cz|md|ms|dk|se|gl|li|ki|ht|al|ne|es|gm|ps|sr|as|rw|mg|vg|lk|ge|td|cf|ch|be|pn|gg|tn|tg|cat|no|hr|cg|sc|je|fi|ie|kg|pt|cl|ad|nu|lu|mw|si|rs|de|az|ws|sn|mn|at|im|bt|bs|cd|ae|sh|dz|it|ee|me|dm|by|ba|jo|mv|is|ci|ga|sm|gy|so|nl|fm|fr|am|vu|bj|cn|ro|pl|ca|to|dj|tm|bf|lv|st|hu|mk|gr|tt|la|cm|bg))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -1015,7 +1015,7 @@ option {
 
 /* Translate */
 
-.notification-container, .P6w8m {
+.notification-container, .P6w8m, .KkbLmb {
     background-color: black !important;
 }
 
@@ -1102,7 +1102,7 @@ option {
     background-color: black !important;
 }
 
-.JLqJ4b.ChMk0b, .er8xn {
+.JLqJ4b.ChMk0b, .er8xn, .lRu31 {
     color: white !important;
 }
 
