@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2022.10.14
+@version 2022.10.26
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ni|et|vc|sa|eg|ec|ng|vn|bo|qa|ai|pr|co|hk|pk|jm|br|py|sb|tr|fj|ua|bz|sv|ph|kw|bh|gt|gi|mm|bd|sg|na|kh|mx|om|cy|pg|tj|gr|gh|mt|do|ag|lb|pa|uy|au|bn|pe|ar|ly|my|cu|tw|np|sl|af))?)|(co\\.(in|zm|vi|bw|th|cr|ug|ma|ao|ck|tz|id|nz|zw|uk|uz|ke|kr|za|mz|ls|il|jp|ve))|(mu|hn|ru|sk|kz|tl|cv|nr|iq|ml|bi|lt|cz|md|ms|dk|se|gl|li|ki|ht|al|ne|es|gm|ps|sr|as|rw|mg|vg|lk|ge|td|cf|ch|be|pn|gg|tn|tg|cat|no|hr|cg|sc|je|fi|ie|kg|pt|cl|ad|nu|lu|mw|si|rs|de|az|ws|sn|mn|at|im|bt|bs|cd|ae|sh|dz|it|ee|me|dm|by|ba|jo|mv|is|ci|ga|sm|gy|so|nl|fm|fr|am|vu|bj|cn|ro|pl|ca|to|dj|tm|bf|lv|st|hu|mk|gr|tt|la|cm|bg))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(tj|ai|mx|sg|np|gr|eg|py|jm|ar|ua|na|co|ec|do|tr|bo|om|ly|pa|af|sv|ag|br|hk|ph|my|bn|bh|bd|cy|fj|bz|qa|sl|cu|kw|mm|au|gi|pe|uy|sa|ni|vc|pr|sb|tw|kh|mt|lb|gt|pg|ng|gh|pk|et|vn))?)|(co\\.(ma|za|in|uz|th|ug|ve|zw|il|jp|kr|vi|mz|zm|ck|ao|ke|tz|id|ls|uk|cr|bw|nz))|(li|ro|ms|nr|se|bf|kg|si|md|sr|no|mw|vu|im|fm|rw|ge|ca|tm|gm|tn|lv|cm|cz|ml|fi|as|bi|nu|pn|cl|tt|cg|td|nl|gy|tl|ps|bt|ad|gg|cat|la|pl|mg|iq|az|ht|hn|ch|al|gl|sk|st|is|be|dz|ws|cd|bj|me|mu|ee|jo|dj|sn|bs|je|lu|so|by|rs|vg|ne|hr|lt|pt|ie|mn|mv|cf|fr|am|it|lk|ru|ae|tg|de|dm|ci|dk|to|mk|at|es|sc|ki|kz|hu|ba|cn|cv|sm|ga|sh|bg|gr))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -2595,9 +2595,14 @@ color: #3ea6ff !important;
 }
 
 /* Google Drive */
-.a-qc-La, .N7iPof, .a-D-B, .a-c-d.h-R-d-rc, .a-ub-Gd, .y-C-ka:hover, .y-C-ka:active, .y-C-ka:focus, .S630me,
-.a-ub-oa, .NtzyH, .a-s-tb-sc-Ja.a-s-tb-Kg.a-l-Ba.a-s-tb-sc-Ja-J, .Y9nbBe.i6Fqyc, .a-s-Ba-Ak.Hb-ja-Na {
+.a-qc-La, .N7iPof, .a-D-B, .a-c-d.h-R-d-rc, .a-ub-Gd, .y-C-ka:hover, .y-C-ka:active, .y-C-ka:focus, .S630me, .YkfxEe,
+.a-ub-oa, .NtzyH, .a-s-tb-sc-Ja.a-s-tb-Kg.a-l-Ba.a-s-tb-sc-Ja-J, .Y9nbBe.i6Fqyc, .a-s-Ba-Ak.Hb-ja-Na, .ALpC8b, .ZHllM {
     background-color: #121212 !important;
+}
+
+.XV0XSd .brbsPe {
+    background-color: black !important;
+    color: #aaa !important;
 }
 
 .aabwZd .WYuW0e .M3pype[data-column-field="6"], .l-t-T-V > .l-Ab-T-r {
