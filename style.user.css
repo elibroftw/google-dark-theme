@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2022.10.26
+@version 2022.12.14
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -9,7 +9,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(tj|ai|mx|sg|np|gr|eg|py|jm|ar|ua|na|co|ec|do|tr|bo|om|ly|pa|af|sv|ag|br|hk|ph|my|bn|bh|bd|cy|fj|bz|qa|sl|cu|kw|mm|au|gi|pe|uy|sa|ni|vc|pr|sb|tw|kh|mt|lb|gt|pg|ng|gh|pk|et|vn))?)|(co\\.(ma|za|in|uz|th|ug|ve|zw|il|jp|kr|vi|mz|zm|ck|ao|ke|tz|id|ls|uk|cr|bw|nz))|(li|ro|ms|nr|se|bf|kg|si|md|sr|no|mw|vu|im|fm|rw|ge|ca|tm|gm|tn|lv|cm|cz|ml|fi|as|bi|nu|pn|cl|tt|cg|td|nl|gy|tl|ps|bt|ad|gg|cat|la|pl|mg|iq|az|ht|hn|ch|al|gl|sk|st|is|be|dz|ws|cd|bj|me|mu|ee|jo|dj|sn|bs|je|lu|so|by|rs|vg|ne|hr|lt|pt|ie|mn|mv|cf|fr|am|it|lk|ru|ae|tg|de|dm|ci|dk|to|mk|at|es|sc|ki|kz|hu|ba|cn|cv|sm|ga|sh|bg|gr))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ec|fj|tw|mm|af|sv|uy|sl|qa|pa|gt|tr|ph|cu|mt|ly|pr|ar|pk|pg|co|sg|vn|tj|mx|cy|kh|ai|bd|np|et|bz|ua|lb|ng|sb|hk|au|na|do|bo|ni|eg|gr|ag|sa|bh|pe|jm|my|gh|gi|om|py|bn|vc|br|kw))?)|(co\\.(th|ck|ug|ls|tz|in|id|mz|ve|uz|nz|cr|zm|vi|ke|ma|il|jp|uk|za|ao|zw|bw|kr))|(ae|ci|iq|gl|ms|fi|dk|rs|ws|gm|cz|sc|sm|je|cf|cm|is|dj|bt|li|mu|hu|at|nl|to|tn|lu|la|be|hn|ht|ba|by|ne|vg|lk|bj|fm|nu|bg|ge|md|ml|cat|tl|bi|lv|ad|sr|am|cn|ch|gr|ga|mk|jo|al|ie|pn|it|cg|kg|mg|rw|si|de|ca|cd|tm|az|bs|bf|ki|cl|st|kz|so|fr|tg|gy|mv|ru|mn|me|hr|es|nr|tt|se|sh|dz|cv|ps|no|td|dm|as|ee|mw|lt|pl|sn|sk|ro|pt|gg|vu|im))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -1015,7 +1015,7 @@ option {
 
 /* Translate */
 
-.notification-container, .P6w8m, .KkbLmb {
+.notification-container, .P6w8m, .KkbLmb, .QcsUad {
     background-color: black !important;
 }
 
