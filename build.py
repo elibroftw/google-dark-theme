@@ -173,6 +173,7 @@ if __name__ == '__main__':
         '@namespace elibroftw\n' +
         '@homepageURL https://github.com/elibroftw/google-dark-theme\n' +
         '@supportURL https://github.com/elibroftw/google-dark-theme/issues/\n' +
+        '@updateURL https://github.com/elibroftw/google-dark-theme/raw/master/style.user.css\n' +
         '@preprocessor stylus\n' +
         '==/UserStyle== */\n\n' +
         style_regex +
