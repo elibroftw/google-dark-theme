@@ -10,7 +10,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(om|ng|pa|vn|et|bz|cy|pg|qa|mt|ph|vc|tj|lb|af|pe|ai|sa|gh|kw|sg|uy|do|cu|py|hk|au|sv|np|pk|fj|ly|bo|gt|pr|my|ec|sb|mm|br|tr|tw|ni|na|bh|gr|ag|mx|jm|ua|bn|eg|bd|kh|sl|co|ar|gi))?)|(co\\.(in|zw|ug|uz|tz|id|za|nz|ve|ma|mz|ls|ck|il|uk|cr|th|kr|jp|vi|ke|bw|ao|zm))|(pt|dz|vg|td|az|gm|nr|tt|dj|sc|ru|ht|al|bs|hu|pl|pn|cg|mk|gy|tn|fr|ws|ge|nu|jo|vu|cl|es|hn|as|ro|so|am|sk|kg|kz|la|cn|cat|no|im|mn|ne|nl|rw|li|lk|se|mu|lu|bf|at|sr|cm|hr|is|st|gg|ms|ml|cd|gl|gr|ee|de|me|si|rs|tm|tg|fm|lv|md|by|ca|to|tl|cf|sn|sh|fi|bj|bt|ie|bg|sm|ki|dm|ci|iq|lt|ad|cz|bi|mg|be|je|mw|it|mv|ch|ae|ba|ga|cv|dk|ps))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ai|gh|pk|tr|ly|pr|sg|bz|qa|na|bo|jm|ph|om|ar|gi|pg|cu|my|mx|mm|pe|gr|lb|eg|tw|sv|bh|sl|bd|et|ec|kw|ng|gt|pa|au|br|vc|fj|af|ua|vn|co|ni|ag|mt|py|uy|tj|sb|kh|do|np|bn|sa|hk|cy))?)|(co\\.(ao|mz|bw|in|zm|ck|th|cr|ls|uz|kr|vi|ke|ma|ug|uk|ve|id|il|jp|za|zw|tz|nz))|(li|dz|ci|pt|ki|to|no|lt|sm|cf|by|vu|ba|hr|st|gg|bj|fm|tg|cn|kz|md|mg|se|es|ms|ee|be|tt|ie|iq|vg|gy|rw|dk|ws|kg|mu|ge|hu|dm|tl|la|hn|tn|at|je|rs|nl|gr|al|cd|mk|ro|sh|cg|gl|ca|td|bs|az|lv|ps|pl|fi|fr|it|nr|sc|ae|dj|cv|lk|ch|cm|ne|is|so|ht|cat|mw|ru|as|me|cz|mv|am|lu|gm|mn|ga|si|sn|bg|im|de|ad|sk|nu|jo|pn|cl|sr|bi|tm|bf|ml|bt))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -2623,6 +2623,14 @@ color: #3ea6ff !important;
 
 #ucj-1, .KP8WDe, .QyLBoe, .klw8Rb {
     color: #fff !important;
+}
+
+.QRc8Jf.EwXqJf {
+    background-color: black;
+}
+
+.glX3de {
+    border-color: #eee !important;
 }
 
 .XV0XSd .s55KNe .jGNTYb {
