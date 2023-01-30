@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2022.12.14
+@version 2023.1.29
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -10,7 +10,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(uy|my|pk|pg|vc|ec|au|bd|hk|ua|mm|tr|eg|bh|mx|bz|om|gi|ar|gt|kh|ng|pa|kw|ph|bo|pr|vn|cu|cy|lb|do|sb|et|fj|gr|np|py|na|gh|tw|sa|sl|br|ai|af|sv|tj|qa|pe|ni|bn|mt|sg|ly|jm|ag|co))?)|(co\\.(ck|za|mz|ug|bw|uz|cr|th|ve|zm|zw|uk|il|jp|ma|ao|ke|vi|id|kr|ls|tz|in|nz))|(ml|sh|no|tg|md|gg|be|si|is|dm|li|lk|sr|im|az|ru|nr|fr|cv|ge|mu|nu|pl|gr|cz|td|la|ie|mg|vg|so|sk|gm|bt|cat|pn|rs|dz|ad|de|hn|ps|ca|ki|ws|lu|mw|gy|tn|je|nl|sm|rw|as|cn|cd|by|ee|ci|kz|lv|ga|vu|sc|ch|gl|ht|ae|tl|cl|hr|mv|mk|pt|me|ms|mn|al|ro|lt|fm|bs|at|bj|bf|kg|bi|se|am|hu|dj|ne|sn|jo|bg|cm|cf|tt|tm|st|es|to|cg|ba|it|iq|fi|dk))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(tj|gi|sg|jm|ec|tr|co|ni|sa|ly|tw|au|kh|bo|gh|ua|et|gr|fj|qa|sv|sl|my|mm|cu|hk|bz|pe|bn|do|kw|om|lb|uy|mx|gt|cy|af|sb|ai|eg|pr|vn|pk|np|bh|na|vc|py|ag|pg|mt|ng|ar|bd|br|pa|ph))?)|(co\\.(zw|uk|nz|th|tz|zm|jp|kr|cr|ma|il|ve|ck|vi|ls|ao|ke|za|bw|ug|in|id|mz|uz))|(tl|nr|ba|lu|im|bg|dm|iq|as|kz|al|cn|ws|fi|pl|dz|cl|lk|sm|at|gg|sh|ms|mv|gr|sn|is|vg|az|mu|li|me|cat|la|gm|ee|ci|am|ga|gl|tn|cm|tg|bi|rs|cf|ge|ne|ki|ie|tm|gy|es|mw|jo|bf|ro|ae|pn|no|cd|cg|si|sk|kg|ps|hu|ad|pt|so|bt|fm|hn|md|dj|de|it|ch|td|st|se|to|ru|nl|ht|mn|tt|mg|hr|ca|mk|vu|cv|cz|rw|sc|ml|fr|bj|bs|be|lv|je|lt|sr|nu|by|dk))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -2599,6 +2599,20 @@ color: #3ea6ff !important;
 .a-qc-La, .N7iPof, .a-D-B, .a-c-d.h-R-d-rc, .a-ub-Gd, .y-C-ka:hover, .y-C-ka:active, .y-C-ka:focus, .S630me, .YkfxEe,
 .a-ub-oa, .NtzyH, .a-s-tb-sc-Ja.a-s-tb-Kg.a-l-Ba.a-s-tb-sc-Ja-J, .Y9nbBe.i6Fqyc, .a-s-Ba-Ak.Hb-ja-Na, .ALpC8b, .ZHllM {
     background-color: #121212 !important;
+}
+
+.gb_xa {
+    background-color: #121212 !important;
+}
+
+.gb_xa:hover {
+    background-color: #262626;
+}
+
+.XV0XSd .s55KNe .jGNTYb {
+    background-color: black;
+    color: grey;
+    border-color: #aaa !important;
 }
 
 .XV0XSd .brbsPe {
