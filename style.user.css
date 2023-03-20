@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2023.1.29
+@version 2023.3.19
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -10,7 +10,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(ai|gh|pk|tr|ly|pr|sg|bz|qa|na|bo|jm|ph|om|ar|gi|pg|cu|my|mx|mm|pe|gr|lb|eg|tw|sv|bh|sl|bd|et|ec|kw|ng|gt|pa|au|br|vc|fj|af|ua|vn|co|ni|ag|mt|py|uy|tj|sb|kh|do|np|bn|sa|hk|cy))?)|(co\\.(ao|mz|bw|in|zm|ck|th|cr|ls|uz|kr|vi|ke|ma|ug|uk|ve|id|il|jp|za|zw|tz|nz))|(li|dz|ci|pt|ki|to|no|lt|sm|cf|by|vu|ba|hr|st|gg|bj|fm|tg|cn|kz|md|mg|se|es|ms|ee|be|tt|ie|iq|vg|gy|rw|dk|ws|kg|mu|ge|hu|dm|tl|la|hn|tn|at|je|rs|nl|gr|al|cd|mk|ro|sh|cg|gl|ca|td|bs|az|lv|ps|pl|fi|fr|it|nr|sc|ae|dj|cv|lk|ch|cm|ne|is|so|ht|cat|mw|ru|as|me|cz|mv|am|lu|gm|mn|ga|si|sn|bg|im|de|ad|sk|nu|jo|pn|cl|sr|bi|tm|bf|ml|bt))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(tw|ec|bd|hk|eg|kw|bn|et|br|ar|jm|do|ag|pr|mt|lb|mx|gh|pg|vc|tj|co|fj|gr|kh|ai|ni|bo|ng|vn|ph|pe|sb|bz|pk|ua|uy|af|np|ly|gt|py|mm|tr|au|cu|sg|sv|sa|na|cy|pa|gi|om|my|sl|bh|qa))?)|(co\\.(zw|cr|nz|uk|th|mz|vi|kr|uz|ve|ke|za|il|bw|id|ls|zm|ma|in|jp|ck|ug|tz|ao))|(cl|tn|si|tl|ad|gy|sn|se|sh|ci|de|kz|sk|hn|is|mu|cg|bt|ch|bi|it|ga|ml|lu|at|rs|im|sr|pl|td|ro|bf|az|md|mn|lt|vu|vg|nl|lv|cz|ps|cm|tg|ie|mk|nr|to|no|dj|ws|hu|me|gl|cat|am|ba|ne|hr|nu|mv|tm|fr|gm|ca|sm|ae|pt|fm|sc|ht|bs|al|tt|cn|ki|la|ms|dk|st|bg|cd|gr|by|kg|dz|lk|iq|so|gg|fi|mg|as|be|rw|je|pn|dm|ee|cv|bj|ge|jo|li|es|ru|cf|mw))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -1880,11 +1880,11 @@ div.rlc__slider-page:nth-child(n) > div:nth-child(n) > div:nth-child(1) > a:nth-
     border-radius: 20%;
 }
 
-.bD1FPe, .ZBwwL, .BVG0Nb {
+.bD1FPe, .ZBwwL, .BVG0Nb, .gb_zf, .gb_Jc .gb_Ze {
     background-color: black !important;
 }
 
-.lR4X6c {
+.lR4X6c, .gb_Jc .gb_Ze {
     border-color: #363636 !important;
 }
 
