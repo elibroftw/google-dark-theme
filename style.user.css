@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2023.3.19
+@version 2023.5.25
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -10,7 +10,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(tw|ec|bd|hk|eg|kw|bn|et|br|ar|jm|do|ag|pr|mt|lb|mx|gh|pg|vc|tj|co|fj|gr|kh|ai|ni|bo|ng|vn|ph|pe|sb|bz|pk|ua|uy|af|np|ly|gt|py|mm|tr|au|cu|sg|sv|sa|na|cy|pa|gi|om|my|sl|bh|qa))?)|(co\\.(zw|cr|nz|uk|th|mz|vi|kr|uz|ve|ke|za|il|bw|id|ls|zm|ma|in|jp|ck|ug|tz|ao))|(cl|tn|si|tl|ad|gy|sn|se|sh|ci|de|kz|sk|hn|is|mu|cg|bt|ch|bi|it|ga|ml|lu|at|rs|im|sr|pl|td|ro|bf|az|md|mn|lt|vu|vg|nl|lv|cz|ps|cm|tg|ie|mk|nr|to|no|dj|ws|hu|me|gl|cat|am|ba|ne|hr|nu|mv|tm|fr|gm|ca|sm|ae|pt|fm|sc|ht|bs|al|tt|cn|ki|la|ms|dk|st|bg|cd|gr|by|kg|dz|lk|iq|so|gg|fi|mg|as|be|rw|je|pn|dm|ee|cv|bj|ge|jo|li|es|ru|cf|mw))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(et|bn|pg|tr|om|ai|sl|tj|bo|co|ec|af|np|vc|gr|uy|kw|pk|pr|fj|mt|sv|hk|mx|au|ph|jm|py|pe|eg|bd|sg|cy|sa|bz|sb|ng|ua|vn|do|gt|pa|my|na|ar|ni|qa|ly|cu|kh|gh|lb|tw|bh|br|ag|mm|gi))?)|(co\\.(cr|ls|th|zw|ve|tz|za|vi|id|in|ke|bw|kr|nz|zm|ma|ck|mz|il|uk|jp|ug|ao|uz))|(cm|md|hn|lk|kg|lt|dm|be|nl|no|bs|ml|tg|cg|tn|lu|az|is|gl|de|nr|bf|ch|tl|gg|tt|mk|ga|sn|at|sk|im|ru|pt|hr|li|si|cn|bt|ws|kz|td|mn|fr|dz|ee|jo|st|sc|ca|vu|ms|ba|bi|dk|cv|ne|ci|mw|la|pn|ae|ki|bg|gm|vg|tm|pl|so|sm|mg|rw|cl|as|ps|es|fi|by|sh|sr|cf|ie|mu|nu|ad|lv|rs|gy|gr|hu|se|je|it|cat|ro|iq|bj|dj|me|to|am|cz|ge|al|cd|mv|fm|ht))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -289,6 +289,11 @@ a#gb_71 {
 
 .NFQFxe.viOShc.LKPcQc.mod {
     background-color: #121212 !important;
+}
+
+/* People also ask */
+.CSkcDe, .related-question-pair div.iDjcJe {
+    color: lightgrey !important
 }
 
 /*App tray*/
@@ -1242,7 +1247,7 @@ i {
 /* links */
 a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .s80L3d,
 .GtMhHe, .nRfCwb, .ubF8Rd, .w, .RJn8N.xXEKkb.ellip,
-.wUrVib, .L4FTLe .F3hKE, .FoAEQ,
+.wUrVib, .L4FTLe .F3hKE, .FoAEQ, .n0jPhd.ynAwRc.tNxQIb.nDgy9d,
 #rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(1)>div>div>div>div>span>span.piXPB>span {
     color: #3ea6ff !important;
 }

@@ -277,6 +277,11 @@ a#gb_71 {
     background-color: #121212 !important;
 }
 
+/* People also ask */
+.CSkcDe, .related-question-pair div.iDjcJe {
+    color: lightgrey !important
+}
+
 /*App tray*/
 #hdtbSum, #appbar, .gb_C, .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .vk_c, .EHzcec {
     background: #121212 !important;
@@ -1228,7 +1233,7 @@ i {
 /* links */
 a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .s80L3d,
 .GtMhHe, .nRfCwb, .ubF8Rd, .w, .RJn8N.xXEKkb.ellip,
-.wUrVib, .L4FTLe .F3hKE, .FoAEQ,
+.wUrVib, .L4FTLe .F3hKE, .FoAEQ, .n0jPhd.ynAwRc.tNxQIb.nDgy9d,
 #rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(1)>div>div>div>div>span>span.piXPB>span {
     color: #3ea6ff !important;
 }
