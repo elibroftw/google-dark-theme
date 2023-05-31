@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2023.5.25
+@version 2023.5.31
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -10,7 +10,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(et|bn|pg|tr|om|ai|sl|tj|bo|co|ec|af|np|vc|gr|uy|kw|pk|pr|fj|mt|sv|hk|mx|au|ph|jm|py|pe|eg|bd|sg|cy|sa|bz|sb|ng|ua|vn|do|gt|pa|my|na|ar|ni|qa|ly|cu|kh|gh|lb|tw|bh|br|ag|mm|gi))?)|(co\\.(cr|ls|th|zw|ve|tz|za|vi|id|in|ke|bw|kr|nz|zm|ma|ck|mz|il|uk|jp|ug|ao|uz))|(cm|md|hn|lk|kg|lt|dm|be|nl|no|bs|ml|tg|cg|tn|lu|az|is|gl|de|nr|bf|ch|tl|gg|tt|mk|ga|sn|at|sk|im|ru|pt|hr|li|si|cn|bt|ws|kz|td|mn|fr|dz|ee|jo|st|sc|ca|vu|ms|ba|bi|dk|cv|ne|ci|mw|la|pn|ae|ki|bg|gm|vg|tm|pl|so|sm|mg|rw|cl|as|ps|es|fi|by|sh|sr|cf|ie|mu|nu|ad|lv|rs|gy|gr|hu|se|je|it|cat|ro|iq|bj|dj|me|to|am|cz|ge|al|cd|mv|fm|ht))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(mm|sl|bn|ng|vn|sv|kh|ai|ly|qa|gr|gt|do|tw|jm|pa|hk|gh|ar|tj|tr|eg|sb|cy|ua|sa|af|ag|pr|fj|bd|bo|vc|sg|bh|ni|mt|om|uy|cu|ph|co|pk|kw|au|py|gi|na|my|lb|ec|pe|bz|np|pg|et|br|mx))?)|(co\\.(zw|ma|mz|vi|uk|in|kr|ke|zm|uz|cr|nz|id|ao|ve|ug|jp|ls|ck|th|za|il|bw|tz))|(pl|cz|jo|gl|pt|sm|tg|cl|cv|tl|cn|sh|rw|lk|li|nr|kz|is|so|cf|dz|mw|as|mu|ki|az|ci|dm|sn|cm|nl|ge|it|es|tn|vu|ne|bj|fi|no|ws|am|ch|iq|vg|gr|la|im|tm|rs|ms|ga|ht|st|bs|mk|at|ro|fr|tt|se|de|td|me|ie|bt|lu|dj|ad|cd|ba|si|sc|to|mn|sk|sr|by|hn|ee|mv|gm|kg|be|ml|hr|pn|ru|ca|gy|fm|lv|cg|nu|gg|ps|hu|dk|al|ae|cat|bg|bf|md|lt|je|mg|bi))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -133,7 +133,7 @@ a#gb_71 {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.imspo_mt__cm-s.imspo_mt__ndl-p.imso-medium-font.imspo_mt__match-status, .imspo_mt__lg-st-co, .ellipsisize, .imspo_mt__tt-w, .imspo_mt__sc-spc {
+.VuuXrf, .imspo_mt__cm-s.imspo_mt__ndl-p.imso-medium-font.imspo_mt__match-status, .imspo_mt__lg-st-co, .ellipsisize, .imspo_mt__tt-w, .imspo_mt__sc-spc {
     color: #fff !important;
 }
 
@@ -291,8 +291,12 @@ a#gb_71 {
     background-color: #121212 !important;
 }
 
+.P7xzyf, .Zg1NU {
+    color: lightgray !important;
+}
+
 /* People also ask */
-.CSkcDe, .related-question-pair div.iDjcJe {
+.CSkcDe, .related-question-pair div.iDjcJe, .RES9jf {
     color: lightgrey !important
 }
 
@@ -1054,7 +1058,7 @@ option {
     background-color: black !important;
 }
 
-.cmlJmd, .s3v9rd.AP7Wnd {
+.cmlJmd, .s3v9rd.AP7Wnd, .dyjrff {
     color: grey !important;
 }
 
@@ -1248,7 +1252,7 @@ i {
 a:link, .u2sJ0e .lA0GG, .xXEKkb, .SDZsVb, .gb_m, .s80L3d,
 .GtMhHe, .nRfCwb, .ubF8Rd, .w, .RJn8N.xXEKkb.ellip,
 .wUrVib, .L4FTLe .F3hKE, .FoAEQ, .n0jPhd.ynAwRc.tNxQIb.nDgy9d,
-#rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(1)>div>div>div>div>span>span.piXPB>span {
+#rhs_block>div>div.kp-blk.knowledge-panel.Wnoohf.OJXvsb>div>div.ifM9O>div:nth-child(2)>div.SALvLe.farUxc.mJ2Mod>div>div:nth-child(1)>div>div>div>div>span>span.piXPB>span, .ynAwRc {
     color: #3ea6ff !important;
 }
 
@@ -1804,7 +1808,7 @@ span.wob_t {
     color: rgba(255, 255, 255, 0.54) !important;
 }
 
-.jPHPSe, .t49rJb, .Mz7Vzb {
+.jPHPSe, .t49rJb, .Mz7Vzb, .Uroaid {
     color: rgba(255, 255, 255, 0.87) !important;
 }
 
