@@ -1009,7 +1009,29 @@ option {
     color: #fff !important
 }
 
-/* Translate */
+/* Google Translate */
+
+.qSb8Pe:hover, .qSb8Pe:focus {
+    background-color: #222 !important;
+    color: #ddd !important;
+}
+
+.qSb8Pe.KKjvXb {
+    background-color: #333 !important;
+    color: rgb(54, 129, 240) !important;
+}
+
+.bvzp8c.Tht3fc, .bvzp8c.DlHcnf {
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+.VlPnLc, .MOkH4e.iYelWb.yF6Zo, .kXN2zb.kXN2zb, .ccvoYb {
+    background-color: #121212 !important;
+}
+
+.U0xwnf::after {
+    background: linear-gradient(to right,rgba(255,255,255,0),rgb(0, 0, 0)) !important;
+}
 
 .notification-container, .P6w8m, .KkbLmb, .QcsUad {
     background-color: black !important;
@@ -2692,7 +2714,20 @@ color: #3ea6ff !important;
 }
 
 .gb_Te, .gssb_e {
-    background-color: black !important;
+    background-color: #121212 !important;
+}
+
+.yFQBKb {
+    color: #aaa !important;
+    background-color: #000 !important;
+}
+
+.fMHXgc {
+    background-color: #000 !important;
+}
+
+.bvzp8c {
+    background-color: #121212 !important;
 }
 
 .gb_Te:not(.gb_Ue) input::placeholder, .gb_Te.gb_Ue input::placeholder {

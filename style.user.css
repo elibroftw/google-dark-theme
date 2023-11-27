@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Dark Theme
-@version 2023.5.31
+@version 2023.11.26
 @description A dark theme for Google (currently only supports searches).
 @author Elijah Lopez
 @namespace elibroftw
@@ -10,7 +10,7 @@
 @preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(mm|sl|bn|ng|vn|sv|kh|ai|ly|qa|gr|gt|do|tw|jm|pa|hk|gh|ar|tj|tr|eg|sb|cy|ua|sa|af|ag|pr|fj|bd|bo|vc|sg|bh|ni|mt|om|uy|cu|ph|co|pk|kw|au|py|gi|na|my|lb|ec|pe|bz|np|pg|et|br|mx))?)|(co\\.(zw|ma|mz|vi|uk|in|kr|ke|zm|uz|cr|nz|id|ao|ve|ug|jp|ls|ck|th|za|il|bw|tz))|(pl|cz|jo|gl|pt|sm|tg|cl|cv|tl|cn|sh|rw|lk|li|nr|kz|is|so|cf|dz|mw|as|mu|ki|az|ci|dm|sn|cm|nl|ge|it|es|tn|vu|ne|bj|fi|no|ws|am|ch|iq|vg|gr|la|im|tm|rs|ms|ga|ht|st|bs|mk|at|ro|fr|tt|se|de|td|me|ie|bt|lu|dj|ad|cd|ba|si|sc|to|mn|sk|sr|by|hn|ee|mv|gm|kg|be|ml|hr|pn|ru|ca|gy|fm|lv|cg|nu|gg|ps|hu|dk|al|ae|cat|bg|bf|md|lt|je|mg|bi))/((webhp|videohp|imghp|search|\\?.*).*)?") {
+@-moz-document regexp("https?://(www|scholar|translate|ogs)\\.google\\.((com(\\.(py|pr|ph|tw|ar|mx|sg|vn|sa|bn|sb|ni|tr|om|pk|bz|mm|et|co|pg|fj|cu|gt|sv|np|pa|ua|mt|do|ag|gi|kh|lb|hk|bo|uy|ai|vc|qa|cy|bh|sl|gh|ly|na|ng|ec|jm|pe|gr|br|kw|tj|bd|eg|my|af|au))?)|(co\\.(za|id|uz|ao|zw|ke|bw|cr|ma|tz|uk|il|ug|nz|in|ve|ls|ck|zm|jp|th|vi|mz|kr))|(de|mg|gl|hu|sh|bg|sn|ne|cn|fi|am|tg|bj|ci|ee|ki|lk|cz|it|pt|ws|pl|bs|vu|fr|be|cg|cm|al|cv|fm|tn|jo|lt|je|sk|ch|at|dk|im|rw|la|mw|gr|mk|sc|nu|sm|gm|bi|cd|rs|az|ht|ie|by|as|tm|mv|me|bt|vg|kz|tl|dj|mn|td|cf|es|hr|ps|is|pn|nr|ba|iq|nl|to|cl|dm|gy|md|se|ca|mu|ad|ge|ms|st|gg|lv|si|ru|sr|ae|ga|no|li|so|lu|kg|tt|ml|ro|dz|hn|bf|cat))/((webhp|videohp|imghp|search|\\?.*).*)?") {
 
 :root {
     --link: #3ea6ff;
@@ -1023,7 +1023,29 @@ option {
     color: #fff !important
 }
 
-/* Translate */
+/* Google Translate */
+
+.qSb8Pe:hover, .qSb8Pe:focus {
+    background-color: #222 !important;
+    color: #ddd !important;
+}
+
+.qSb8Pe.KKjvXb {
+    background-color: #333 !important;
+    color: rgb(54, 129, 240) !important;
+}
+
+.bvzp8c.Tht3fc, .bvzp8c.DlHcnf {
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+.VlPnLc, .MOkH4e.iYelWb.yF6Zo, .kXN2zb.kXN2zb, .ccvoYb {
+    background-color: #121212 !important;
+}
+
+.U0xwnf::after {
+    background: linear-gradient(to right,rgba(255,255,255,0),rgb(0, 0, 0)) !important;
+}
 
 .notification-container, .P6w8m, .KkbLmb, .QcsUad {
     background-color: black !important;
@@ -2706,7 +2728,20 @@ color: #3ea6ff !important;
 }
 
 .gb_Te, .gssb_e {
-    background-color: black !important;
+    background-color: #121212 !important;
+}
+
+.yFQBKb {
+    color: #aaa !important;
+    background-color: #000 !important;
+}
+
+.fMHXgc {
+    background-color: #000 !important;
+}
+
+.bvzp8c {
+    background-color: #121212 !important;
 }
 
 .gb_Te:not(.gb_Ue) input::placeholder, .gb_Te.gb_Ue input::placeholder {
