@@ -101,8 +101,8 @@ def upload(version):
 
     data = {'upload': ('manifest.zip', file.getvalue()), 'channel': 'listed'}
     headers = {'Authorization': f'JWT {jwt_obj}'}
-    url = f'https://addons.mozilla.org/api/v5/addons/addon/{GUID}/versions/{version}/'
-    r = requests.post(url, data, headers=headers, files=data)
+    url = f'https://addons.mozilla.org/api/v4/addons/{GUID}/versions/{version}/'
+    r = requests.put(url, data, headers=headers, files=data)
     print(r.text)
 
     # Chrome
