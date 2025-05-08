@@ -134,8 +134,8 @@ def upload(version):
     file = io.BytesIO()
     create_zip(file)
 
-    # upload_mozilla(file)
-    upload_chrome(file)
+    upload_mozilla(file)
+    # upload_chrome(file)
 
 
 if __name__ == '__main__':
