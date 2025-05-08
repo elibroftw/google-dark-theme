@@ -1,4 +1,5 @@
 import argparse
+from asyncio import constants
 import io
 import json
 import os
@@ -121,6 +122,7 @@ def upload(version):
         data['code'] = input('Enter code: ')
         data['grant_type'] = 'authorization_code'
         r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
+        print(r.keys())
         access_token = r['access_token']
         print('new refresh token:', r['refresh_token'])
     headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
