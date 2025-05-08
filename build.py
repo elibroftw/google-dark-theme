@@ -109,8 +109,7 @@ def upload_chrome(file: io.BytesIO):
 
     initial_request = 'refresh_token' not in os.environ or os.environ['refresh_token'] == 'NONE'
     try:
-        data['refresh_token'] = os.environ['refresh_token']
-        r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
+        r = requests.post('https://accounts.google.com/o/oauth2/token', data={**data, 'refresh_token': os.environ['refresh_token']}).json()
         access_token = r['access_token']
     except KeyError:
         initial_request = True
@@ -118,6 +117,7 @@ def upload_chrome(file: io.BytesIO):
         webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=http://127.0.0.1:8080&access_type=offline')
         data['code'] = input('Enter code: ')
         data['grant_type'] = 'authorization_code'
+        print(data)
         r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
         if 'error' in r:
             print(r['error_description'])
