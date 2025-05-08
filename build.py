@@ -135,7 +135,7 @@ def upload(version):
     create_zip(file)
 
     upload_mozilla(file)
-    # upload_chrome(file)
+    upload_chrome(file)
 
 
 if __name__ == '__main__':
