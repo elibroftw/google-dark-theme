@@ -1011,6 +1011,10 @@ option {
 
 /* Google Translate */
 
+.qSb8Pe {
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
 .qSb8Pe:hover, .qSb8Pe:focus {
     background-color: #222 !important;
     color: #ddd !important;
