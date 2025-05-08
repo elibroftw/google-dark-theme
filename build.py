@@ -104,22 +104,24 @@ def upload_chrome(file: io.BytesIO):
         'client_id': client_id,
         'client_secret': os.environ['client_secret'],
         'grant_type': 'refresh_token',
-        'refresh_token': os.environ['refresh_token'],
         'redirect_uri': 'http://127.0.0.1:8080'
     }
 
     try:
+        if 'refresh_token' not in os.environ or os.environ['refresh_token'] == 'NONE':
+            raise KeyError
+        data['refresh_token'] = os.environ['refresh_token']
         r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
         access_token = r['access_token']
     except KeyError:
         webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=http://127.0.0.1:8080&access_type=offline')
         data['code'] = input('Enter code: ')
         data['grant_type'] = 'authorization_code'
+        del data['refresh_token']
         r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
         if 'error' in r:
-            print(r['error'])
             print(r['error_description'])
-            raise AssertionError
+            raise AssertionError(r['error'])
         access_token = r['access_token']
         print('new refresh token:', r['refresh_token'])
     headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
