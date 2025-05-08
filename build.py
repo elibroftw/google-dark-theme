@@ -110,14 +110,14 @@ def upload(version):
         'client_secret': os.environ['client_secret'],
         'grant_type': 'refresh_token',
         'refresh_token': os.environ['refresh_token'],
-        'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
+        'redirect_uri': 'http://127.0.0.1:8080'
     }
 
     try:
         r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
         access_token = r['access_token']
     except KeyError:
-        webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=urn:ietf:wg:oauth:2.0:oob&access_type=offline')
+        webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=http://127.0.0.1:8080&access_type=offline')
         data['code'] = input('Enter code: ')
         data['grant_type'] = 'authorization_code'
         r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
@@ -145,7 +145,7 @@ if __name__ == '__main__':
     commits_behind = len(list(repo.iter_commits('master..origin/master')))
     if commits_behind:
         # if origin has changes
-        paths: filter[str] = filter(lambda x: x is not None, (item.a_path for item in repo.index.diff(None)))
+        paths: Iterable[str] = filter(lambda x: x is not None, (item.a_path for item in repo.index.diff(None))) # type: ignore
         commit_message = ', '.join(paths)
         repo.git.add(update=True)
         repo.index.commit(f'Updated {commit_message}')
@@ -185,7 +185,8 @@ if __name__ == '__main__':
         with open('manifest.json', 'w') as fp:
             json.dump(manifest, fp, indent=4)
         if args.upload:
-            commit_message = ', '.join([item.a_path for item in repo.index.diff(None)])
+            changed_paths_for_commit = [item.a_path for item in repo.index.diff(None) if item.a_path is not None]
+            commit_message = ', '.join(changed_paths_for_commit)
             repo.git.add(update=True)
             repo.index.commit(f'Updated {commit_message}')
             origin = repo.remote(name='origin')

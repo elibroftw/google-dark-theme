@@ -2,3 +2,4 @@ GitPython
 requests
 PyJWT
 pyperclip
+google-api-python-client
