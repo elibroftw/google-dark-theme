@@ -25,3 +25,11 @@ pip install -r requirements.txt
 build.cmd -u
 # python build.py -u
 ```
+
+## How to get Environment Variables
+
+- [Firefox](https://addons.mozilla.org/en-US/developers/addon/api/key/)
+- [Chrome](https://console.cloud.google.com/marketplace/product/google/chromewebstore.googleapis.com)
+  - Enable Chrome Web Store API
+  - Click download OAuth client (copy information to GitHub secrets) or create a new one
+  - For Refresh token, you need to run locally once first just to go through the process

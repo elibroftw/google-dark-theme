@@ -1,27 +1,25 @@
-from zipfile import ZipFile
-import os
+import argparse
+import io
 import json
-from shutil import rmtree
-import datetime
-from git import Repo
+import os
+import time
+from typing import Iterable
+import uuid
+import webbrowser
 from datetime import datetime
 from glob import glob
-import requests
-import argparse
-import time
-import jwt
-import io
-import uuid
-from pprint import pprint
-import pyperclip
-import webbrowser
+from shutil import rmtree
+from zipfile import ZipFile
 
+import jwt
+import pyperclip
+import requests
+from git import Repo
 
 parser = argparse.ArgumentParser(description='Google Dark Theme Build & Upload Script')
 parser.add_argument('--upload', '-u', default=False, action='store_true', help='Upload to mozilla addons after')
 args = parser.parse_args()
 
-# TLDs
 top_level_domains = {'com.pk', 'mk', 'com.bz', 'gg', 'com.gi', 'co.zw', 'com.mm', 'sm', 'ee', 'lt', 'rs', 'dz', 'com.pg', 'be', 'ga', 'cl',
                      'sr', 'com.sv', 'ro', 'co.ug', 'dk', 'com.kh', 'com.pe', 'at', 'co.ck', 'gy', 'com.et', 'hu', 'co.zm', 'nl', 'rw', 'nu',
                      'cv', 'gr', 'co.ke', 'com.pr', 'com.ai', 'com.sb', 'com.tr', 'com.ua', 'cd', 'tt', 'lv', 'ca', 'nr', 'com', 'jo', 'ws',
@@ -147,7 +145,8 @@ if __name__ == '__main__':
     commits_behind = len(list(repo.iter_commits('master..origin/master')))
     if commits_behind:
         # if origin has changes
-        commit_message = ', '.join((item.a_path for item in repo.index.diff(None)))
+        paths: filter[str] = filter(lambda x: x is not None, (item.a_path for item in repo.index.diff(None)))
+        commit_message = ', '.join(paths)
         repo.git.add(update=True)
         repo.index.commit(f'Updated {commit_message}')
         origin.pull()
