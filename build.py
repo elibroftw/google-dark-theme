@@ -79,21 +79,14 @@ def create_zip(file):
         for file in addon_files:
             zf.write(file)
 
-
-def upload(version):
-    # e.g. version = '1.1.1.1'
-    print(f'uploading version {version}')
-    file = io.BytesIO()
-    create_zip(file)
-
-    # Firefox
+def upload_mozilla(file: io.BytesIO):
     # create auth JWT token
     jwt_secret = os.environ['jwt_secret']
     jwt_issuer = os.environ['jwt_issuer']
     jwt_obj = {
         'iss': jwt_issuer,
         'jti': str(uuid.uuid4()),
-        'iat': time.time(),
+        'iat': time.time() - 100,
         'exp': time.time() + 60
     }
     jwt_obj = jwt.encode(jwt_obj, jwt_secret, algorithm='HS256')
@@ -104,7 +97,8 @@ def upload(version):
     r = requests.put(url, data, headers=headers, files=data)
     print(r.text)
 
-    # Chrome
+
+def upload_chrome(file: io.BytesIO):
     client_id = os.environ['client_id']
     data = {
         'client_id': client_id,
@@ -122,12 +116,24 @@ def upload(version):
         data['code'] = input('Enter code: ')
         data['grant_type'] = 'authorization_code'
         r = requests.post('https://accounts.google.com/o/oauth2/token', data=data).json()
-        print(r.keys())
+        if 'error' in r:
+            print(r['error'])
+            print(r['error_description'])
+            raise AssertionError
         access_token = r['access_token']
         print('new refresh token:', r['refresh_token'])
     headers = {'Authorization': f'Bearer {access_token}', 'x-goog-api-version': '2'}
     requests.put(f'https://www.googleapis.com/upload/chromewebstore/v1.1/items/{ITEM_ID}', headers=headers, data=file.getvalue())
     requests.post(f'https://www.googleapis.com/chromewebstore/v1.1/items/{ITEM_ID}/publish', headers=headers)
+
+def upload(version):
+    # e.g. version = '1.1.1.1'
+    print(f'uploading version {version}')
+    file = io.BytesIO()
+    create_zip(file)
+
+    # upload_mozilla(file)
+    upload_chrome(file)
 
 
 if __name__ == '__main__':
