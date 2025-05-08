@@ -114,7 +114,7 @@ def upload_chrome(file: io.BytesIO):
     except KeyError:
         initial_request = True
     if initial_request:
-        webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=http://127.0.0.1:8080&access_type=offline')
+        webbrowser.open(f'https://accounts.google.com/o/oauth2/auth?response_type=code&access_type=offline&scope=https://www.googleapis.com/auth/chromewebstore&client_id={client_id}&redirect_uri=http://127.0.0.1:8080')
         data['code'] = input('Enter code: ')
         data['grant_type'] = 'authorization_code'
         print(data)
